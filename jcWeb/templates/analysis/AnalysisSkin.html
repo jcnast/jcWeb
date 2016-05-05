@@ -1,0 +1,75 @@
+{% extends 'skin.html' %}
+
+{% block header %}
+<!-- 	Welcome
+<small><br>enjoy</small> -->
+{% endblock %}
+
+{% block content %}
+<!-- Small boxes (Stat box) -->
+<div class='row' style='margin: 0px'>
+	<!-- Intro -->
+	<div class='col-lg-12' style='padding-left: 0px'>
+		<div class="box box-default">
+			<div class="box-header">
+				<h3 class="box-title">{% block title %}{% endblock %}</h3>
+			</div>
+			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width:">
+				<div class="box-body chat" id="chat-box" style="overflow: hidden;">
+					{% block analysis %}
+					{% endblock %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class='row' style='margin: 0px'>
+	<!-- comments -->
+	<div class='col-xs-6 col-xs-offset-3' style='padding-left: 0px'>
+		<div class="box box-default">
+			<div class="box-header">
+				<i class="fa fa-comment-o"></i>
+				<h3 class="box-title">Comments</h3>
+			</div>
+			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width:">
+				<div class="box-body chat" id="chat-box" style="overflow: hidden;">
+					<div id="lipsum">
+						{% if comments %}
+							{% for comment in comments %}
+								<div class="panel panel-default">
+									<div class="panel-heading" padding="0px">
+										<h3 class="panel-title">{{ comment.name }}</h3> 
+									</div>
+									<div class="panel-body"> {{ comment.comment }} </div>
+								</div>
+							{% endfor %}
+						{% else %}
+							<p class="text-muted" style="text-align: center;"><strong>No Comments Available</strong></p>
+						{% endif %}
+					</div>
+				</div>
+			</div>
+			<!-- leave a comment form -->
+			<div class="box box-footer">
+				<form action="/analysis/comment/{{ analysis.htmlFile }}/" method="post">
+					{% csrf_token %}
+				  <fieldset class="form-group">
+				    <label for="name">Name</label>
+				    <input type="name" id="name" name="name" class="form-control" placeholder="Name...">
+				    <small class="text-muted">Names are not forced to be unique and are not required</small>
+				  </fieldset>
+				  <fieldset class="form-group">
+				    <label for="comment">Comment</label>
+				    <textarea class="form-control" id="comment" name="comment" rows="3" placeholder="Enter your comment..."></textarea>
+				  </fieldset>
+				  <button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+{% endblock %}

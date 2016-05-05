@@ -1,0 +1,126 @@
+{% extends 'skin.html' %}
+
+{% block header %}
+<!-- 	Welcome
+<small><br>enjoy</small> -->
+{% endblock %}
+
+{% block header-image %}
+<div id="bannerLeft" style="height: 300px; padding: 0px;">
+  <img class="col-xs-4" src="/media/games/SkyPirates/screenCaps/SkyPirates.png" style="padding: 0px; height: 300px;"/>
+	<img class="col-xs-4" src="/media/games/SisyphusEscape/screenCaps/SisyphusEscape.png" style="padding: 0px; height: 300px;"/>
+	<img class="col-xs-4" src="/media/games/QuantumCats/screenCaps/QuantumCats.png" style="padding: 0px; height: 300px;"/>
+</div>
+{% endblock %}
+
+{% block content %}
+<style>
+	.list__item
+	{
+		width: 50%;
+		float: left;
+		padding: 0.625rem; /* 10 */
+
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+	}
+</style>
+<!-- Small boxes (Stat box) -->
+<div class='row' style='margin: 0px'>
+	<!-- Games -->
+	<div class='col-lg-4' style='padding-left: 0px'>
+		<div class="box box-default">
+			<div class="box-header">
+				<i class="fa fa-gamepad"></i>
+				<h3 class="box-title"><strong>Games</strong></h3>
+			</div>
+			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width:">
+				<div class="box-body chat" id="chat-box" style="overflow: hidden;">
+					<div id="lipsum">
+						<ul class="list" style="padding-left: 10px; padding-right: 10px">
+						{% for game in games %}
+							<li class="list__item">
+								<a class="list__item__inner" href="/games/{{ game.htmlFile }}/" style="color: inherit">
+									<figure>
+										<img src="/media/games/headerPhotos/{{ game.htmlFile }}.png" alt="">
+											<figcaption>
+												<strong>{{ game.title }}</strong><br> {{ game.description }} 
+											</figcaption>
+										</figure>
+								</a>
+							</li>
+						{% endfor %}
+					</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Intro -->
+	<div class='col-lg-4' style='padding-left: 0px'>
+		<div class="box box-default">
+			<!-- <div class="box-header">
+				<i class="fa fa-comments-o"></i>
+				<h3 class="box-title">Intro</h3>
+			</div> -->
+			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width:">
+				<div class="box-body chat" id="chat-box" style="overflow: hidden; padding-top: 15px;">
+					<div id="lipsum">
+						<p>
+							This website is a showcase of my ability to develop and design games. I have provided a short Bio and my resume for those who are considering me for employment. Outside of talking about myself, there are two main sections: "Games" and "Analysis". <b>My resume and all games are available for download, when this is the case a link will appear in the header</b>.
+						</p>
+						<p>
+							The <b>Games</b> section is a showcase of all the games that I have been a part of to date and will focus on the game-development aspect of game creation. The majority of them have been works of passion, completed on my own or in a team at a game jams. The others, that are not available for direct download, have been produced in a professional setting and will redirect you to their respective download pages. I am using this section to showcase the various game engines and software I am familiar with, as well as the coding languages used in their production. New additions are in construction!
+						</p>
+						<p>
+							My <b>Analysis</b> section is where I will focus on the game-design thought process of game creation. There are some discussions that will be stand-alone and simply touch on arbitrary analysis of games where others will be part of series that have a central theme (ex: Post Mortems). These analysis will range from talking about my own games, various mechanics in games and their impact on the player, to general discussions about games I did not help design, such as what makes a game suitable to be an E-Sport and various decisions made from game companies on games that I am passionate about.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- analysis -->
+	<div class='col-lg-4' style='padding-left: 0px'>
+		<div class="box box-default">
+			<div class="box-header">
+				<i class="fa fa-comment"></i>
+				<h3 class="box-title"><strong>Analysis</strong></h3>
+			</div>
+			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width:">
+				<div class="box-body chat" id="chat-box" style="overflow: hidden;">
+					<div id="lipsum">
+						<ul class="list" style="padding-left: 10px; padding-right: 10px">
+						{% for a in analysis %}
+							<li class="list__item">
+								<a class="list__item__inner" href="/analysis/{{ a.htmlFile }}" style="color: inherit">
+									<figure>
+										<img src="/media/analysis/headerPhotos/{{ a.htmlFile }}.png" alt="">
+											<figcaption>
+												{% if a.series %}
+													<b>{{ a.series.title }}:</b> <i>{{ a.title }}</i>
+												{% else %}
+													<b>{{ a.title }}</b>
+												{% endif %}
+												<br> {{ a.description }} 
+											</figcaption>
+									</figure>
+								</a>
+							</li>
+						{% endfor %}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+
+</script>
+
+{% endblock %}

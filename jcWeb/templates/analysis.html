@@ -1,0 +1,99 @@
+{% extends 'skin.html' %}
+
+{% block header %}
+<!-- 	Welcome
+<small><br>enjoy</small> -->
+{% endblock %}
+
+{% block header-image %}
+<div id="bannerLeft" style="height: 300px; padding: 0px;">
+  <img class="col-xs-4" src="/media/games/SkyPirates/screenCaps/SkyPirates.png" style="padding: 0px; height: 300px;"/>
+	<img class="col-xs-4" src="/media/games/SisyphusEscape/screenCaps/SisyphusEscape.png" style="padding: 0px; height: 300px;"/>
+	<img class="col-xs-4" src="/media/games/QuantumCats/screenCaps/QuantumCats.png" style="padding: 0px; height: 300px;"/>
+</div>
+{% endblock %}
+
+{% block content %}
+<!-- Small boxes (Stat box) -->
+<div class='row' style='margin: 0px'>
+	<!-- Intro -->
+	<div class='col-lg-12' style='padding-left: 0px'>
+		<div class="box box-default">
+			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width:">
+				<div class="box-body chat" id="chat-box" style="overflow: hidden; padding-top: 10px">
+					<img src='/static/img/tim-face.jpeg' rotate="90deg" width="200" height="200" alt="Tim Nast" style='float: left; padding-right: 10px; padding-bottom: 10px;'>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at nibh malesuada, tincidunt sapien in, accumsan neque. Cras ultrices quam sed quam facilisis, at lobortis justo ultrices. Aenean interdum vel turpis nec tincidunt. Donec interdum eget mauris ac auctor. Fusce at lacinia odio, vel imperdiet arcu. Nam porttitor nibh quis justo viverra fringilla. Aliquam pharetra pharetra velit, et vulputate est ultricies sit amet. Quisque commodo tincidunt lobortis. Nam tristique purus a nunc semper, eu molestie est tristique. Phasellus at lorem tempus, venenatis ipsum nec, accumsan neque. Sed aliquam non est sit amet dignissim. In vel mollis purus. Vivamus vitae lorem diam. Praesent tempor eleifend fermentum. Proin dapibus nibh eget dolor laoreet, nec sodales tortor condimentum.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- game links -->
+<div class='row' style='margin: 0px'>
+	<!-- Intro -->
+	<div class='col-lg-12' style='padding-left: 0px'>
+		<div class="box box-default">
+			<!-- <div class="box-header">
+				<i class="fa fa-info-circle"></i>
+				<h3 class="box-title">Analysis</h3>
+			</div> -->
+			<div class="slimScrollDiv" style="position: relative; overflow: hidden;">
+				<div class="box-body chat" id="chat-box" style="overflow: hidden;">
+					<div class='row' style='padding: 0px;'>
+						<ul class="list" style="padding-left: 10px; padding-right: 10px">
+						{% for a in analysis %}
+							<li class="list__item">
+								<a class="list__item__inner" href="/analysis/{{ a.htmlFile }}" style="color: inherit">
+									<figure>
+										<img src="/media/analysis/headerPhotos/{{ a.htmlFile }}.png" alt="">
+											<figcaption>
+												<strong>{{ a.title }}</strong><br> {{ a.description }} 
+											</figcaption>
+									</figure>
+								</a>
+							</li>
+						{% endfor %}
+						</ul>
+					</div>
+					<div class='row' style='padding: 0px'>
+						<ul class="list" style="padding-left: 10px; padding-right: 10px">
+						{% for k, v in seriesDict.iteritems %}
+							<li class="list__item">
+								<div class="list__item__inner">
+									<a href="/analysis/series/{{ k.url }}" style="color: inherit">
+										<figcaption>
+											<h3 style="margin: 0px;"><strong>{{ k.title }}</strong></h3>
+											<p>{{ k.description }}</p>
+											<hr>
+											<ul class="list" style="padding-left: 10px; padding-right: 10px">
+											{% for analysis in v %}
+												<li class="list__item" style="width: 50%">
+													<a class="list__item__inner" href="/analysis/{{ analysis.htmlFile }}" style="color: inherit">
+														<figure>
+															<img src="/media/analysis/headerPhotos/{{ analysis.htmlFile }}.png" alt="">
+																<figcaption>
+																	<strong>{{ analysis.title }}</strong><br> {{ analysis.description }} 
+																</figcaption>
+														</figure>
+													</a>
+												</li>
+											{% endfor %}
+											</ul>
+										</figcaption>
+									</a>
+								</div>
+							</li>
+						{% endfor %}
+						</ul>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

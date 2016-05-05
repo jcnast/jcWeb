@@ -1,0 +1,41 @@
+{% extends 'skin.html' %}
+
+{% block header %}
+<!-- 	Welcome
+<small><br>enjoy</small> -->
+{% endblock %}
+
+{% block header-image %}
+<div id="bannerLeft" style="height: 300px; padding: 0px;">
+  <img class="col-xs-12" src="/media/games/AliceAndSchrodinger/screenCaps/AliceAndSchrodinger.png" style="padding: 0px; height: 300px;"/>
+</div>
+{% endblock %}
+
+{% block content %}
+<!-- Small boxes (Stat box) -->
+<div class='row' style='margin: 0px'>
+	<!-- Intro -->
+	<div class='col-lg-6' style='padding-left: 0px'>
+		<div class="box box-default">
+			<div class="box-header">
+				<i class="fa fa-info-circle"></i>
+				<h3 class="box-title">Alice and Schrodinger</h3>
+			</div>
+			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width:">
+				<div class="box-body chat" id="chat-box" style="overflow: hidden;">
+					<div id="lipsum">
+						<img src='/static/img/tim-face.jpeg' rotate="90deg" width="200" height="200" alt="Tim Nast" style='float: left; padding-right: 10px; padding-bottom: 10px;'>
+						<p>
+							Details
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+</script>
+
+{% endblock %}

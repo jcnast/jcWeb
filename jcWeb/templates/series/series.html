@@ -1,0 +1,66 @@
+{% extends 'skin.html' %}
+
+{% block header %}
+<!-- 	Welcome
+<small><br>enjoy</small> -->
+{% endblock %}
+
+{% block header-image %}
+<div id="bannerLeft" style="height: 300px; padding: 0px;">
+  <img class="col-xs-4" src="/media/games/SkyPirates/screenCaps/SkyPirates.png" style="padding: 0px; height: 300px;"/>
+	<img class="col-xs-4" src="/media/games/SisyphusEscape/screenCaps/SisyphusEscape.png" style="padding: 0px; height: 300px;"/>
+	<img class="col-xs-4" src="/media/games/QuantumCats/screenCaps/QuantumCats.png" style="padding: 0px; height: 300px;"/>
+</div>
+{% endblock %}
+
+{% block content %}
+<!-- Small boxes (Stat box) -->
+<div class='row' style='margin: 0px'>
+	<!-- Intro -->
+	<div class='col-lg-12' style='padding-left: 0px'>
+		<div class="box box-default">
+			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width:">
+				<div class="box-body chat" id="chat-box" style="overflow: hidden; padding-top: 15px;">
+					{% block series %}
+					{% endblock %}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- game links -->
+<div class='row' style='margin: 0px'>
+	<!-- Intro -->
+	<div class='col-lg-12' style='padding-left: 0px'>
+		<div class="box box-default">
+			<!-- <div class="box-header">
+				<i class="fa fa-info-circle"></i>
+				<h3 class="box-title">Analysis</h3>
+			</div> -->
+			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width:">
+				<div class="box-body chat" id="chat-box" style="overflow: hidden;">
+					<div class='row' style='padding: 0px;'>
+						<ul class="list" style="padding-left: 10px; padding-right: 10px">
+						{% for a in analysis %}
+							<li class="list__item">
+								<a class="list__item__inner" href="/analysis/{{ a.htmlFile }}" style="color: inherit">
+									<figure>
+										<img src="/media/analysis/headerPhotos/{{ a.htmlFile }}.png" alt="">
+											<figcaption>
+												<strong>{% if a.series %}{{ a.series.title }}: {% endif %}{{ a.title }}</strong><br> {{ a.description }} 
+											</figcaption>
+									</figure>
+								</a>
+							</li>
+						{% endfor %}
+						</ul>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
