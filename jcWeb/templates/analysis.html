@@ -21,9 +21,8 @@
 		<div class="box box-default">
 			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width:">
 				<div class="box-body chat" id="chat-box" style="overflow: hidden; padding-top: 10px">
-					<img src='/static/img/tim-face.jpeg' rotate="90deg" width="200" height="200" alt="Tim Nast" style='float: left; padding-right: 10px; padding-bottom: 10px;'>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at nibh malesuada, tincidunt sapien in, accumsan neque. Cras ultrices quam sed quam facilisis, at lobortis justo ultrices. Aenean interdum vel turpis nec tincidunt. Donec interdum eget mauris ac auctor. Fusce at lacinia odio, vel imperdiet arcu. Nam porttitor nibh quis justo viverra fringilla. Aliquam pharetra pharetra velit, et vulputate est ultricies sit amet. Quisque commodo tincidunt lobortis. Nam tristique purus a nunc semper, eu molestie est tristique. Phasellus at lorem tempus, venenatis ipsum nec, accumsan neque. Sed aliquam non est sit amet dignissim. In vel mollis purus. Vivamus vitae lorem diam. Praesent tempor eleifend fermentum. Proin dapibus nibh eget dolor laoreet, nec sodales tortor condimentum.
+						Below are the various analysis I've written that discuss all things games. They are split into series, and stand-alone analysis. Series will discuss a particular topic from a wide range of angles and may reference outside analysis within the series, for example Post Mortem will discuss the process and end result of each game I have helped develop. Stand-along analysis will cover a single topic from a specific angle without reference to any other analysis. Each analysis page has the option for viewers to <b>leave comments</b>, so I would appreciate any constructive criticism that can be offered, along with any comments to help improve my analysis in the future.
 					</p>
 				</div>
 			</div>
@@ -58,6 +57,9 @@
 						{% endfor %}
 						</ul>
 					</div>
+					{% if analysis %}
+						<hr>
+					{% endif %}
 					<div class='row' style='padding: 0px'>
 						<ul class="list" style="padding-left: 10px; padding-right: 10px">
 						{% for k, v in seriesDict.iteritems %}
