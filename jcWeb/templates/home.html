@@ -7,9 +7,9 @@
 
 {% block header-image %}
 <div id="bannerLeft" style="height: 300px; padding: 0px;">
-  <img class="col-xs-4" src="/media/games/SkyPirates/screenCaps/SkyPirates.png" style="padding: 0px; height: 300px;"/>
-	<img class="col-xs-4" src="/media/games/SisyphusEscape/screenCaps/SisyphusEscape.png" style="padding: 0px; height: 300px;"/>
-	<img class="col-xs-4" src="/media/games/QuantumCats/screenCaps/QuantumCats.png" style="padding: 0px; height: 300px;"/>
+  <img class="col-xs-4" src="/media/games/SkyPirates/screenCaps/SkyPirates.png" style="padding: 0px; height: 100%;"/>
+	<img class="col-xs-4" src="/media/games/SisyphusEscape/screenCaps/SisyphusEscape.png" style="padding: 0px; height: 100%;"/>
+	<img class="col-xs-4" src="/media/games/QuantumCats/screenCaps/QuantumCats.png" style="padding: 0px; height: 100%;"/>
 </div>
 {% endblock %}
 
@@ -18,12 +18,6 @@
 	.list__item
 	{
 		width: 50%;
-		float: left;
-		padding: 0.625rem; /* 10 */
-
-		display: -webkit-flex;
-		display: -ms-flexbox;
-		display: flex;
 	}
 </style>
 <!-- Small boxes (Stat box) -->
@@ -101,7 +95,7 @@
 										<img src="/media/analysis/headerPhotos/{{ a.htmlFile }}.png" alt="">
 											<figcaption>
 												{% if a.series %}
-													<b>{{ a.series.title }}:</b> <i>{{ a.title }}</i>
+													<i>{{ a.series.title }}:</i> <b>{{ a.title }}</b>
 												{% else %}
 													<b>{{ a.title }}</b>
 												{% endif %}

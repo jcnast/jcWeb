@@ -15,9 +15,9 @@ from jcWeb.models import *
 #*********** home page ***********#
 def home(request):
 	# all games from newest to oldest
-	games = Game.objects.all().order_by('-date')[:3]
+	games = Game.objects.all().order_by('-date')[:4]
 	# analysis that are not a part of a series
-	analysis = Analysis.objects.order_by('-date')[:3]
+	analysis = Analysis.objects.order_by('-date')[:4]
 
 	context = {'download': False, 'games': games, 'analysis': analysis}
 	return render(request, 'home.html', context)
@@ -64,7 +64,7 @@ def analysis(request):
 	# dictionary with series as key and list of analysis as value
 	seriesDict = SortedDict()
 	for s in series:
-		seriesDict[s] = Analysis.objects.filter(series__id = s.id).order_by('-date')[:3]
+		seriesDict[s] = Analysis.objects.filter(series__id = s.id).order_by('-date')[:2]
 	# analysis that are not a part of a series
 	analysis = Analysis.objects.filter(series__isnull = True)
 

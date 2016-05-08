@@ -7,7 +7,9 @@
 
 {% block header-image %}
 <div id="bannerLeft" style="height: 300px; padding: 0px;">
-  <img class="col-xs-12" src="/media/games/AliceAndSchrodinger/screenCaps/AliceAndSchrodinger.png" style="padding: 0px; height: 300px;"/>
+	<img class="col-xs-4" src="/media/games/AliceAndSchrodinger/screenCaps/ConversationDemo.png" style="padding: 0px; padding-right: 2px; height: 100%"/>
+  <img class="col-xs-4" src="/media/games/AliceAndSchrodinger/screenCaps/UnlockedConversations.png" style="padding: 0px; padding-right: 2px; height: 100%"/>
+  <img class="col-xs-4" src="/media/games/AliceAndSchrodinger/screenCaps/MainMenu.png" style="padding: 0px; height: 100%"/>
 </div>
 {% endblock %}
 
@@ -18,16 +20,34 @@
 	<div class='col-lg-6' style='padding-left: 0px'>
 		<div class="box box-default">
 			<div class="box-header">
-				<i class="fa fa-info-circle"></i>
-				<h3 class="box-title">Alice and Schrodinger</h3>
+				<h3 class="box-title"><b>Alice and Schrodinger</b></h3>
 			</div>
 			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width:">
 				<div class="box-body chat" id="chat-box" style="overflow: hidden;">
 					<div id="lipsum">
-						<img src='/static/img/tim-face.jpeg' rotate="90deg" width="200" height="200" alt="Tim Nast" style='float: left; padding-right: 10px; padding-bottom: 10px;'>
 						<p>
-							Details
+							Alice and Schrodinger is a self-guided tour aimed at providing insight to the goings-on of the Quantum Nano Centre on campus at the University of Waterloo.Participants unlock information as they roam the building, learning about the building itself, the reasearch being done, and the future plans for the building.
 						</p>
+						<p>
+							The open house for which this application was built has completed, and so the tour-portion of the application can no longer be experienced. However, the data canbe manually unlocked in the settings page, so is still viewable by the user.
+						</p>
+						<p>
+							For more information and an analysis of the design/development process, please view the <a href="/analysis/PM-SisyphusEscape"><b>Alice and Schrodinger Post Mortem</b></a>.
+						</p>
+						<hr>
+						<h5><b>Controls</b></h5>
+						<p>
+							Everything is touch-based through UI components.
+						</p>
+						<h5><b>Supported Devices</b></h5>
+						<p>
+							This app is built for <b>Android</b> devices (2.3.3 and up) that have NFC and iBeacon capabilities. Unfortunately, we were unable to use iPhone's NFC chip readers.
+						</p>
+						<h5><b>Software Used</b></h5>
+						<ul>
+							<li><b>Game Engine:</b> Unity 5</li>
+							<li><b>Languages:</b> C#, Java, XML</li>
+						</ul>
 					</div>
 				</div>
 			</div>

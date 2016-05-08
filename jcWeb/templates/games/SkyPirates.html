@@ -7,7 +7,9 @@
 
 {% block header-image %}
 <div id="bannerLeft" style="height: 300px; padding: 0px;">
-  <img class="col-xs-12" src="/media/games/SkyPirates/screenCaps/SkyPirates.png" style="padding: 0px; height: 300px;"/>
+	<img class="col-xs-4" src="/media/games/SkyPirates/screenCaps/IslandDestroyed.png" style="padding: 0px; height: 100%"/>
+	<img class="col-xs-4" src="/media/games/SkyPirates/screenCaps/SkyPirates.png" style="padding: 0px; height: 100%"/>
+  <img class="col-xs-4" src="/media/games/SkyPirates/screenCaps/Turret.png" style="padding: 0px; height: 100%"/>
 </div>
 {% endblock %}
 
@@ -18,16 +20,62 @@
 	<div class='col-lg-6' style='padding-left: 0px'>
 		<div class="box box-default">
 			<div class="box-header">
-				<i class="fa fa-info-circle"></i>
-				<h3 class="box-title">Sky Pirates</h3>
+				<h3 class="box-title"><b>Sky Pirates</b></h3>
 			</div>
 			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width:">
 				<div class="box-body chat" id="chat-box" style="overflow: hidden;">
 					<div id="lipsum">
-						<img src='/static/img/tim-face.jpeg' rotate="90deg" width="200" height="200" alt="Tim Nast" style='float: left; padding-right: 10px; padding-bottom: 10px;'>
 						<p>
-							Details
+							The islands hold valuable crystals that must be harvested for money. Unfortunately, they also keep the islands afloat! Co-operate with up to four players to fly around, collect the crystals and escape the collapsing island. The ship can have one pilot and three passengers while flying around. Be careful of the hostile island inhabitants and the turrets that will do massive damage to the ship and have protective shields around their gun barrels!
 						</p>
+						<p>
+							Unfortunately, we did not have time to create a solid interface for quitting the game, therefore: please <b>run in windowed mode</b> to more easily quit, and reference the supplied README file the controls.
+						</p>
+						<p>
+							For more information and an analysis of the design/development process, please view the <a href="/analysis/PM-SkyPirates"><b>Sky Pirates Post Mortem</b></a>.
+						</p>
+						<hr>
+						<h5><b>Controls</b></h5>
+						<p>
+							An PC-compatible controller (Xbox, PS4, ...) is required to play this game. Up to 4 players can join at a time.
+
+							Below are the controls with respect to each controller:
+							<ul>
+								<li>
+									No character alive:
+									<ul>
+										<li style="list-style: none;"><b>Y:</b> Spawn character</li>
+									</ul>
+								</li>
+								<li>
+									As character:
+									<ul>
+										<li style="list-style: none;"><b>Y:</b> Interact (consume CRYSTAL when near, get into SHIP when near, get on SHIP if someone else is piloting ship)</li>
+										<li style="list-style: none;"><b>A:</b> Jump (HOLD to charge)</li>
+										<li style="list-style: none;"><b>RT:</b> Shoot</li>
+										<li style="list-style: none;"><b>LS:</b> Move</li>
+										<li style="list-style: none;"><b>RS:</b> Aim</li>
+									</ul>
+								</li>
+								<li>
+									As Ship:
+									<ul>
+										<li style="list-style: none;"><b>Y:</b> Get out/off</li>
+										<li style="list-style: none;"><b>RS:</b> Move</li>
+										<li style="list-style: none;"><b>RT:</b> Shoot</li>
+									</ul>
+								</li>
+							</ul>
+						</p>
+						<h5><b>Supported Devices</b></h5>
+						<p>
+							This game is build for Windows computers, most computers should be able to run it.
+						</p>
+						<h5><b>Software Used</b></h5>
+						<ul>
+							<li><b>Game Engine:</b> Unity 5</li>
+							<li><b>Language:</b> C#
+						</ul>
 					</div>
 				</div>
 			</div>

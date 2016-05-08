@@ -7,13 +7,19 @@
 
 {% block header-image %}
 <div id="bannerLeft" style="height: 300px; padding: 0px;">
-  <img class="col-xs-4" src="/media/games/SkyPirates/screenCaps/SkyPirates.png" style="padding: 0px; height: 300px;"/>
-	<img class="col-xs-4" src="/media/games/SisyphusEscape/screenCaps/SisyphusEscape.png" style="padding: 0px; height: 300px;"/>
-	<img class="col-xs-4" src="/media/games/QuantumCats/screenCaps/QuantumCats.png" style="padding: 0px; height: 300px;"/>
+  <img class="col-xs-4" src="/media/games/SkyPirates/screenCaps/SkyPirates.png" style="padding: 0px; height: 100%"/>
+	<img class="col-xs-4" src="/media/games/SisyphusEscape/screenCaps/SisyphusEscape.png" style="padding: 0px; height: 100%"/>
+	<img class="col-xs-4" src="/media/games/QuantumCats/screenCaps/QuantumCats.png" style="padding: 0px; height: 100%"/>
 </div>
 {% endblock %}
 
 {% block content %}
+<style>
+	.list__item
+	{
+		width: 50%;
+	}
+</style>
 <!-- Small boxes (Stat box) -->
 <div class='row' style='margin: 0px'>
 	<!-- Intro -->
@@ -22,7 +28,10 @@
 			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width:">
 				<div class="box-body chat" id="chat-box" style="overflow: hidden; padding-top: 10px">
 					<p>
-						Below are the various analysis I've written that discuss all things games. They are split into series, and stand-alone analysis. Series will discuss a particular topic from a wide range of angles and may reference outside analysis within the series, for example Post Mortem will discuss the process and end result of each game I have helped develop. Stand-along analysis will cover a single topic from a specific angle without reference to any other analysis. Each analysis page has the option for viewers to <b>leave comments</b>, so I would appreciate any constructive criticism that can be offered, along with any comments to help improve my analysis in the future.
+						Below are the various analysis I've written that discuss all things games. They are split into series, and stand-alone analysis. Series will discuss a particular topic from a wide range of angles and may reference outside analysis within the series, for example Post Mortem will discuss the process and end result of each game I have helped develop. Stand-alone analysis will cover a single topic from a specific angle without reference to any other analysis. 
+					</p>
+					<p>
+						Each analysis page has the option for viewers to <b>leave comments</b>, so I would appreciate any constructive criticism that can be offered, along with any comments to help improve my analysis in the future.
 					</p>
 				</div>
 			</div>
