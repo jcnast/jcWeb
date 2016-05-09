@@ -13,8 +13,83 @@
 {% endblock %}
 
 {% block analysis %}
-	<img src='/static/img/tim-face.jpeg' rotate="90deg" width="200" height="200" alt="Tim Nast" style='float: left; padding-right: 10px; padding-bottom: 10px;'>
+<div class='col-xs-12 overview'>
+	<h4><b>Overview</b></h4>
 	<p>
-		Details
+		This game was created during a game jam and was my first forray into using the Unity game engine and the first time I have programmed using C#. As such, it was also my first learning experience with class-based programming. As a whole, the final product was as good as I expected, with most of the shortcommings arising from not making full use of class-based progamming and not having enough experience with creating a fulfilling game loop.
 	</p>
+</div>
+<div class='col-xs-12 intentions'>
+	<h4><b>Intentions</b></h4>
+	<p>
+		My goal going into this game was to learn C# for my upcomming co-op term, where I then made <i>Quantum Cats</i> and <i>Alice and Schrodinger</i>, and to learn more about A.I. and the various methods through which it can be implemented. To do so, I wanted a fairly basic game loop with an increasing challenge as the game progressed. Since I was mostly focused on creating the A.I. and finding my way through the Unity engine with a limited amount of time available, I did not have time to create a randomized map set-up and so stuck with a singular pre-designed pattern for each level.
+	</p>
+	<p>
+		As far as the A.I. goes, I wanted the guards to be fully-mobile and so not constrained to set section for each guard, with their movement being predictable, but not to the point of 100% knowledge. Each guard would have the ability to traverse the whole map without killing itself and not make moves that make no sense, such as turning mid-platform and jumping in the air without landing on a new platform. I also wanted the player to know how they could maneuver about the guards without getting caught while providing a threatening presence.
+	</p>
+	<p>
+		For the player, I wanted them to focus on the guards and have the game be about timing and taking risks rather than abusing game-mechanics (such as knocking out guards). Time was also an influence in this decision, if I had more time I would have made a more complete A.I. that would have reacted to their surroundings for more than just when to jump and where to go - thus allowing the player to make some distractions.
+	</p>
+</div>
+<div class="col-xs-12 Appearance">
+	<p style="float: left;">
+  	<img class="media-object" src='/media/games/SisyphusEscape/screenCaps/surrounded_c.png' width="200" height="200" style="padding-right: 10px; padding-bottom: 10px;">
+  </p>
+  <h4 class="media-heading"><b>Appearance</b></h4>
+  <p>
+		As this was completed at a game jam, and I was working on my own, all art and animations was done by me on the day. As such, I went with the very simple style of stick-men of various colour and had the rest of the art try to match the level of artistry (or lack thereof). As such, I found the end product surprisingly decent as nothing stood out as blaringly terrible with respect to the rest of the artwork. Everything seemed to fit in and make sence that it looked a certain way. The animations were also simple, and were the exact same for each character walking around. Again, this was primarily due to time and talent contraints. Although, once again I find that the similarity between all players masks the lack of quality - since comparatively nothing seems out of place.
+	</p>
+	<p>
+		This attempt at making my own art for the game, and my lack of ability has lead me to appreciate and adopt a better understanding of the art put into various games. As such, no matter how terrible or amazing the appearance of a game is, <b>similarity and congruency between elements turns the result into a style</b>. If everything looks somewhat awkward and choppy, it is much less jarring and seems more fitting than if certain elements are choppy and others are super smooth since the relative difference becomes enhanced. Thus, I believe one should aim to have every element in their game look and feel the same rather than having every element be as smooth as possible. This only applies if there are certain elements that you cannot make as elegant as others, since they will now seem more out of place and take the user out of the experience more than they would if everything blended nicely together with the same degree of roughness.
+	</p>
+</div>
+<div class="col-xs-12 A.I.">
+	<p style="float: right;">
+		<img class="media-object" src="/media/games/SisyphusEscape/screenCaps/hiding_c.png" width="200" height="200" style="padding-left: 10px; padding-bottom: 10px;">
+	</p>
+	<h4 class="media-heading"><b>A.I.</b></h4>
+	<p>
+		The A.I. I created was my first attempt ever to create a functioning A.I. that responded to their environment. I used a very simple approach of having the platforms inform the guards if they were an 'end' piece or not, and if they were an end piece they would inform the guard if there was a platform they could jump up or down to once reaching the end. The guards would then decide what path to take at the end, with turning around being the only option if there was nowhere to go once the edge was reached. I tried to have the guards behaviour be variable with some consistency in their choices, so I made them more likely to continue forward (by jumping up or down in the same direction) than to turn around and go back the way they came. This was, the player could make reasonable assumptions about what the guards would do, but there was inherent risk when making a move with a guard approaching the edge.
+	</p>
+	<p>
+		I also wanted the player to have some reprieve and safe-place to sit and think about the path they wanted to take, thus I added in hiding spots. Stumps and boulders litered around the map provided the players with somewhere to rest, with the guards not able to spot them while there. While the intended purpose was simply as a safe place for the player, they also ended up providing intense moments of when to enter/leave the safety they provided. When guards surrounded your hiding spot it begins to feel that you have locked yourself in a dungeon rather than a safe haven, making players not rest for too long for fear of not being able to leave.
+	</p>
+</div>
+<div class='col-xs-12 Progression' style="padding-bottom: 20px;">
+	<h4><b>Progression</b></h4>
+	<p>
+		As the game progresses, to add difficulty, more guards are added. This is a very simple way to make the game mroe difficult, and a very poor way to balance the difficulty and add a sense of accomplishment. Resorting to such a simplified method for increasing difficulty was unfortunately due to lack of time to experiment and try out alternative methods. Looking back, I wish I had approached this much differently - particularily since, with the approach I took, the game starts to lag once level 6 is reached due to the sheer number of guards wondering about the level.
+	</p>
+	<p>
+		A much better way to add some challenge to the game would be to increase various stats the guards had and change the amount of hiding places on top of adding more guards. For example, making the guards faster, or having a larger cone of vision, would cause the player to make quicker and more difficult decisions, while reducing the lag caused by increased guard numbers. Similarily, reducing the number of hiding spots reduces the amount of lee-way players have in making the wrong decision, since they can no longer duck in cover to stay safe. By including a variety of these methods, and switching between which stats get altered, the progression of the game would have felt much more natural with a smoother difficulty curve than it does not. 
+	</p>
+	<p>
+		Another thing to consider is the 'actual' effect various changes have. By adding 10 guards a level, you expect the difficulty to increase somewhat linearly, as the change is indeed linear. But this is not the case, as while 10 guards may be very easy to avoid, and 20 may still be on the easier end, 30 becomes much more difficult than you expect, making the actual difficulty curve much steeper than exepcted.
+	</p>
+</div>
+<div class='col-xs-12 Controls'>
+	<p style="float: left;">
+		<img class="media-object" src="/media/games/SisyphusEscape/screenCaps/wallClimb.png" width="200" height="200" style="padding-right: 10px; padding-bottom: 10px;">
+	</p>
+	<h4 class="media-heading"><b>Controls</b></h4>
+	<p>
+		As the focus was on A.I. I used the most basic and standard control scheme to not have to design and create my own. As expected, this makes the game fairly easy to pick up and centers the mechanics of the game on interacting with (avoiding) the guards. One nice feature that came from how the controls made the character react, along with how some of the hitboxes were designed made it possible for the player to 'climb' on walls. By timing your horizontal movement when jumping into the side of a platform, the player can have their character 'hover' on the edge and gives them an additional place to wait - but requries a higher level of understanding of the game mechanics.
+	</p>
+	<p>
+		While not required for such a simple game, I personally find it very nice to have a reward for reaching a better understanding of game mechanics. I think there should always be a reason, aside from doing better at the game, to play a game over and over - particularily, getting better at the game. The distinction between the two is also important. <b>Being</b> better at a game causes you to more consistently <b>do</b> better at the game.
+	</p>
+</div>
+<div class='col-xs-12 Conclusion'>
+	<h4><b>Conclusion</b></h4>
+	<p>
+		In gneral, I am quite pleased with how the final product turned out. With regards to my initial goals of learning to code in C#, create effective classes, and use Unity I would say I learnt many lessons and was able to have an adequate first-time implementation to have a working game. Additionally, while my A.I. was simplistic and did not cover too many variations, my knowledge base on the subject increased drastically, and I am confident that the next time I approach a challenge like this it will go much smoother and be vastly improved.
+	</p>
+	<p>
+		If I were to re-do anything, I would re-do how the game gets more difficult, as discussed the the progression section, there is a significant performance drop past level 6. Also, I believe the game would be much more enjoyable with a more thorough and smooth ramping of difficulty. Howver, given the time constraints, and my lack of focus on this area of the game, I find this to be an acceptable negative in the game. Additionally, as this was my first ever completed game, I believe this type of issue is now something that will be much improved just by being aware of it. As such, I exepect my future games to be much improved in this area.
+	</p>
+	<p class='text-center'>
+		<img src='/media/games/SisyphusEscape/screenCaps/caught_c.png' width='600' height='400' style="padding: 10px;">
+	</p>
+</div>
+	
 {% endblock %}
