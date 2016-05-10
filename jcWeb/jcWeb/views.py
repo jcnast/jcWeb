@@ -107,5 +107,5 @@ def comment(request, analysisFile):
 	return HttpResponseRedirect('/analysis/'+analysisFile)
 
 def update(request):
-	call(["restart-server"])
+	call("restart-server")
 	return HttpResponseRedirect('/')
