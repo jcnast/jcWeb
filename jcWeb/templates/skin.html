@@ -77,18 +77,12 @@
 					{
 						padding: 1.25rem; /* 20 */
 							}
+		{% block style %}
+		{% endblock %}
 	</style>
 </head>
 
-<body class="skin-blue wysihtml5-supported  pace-done" style="background-color: #0084FF;">
-	<div class="pace pace-inactive">
-		<div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;">
-			<div class="pace-progress-inner">
-			</div>
-		</div>
-		<div class="pace-activity">
-		</div>
-	</div>
+<body class="skin-blue wysihtml5-supported  pace-done" style="background-color: #0084FF; height: 100%;">
 	<!-- header logo: style can be found in header.less -->
 	<div class="header">
 		<a href="/" class="logo" style='font-family: "Source Sans Pro"'>
@@ -104,24 +98,9 @@
 					<li style='font-family: "Source Sans Pro", sans-serif; font-size: 20px;'><a href='/games/'><i class='fa fa-gamepad'></i> Games</a></li>
 					<li style='font-family: "Source Sans Pro", sans-serif; font-size: 20px;'><a href='/analysis/'><i class='fa fa-comment'></i> Analysis</a></li>
 					{% if download %}
-						<li style='font-family: "Source Sans Pro", sans-serif; font-size: 20px;'><a target="_blank" href='{{ downloadFile }}'><i class='fa fa-download'></i> Download</a></li>
+					<li style='font-family: "Source Sans Pro", sans-serif; font-size: 20px;'><a target="_blank" href='{{ downloadFile }}'><i class='fa fa-download'></i> Download</a></li>
 					{% endif %}
 				</ul>
-			</div>
-			<div class="navbar-right">
-				<!-- <ul class="nav navbar-nav">
-					<li class="dropdown messages-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="fa fa-bars" style='font-size: 20px'></i>
-            </a>
-            <ul class="dropdown-menu">
-              <li {% if not user == 'False' %}hidden{% else %}{% endif %}><a href='/sign-up/'><i class='fa fa-user'></i>Sign-Up</a></li>
-              <li {% if not user == 'False' %}hidden{% else %}{% endif %}><a href='/sign-in/'><i class='fa fa-sign-in'></i>Login</a></li>
-              <li {% if not user == 'False' %}{% else %}hidden{% endif %}><a href="/sign-out/"><i class='fa fa-sign-out'></i>Logout</a></li>
-              <li class="footer" style='text-align: center; background-color: rgb(128,128,128);'><i class='fa fa-music'></i></li>
-            </ul>
-          </li>
-				</ul> -->
 			</div>
 		</nav>
 	</div>
@@ -136,7 +115,7 @@
 					{% endblock %}
 			</div>
 			<!-- Main content -->
-			<div class="content col-xs-12" style='min-height: 70%;'>
+			<div class="content col-xs-12" style='height: 70%;'>
 				{% block content %}
 					<p> No content provided</p>
 				{% endblock %}

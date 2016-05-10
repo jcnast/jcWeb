@@ -13,8 +13,7 @@
 </div>
 {% endblock %}
 
-{% block content %}
-<style>
+{% block style %}
 	.list__item
 	{
 		width: 25%;
@@ -25,7 +24,9 @@
 		display: -ms-flexbox;
 		display: flex;
 	}
-</style>
+{% endblock %}
+
+{% block content %}
 <!-- Small boxes (Stat box) -->
 <div class='row' style='margin: 0px'>
 	<!-- Intro -->
