@@ -10,6 +10,8 @@ from requests import get
 import os, re
 from django.utils.datastructures import SortedDict
 
+from subprocess import call
+
 from jcWeb.models import *
 
 #*********** home page ***********#
@@ -103,3 +105,7 @@ def comment(request, analysisFile):
 			newComment = Comment.objects.create(name=name, comment=comment, analysis=analysis)
 	# send user back to analysis page
 	return HttpResponseRedirect('/analysis/'+analysisFile)
+
+def update(request):
+	call(["restart-server"])
+	return HttpResponseRedirect('/')
