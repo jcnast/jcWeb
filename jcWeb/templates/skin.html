@@ -86,7 +86,7 @@
 </head>
 
 <body class="hold-transition skin-blue layout-top-nav">
-<div class="wrapper" style="background-color: #ECF0F5;">
+<div class="wrapper" style="background-color: #ECF0F5; top:0px; bottom:0px;">
 
   <header class="main-header">
 	  <nav class="navbar navbar-static-top">
@@ -135,21 +135,36 @@
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper" style="margin: 0px;">
     <div class='content' style='padding: 0px;'>
-			<div class="col-xs-12" style='padding: 0px; padding-bottom: 15px;'>
-					{% block header-image %}
+    	<div class='row'>
+				<div class="col-xs-12" style='padding: 0px; padding-bottom: 15px;'>
+						{% block header-image %}
+						{% endblock %}
+				</div>
+				<div class="col-xs-12" style="">
+					{% block content %}
+						<p> No content provided</p>
 					{% endblock %}
-			</div>
-			<div class="col-xs-12" style="">
-				{% block content %}
-					<p> No content provided</p>
-				{% endblock %}
+				</div>
 			</div>
 		</div>
 	</div>
   <!-- /.content-wrapper -->
-
+  <!-- <footer class="main-footer">
+    <div class="pull-right">
+      <b>jagger.nast@gmail.com</b>
+    </div>
+    <strong>Jagger Nast</strong>
+  </footer> -->
 </div>
 <!-- ./wrapper -->
-
+<script>
+$(window).resize(function(){
+	// console.log($(document).height());
+	// var bottom = $(window).height() - $('.content-wrapper').height();
+	// console.log(bottom);
+	// $(window).height(bottom)
+	location.reload()
+})
+</script>
 </body>
 </html>
