@@ -1,15 +1,17 @@
 {% extends 'analysis/AnalysisSkin.html' %}
 
-{% block header-image %}
-<div id="bannerLeft" style="height: 300px; padding: 0px;">
-  <img class="col-xs-4" src="/media/games/SkyPirates/screenCaps/IslandDestroyed.png" style="padding: 0px; height: 100%"/>
-	<img class="col-xs-4" src="/media/games/SkyPirates/screenCaps/SkyPirates.png" style="padding: 0px; height: 100%"/>
-  <img class="col-xs-4" src="/media/games/SkyPirates/screenCaps/Turret.png" style="padding: 0px; height: 100%"/>
-</div>
+{% block header1 %}
+/media/games/SkyPirates/screenCaps/IslandDestroyed.png
+{% endblock %}
+{% block header2 %}
+/media/games/SkyPirates/screenCaps/SkyPirates.png
+{% endblock %}
+{% block header3 %}
+/media/games/SkyPirates/screenCaps/Turret.png
 {% endblock %}
 
 {% block title %}
-<i>Post Mortem:</i> <strong>Sky Pirates</strong>{% endblock %}
+<a href="/analysis/series/{{ analysis.series.url }}"><i>Post Mortem:</i></a> <strong>Sky Pirates</strong>{% endblock %}
 
 {% block analysis %}
 	<img src='/static/img/jaggerNast2.jpg' rotate="90deg" width="200" height="200" alt="Tim Nast" style='float: left; padding-right: 10px; padding-bottom: 10px;'>

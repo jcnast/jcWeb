@@ -5,12 +5,14 @@
 <small><br>enjoy</small> -->
 {% endblock %}
 
-{% block header-image %}
-<div id="bannerLeft" style="height: 300px; padding: 0px;">
-	<img class="col-xs-4" src="/media/games/QuantumCats/screenCaps/SuperPosition_abilityStart.png" style="padding: 0px; height: 100%;"/>
-  <img class="col-xs-4" src="/media/games/QuantumCats/screenCaps/StartPage.png" style="padding: 0px; height: 100%;"/>
-  <img class="col-xs-4" src="/media/games/QuantumCats/screenCaps/Tunneling_abilityStart.png" style="padding: 0px; height: 100%;"/>
-</div>
+{% block header1 %}
+/media/games/QuantumCats/screenCaps/SuperPosition_abilityStart.png
+{% endblock %}
+{% block header2 %}
+/media/games/QuantumCats/screenCaps/StartPage.png
+{% endblock %}
+{% block header3 %}
+/media/games/QuantumCats/screenCaps/Tunneling_abilityStart.png
 {% endblock %}
 
 {% block content %}
@@ -20,7 +22,12 @@
 	<div class='col-xs-12'>
 		<div class="box box-default">
 			<div class="box-header">
-				<h3 class="box-title"><b>Quantum Cats</b></h3>
+				<div class='col-xs-6'>
+					<h3 class="box-title"><b>Quantum Cats</b></h3>
+				</div>
+				<div class='col-xs-6'>
+					<a target="_blank" href='{{ downloadFile }}'><button type="button" class="btn btn-success" style='float: right;'>Download</button></a>
+				</div>
 			</div>
 			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width:">
 				<div class="box-body chat" id="chat-box" style="overflow: hidden;">

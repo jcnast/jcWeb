@@ -1,15 +1,17 @@
 {% extends 'analysis/AnalysisSkin.html' %}
 
-{% block header-image %}
-<div id="bannerLeft" style="height: 300px; padding: 0px;">
-  <img class="col-xs-4" src="/media/games/QuantumCats/screenCaps/SuperPosition_abilityStart.png" style="padding: 0px; height: 100%;"/>
-  <img class="col-xs-4" src="/media/games/QuantumCats/screenCaps/StartPage.png" style="padding: 0px; height: 100%;"/>
-  <img class="col-xs-4" src="/media/games/QuantumCats/screenCaps/Tunneling_abilityStart.png" style="padding: 0px; height: 100%;"/>
-</div>
+{% block header1 %}
+/media/games/QuantumCats/screenCaps/SuperPosition_abilityStart.png
+{% endblock %}
+{% block header2 %}
+/media/games/QuantumCats/screenCaps/StartPage.png
+{% endblock %}
+{% block header3 %}
+/media/games/QuantumCats/screenCaps/Tunneling_abilityStart.png
 {% endblock %}
 
 {% block title %}
-<i>Post Mortem:</i> <strong>Quantum Cats</strong>
+<a href="/analysis/series/{{ analysis.series.url }}"><i>Post Mortem:</i></a> <strong>Quantum Cats</strong>
 {% endblock %}
 
 {% block analysis %}
