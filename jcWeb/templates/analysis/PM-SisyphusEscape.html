@@ -1,15 +1,17 @@
 {% extends 'analysis/AnalysisSkin.html' %}
 
-{% block header-image %}
-<div id="bannerLeft" style="height: 300px; padding: 0px;">
-	<img class="col-xs-4" src="/media/games/SisyphusEscape/screenCaps/surrounded_c.png" style="padding: 0px; height: 100%;"/>
-	<img class="col-xs-4" src="/media/games/SisyphusEscape/screenCaps/SisyphusEscape.png" style="padding: 0px; height: 100%;"/>
-	<img class="col-xs-4" src="/media/games/SisyphusEscape/screenCaps/hiding_c.png" style="padding: 0px; height: 100%;"/>
-</div>
+{% block header1 %}
+/media/games/SisyphusEscape/screenCaps/surrounded_c.png
+{% endblock %}
+{% block header2 %}
+/media/games/SisyphusEscape/screenCaps/SisyphusEscape.png
+{% endblock %}
+{% block header3 %}
+/media/games/SisyphusEscape/screenCaps/hiding_c.png
 {% endblock %}
 
 {% block title %}
-<i>Post Mortem:</i> <strong>The Escape of Sisyphus</strong>
+<a href="/analysis/series/{{ analysis.series.url }}"><i>Post Mortem:</i></a> <strong>The Escape of Sisyphus</strong>
 {% endblock %}
 
 {% block analysis %}
@@ -18,6 +20,16 @@
 	<p>
 		This game was created during a game jam and was my first forray into using the Unity game engine and the first time I have programmed using C#. As such, it was also my first learning experience with class-based programming. As a whole, the final product was as good as I expected, with most of the shortcommings arising from not making full use of class-based progamming and not having enough experience with creating a fulfilling game loop.
 	</p>
+</div>
+<div class='col-xs-12 summary'>
+	<h4><b>Summary</b></h4>
+	<ul>
+		<li><b>Similarity and congruency</b> between element appearances turns the result into a <b>style</b></li>
+		<li><b>Being</b> better at a game causes you to more consistently <b>do</b> better at the game</li>
+		<li>One of the most important aspects of A.I. is how it makes the <b>player</b> feel</li>
+		<li>Difficulty progression is <b>never linear</b></li>
+		<li>The <b>title</b> can have a strong impact on how the game <b>feels</b></li>
+	</ul>
 </div>
 <div class='col-xs-12 intentions'>
 	<h4><b>Intentions</b></h4>
@@ -41,6 +53,9 @@
 	</p>
 	<p>
 		This attempt at making my own art for the game, and my lack of ability has lead me to appreciate and adopt a better understanding of the art put into various games. As such, no matter how terrible or amazing the appearance of a game is, <b>similarity and congruency between elements turns the result into a style</b>. If everything looks somewhat awkward and choppy, it is much less jarring and seems more fitting than if certain elements are choppy and others are super smooth since the relative difference becomes enhanced. Thus, I believe one should aim to have every element in their game look and feel the same rather than having every element be as smooth as possible. This only applies if there are certain elements that you cannot make as elegant as others, since they will now seem more out of place and take the user out of the experience more than they would if everything blended nicely together with the same degree of roughness.
+	</p>
+	<p>
+		As a side note, this game feels much better and less simplistic due to the title. The title gives it an additional feeling of depth.
 	</p>
 </div>
 <div class="col-xs-12 A.I.">

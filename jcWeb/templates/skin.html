@@ -137,8 +137,11 @@
     <div class='content' style='padding: 0px;'>
     	<div class='row'>
 				<div class="col-xs-12" style='padding: 0px; padding-bottom: 15px;'>
-						{% block header-image %}
-						{% endblock %}
+						<div id="bannerLeft" style="height: 300px; padding: 0px;">
+							<img class="col-md-6 col-lg-4 visible-lg visible-md" src="{% block header1 %}/media/games/SisyphusEscape/screenCaps/SisyphusEscape.png{% endblock %}" style="padding: 0px; height: 100%;"/>
+							<img class="col-xs-12 col-md-6 col-lg-4" src="{% block header2 %}/media/games/SkyPirates/screenCaps/SkyPirates.png{% endblock %}" style="padding: 0px; height: 100%;"/>
+							<img class="col-lg-4 visible-lg" src="{% block header3 %}/media/games/QuantumCats/screenCaps/QuantumCats.png{% endblock %}" style="padding: 0px; height: 100%;"/>
+						</div>
 				</div>
 				<div class="col-xs-12" style="">
 					{% block content %}
@@ -158,12 +161,19 @@
 </div>
 <!-- ./wrapper -->
 <script>
+var curWidth = $(window).width();
+console.log(curWidth);
 $(window).resize(function(){
 	// console.log($(document).height());
 	// var bottom = $(window).height() - $('.content-wrapper').height();
 	// console.log(bottom);
 	// $(window).height(bottom)
-	location.reload()
+	// console.log(curWidth);
+	if($(window).width() != curWidth){
+		curWidth = $(window).width();
+		// console.log(curWidth);
+		location.reload();
+	}
 })
 </script>
 </body>

@@ -1,19 +1,75 @@
 {% extends 'analysis/AnalysisSkin.html' %}
 
-{% block header-image %}
-<div id="bannerLeft" style="height: 300px; padding: 0px;">
-  <img class="col-xs-4" src="/media/games/SkyPirates/screenCaps/IslandDestroyed.png" style="padding: 0px; height: 100%"/>
-	<img class="col-xs-4" src="/media/games/SkyPirates/screenCaps/SkyPirates.png" style="padding: 0px; height: 100%"/>
-  <img class="col-xs-4" src="/media/games/SkyPirates/screenCaps/Turret.png" style="padding: 0px; height: 100%"/>
-</div>
+{% block header1 %}
+/media/games/SkyPirates/screenCaps/IslandDestroyed.png
+{% endblock %}
+{% block header2 %}
+/media/games/SkyPirates/screenCaps/SkyPirates.png
+{% endblock %}
+{% block header3 %}
+/media/games/SkyPirates/screenCaps/Turret.png
 {% endblock %}
 
 {% block title %}
-<i>Post Mortem:</i> <strong>Sky Pirates</strong>{% endblock %}
+<a href="/analysis/series/{{ analysis.series.url }}"><i>Post Mortem:</i></a> <strong>Sky Pirates</strong>
+{% endblock %}
 
 {% block analysis %}
-	<img src='/static/img/jaggerNast2.jpg' rotate="90deg" width="200" height="200" alt="Tim Nast" style='float: left; padding-right: 10px; padding-bottom: 10px;'>
+<div class='col-xs-12 overview'>
+	<h4><b>Overview</b></h4>
 	<p>
-		Details
+		Sky Pirates was a group-project completed at a game jam hosted by the Games Institute of the University of Waterloo. The idea was to have a co-operative bullet-hell with a key component being the communcation between the ground troops and the controller piloting the jet. Since this was a group project, each member had a specific element to work on with my focus being the A.I. of the enemies. As such, this post mortem will focus on my portion rather than the game as a whole.
 	</p>
+</div>
+<div class='col-xs-12 summary'>
+	<h4><b>Summary</b></h4>
+	<ul>
+		<li><b>Horde</b> based enemies overshadows the need for <b>unique</b> interactions</li>
+		<li>A <b>lot</b> can be accomplished with straight lines and raycasts</li>
+		<li><b>Communication</b> is <b>key</b></li>
+		<li>There is <b>always</b> room for <b>improvement</b>
+		<li><b>Unending</b> waves of enemies can <b>force</b> the players to keep moving</li>
+	</ul>
+</div>
+<div class='col-xs-12 intentions'>
+	<h4><b>Intentions</b></h4>
+	<p>
+		Initially I wanted enemies to behave somewhat differently, with each reacting differently to players entering their "zone of awareness". I also wanted the entire island that each enemy spawned on to be able to be covered by each enemy, rather than having any that simply stood still (aside from turrets). We also wanted 3 enemy types, melee, ranged, and ranged-arial. My initial thinking was that these enemy types, combined with the different possible behaviours would lead to having a diverse group of enemies for the players to fight.
+	</p>
+</div>
+<div class="col-xs-12 A.I.">
+	<h4 class="media-heading"><b>A.I.</b></h4>
+	<p>
+		The A.I. in this game had two major components that made up their development. The global scripting for how they maneuvered along the islands, and the unique behaviours of each enemy. I will quickly break each down and discuss the intention and the end result.
+	</p>
+	<h5 class='media-heading'><b>Scripting</b></h5>
+	<p>
+		Each enemy had a "zone of awareness", represented by a circular trigger centered on the enemy, that determined what players they were aware of. When they became aware of a player, or the jet for ranged enemies, they would begin movingtoward it in such a way that they could attack. All of their movement was simply sliding along horizontal platforms (we kept it simple due to time constraints) and doing simple raycasts to check for edges to ensure they did not slide off.
+	</p>
+	<p>
+		Each enemy had a range for their attack, and a distance between them and their target they they would try to achieve before attacking. This was to stop the enemies from just close enough to the player to attack, only to have to move forward as soon as the player moved, cancelling their attack. By having them move closer than needed before atttacking, they are able to get a few attacks off at a time before having to move again. This behaviour also extended to the turrets. Turrets would only attack once the ship was close than needed to stop the players from easily hovering just outside of range, and making turrets more of a threat when triggered. However, turrets would start tracking the ship before starting to fire, letting the pilot know when they were being watched
+	</p>
+	<p>
+		To cut back on some resources, I only had the enemies check for the egde in the direction they were moving. Once they found the edge they would start to slow down so that they would change direction at approximately the edge. Looking back now, another way I could have reduced the number of raycasts would have been to set trigger zones that marked the enemy approaching the edge and only once these were passed would the enemy begin watching for the edge (with a second pass having them stop searching). I also could have turned the triggers on and off according to if the players have landed on the island the enemies are patrolling.
+	</p>
+	<h5 class='media-heading'><b>Behaviours</b></h5>
+	<p>
+		My initial decision was to have a diverse group of possible behaviour patterns. The main difference was how they approached players once they became aware of them: some would attack the most recently <b>noticed</b> player, the player that <b>attacked</b> them most recently, or the <b>closest</b> player. I felt that this would let the players play on the behaviours a bit more, and strategically "activate" and "juggle" the enemies to keep themselves alive more easily while stealing the crystals. However, as I became more aware of what the rest of the group wanted game-wise, I opted to reduce the number of options and keep the enemy behaviours more or less the same. This decision was made due to the fact that the different behaviours become irrelevant/unnoticed when there are swarms of enemies chasing the players with no easy way to distinguish one enemy from another.
+	</p>
+	<p>
+		I would strongly advise anyone working on A.I. to be absolutely clear on what the end goal of the game is, as it can have a large impact on what specific behaviours are irrelevant or required for an enjoyable game.
+	</p>
+</div>
+<div class="col-xs-12 Spawning">
+	<h4 class="media-heading"><b>Spawning</b></h4>
+	<p>
+		Each island had a portal attached to it that would spawn the enemies for that respective island. The spawner had an ideal number of enemies to be alive at each time, and kept track of those that it had previously spawned. Whenever an enemy was killed, the spawner would create a new one at a specific rate up until the desired number was reached. Through this method, enemies were constantly being spawned to force the players to act quickly, but it also gave the players a reprieve once clearing an island. This was a nice balance, as it provided a reason to kill the enemies, since they spawned slow enough for killing one to have an impact, and kept a constant pressure up to take the isnland's crystal quickly.
+	</p>
+</div>
+<div class='col-xs-12 Conclusion'>
+	<h4><b>Conclusion</b></h4>
+	<p>
+		Enemies play a very important role in games, not only do they provide a threat for the players to engage and conquer, but they also provide a pressure for the players to due as required to win. As a threat, it is important for developers to be aware of what kind of threat is requried. A swarm based group of enemies can vastly decrease any need for unique and interactive enemies. Additionally, when dealing with swarms of enemies, it is important to consider different ways to reduce the resources required by each enemy.
+	</p>
+</div>
 {% endblock %}
