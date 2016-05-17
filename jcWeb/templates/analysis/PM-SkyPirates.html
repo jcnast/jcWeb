@@ -47,11 +47,14 @@
 	</p>
 </div>
 <div class="col-xs-12 A.I.">
+	<p style="float: left;">
+  	<img class="media-object" src='/media/games/SkyPirates/screenCaps/Turret.png' style=" width: 600px; height: 300px; padding-right: 10px; padding-bottom: 10px;">
+  </p>
 	<h4 class="media-heading"><b>A.I.</b></h4>
 	<p>
 		The A.I. in this game had two major components that made up their development. The global scripting for how they maneuvered along the islands, and the unique behaviours of each enemy. I will quickly break each down and discuss the intention and the end result.
 	</p>
-	<h5 class='media-heading'><b>Scripting</b></h5>
+	<h5 class='media-heading' style="text-indent: 20px;"><b>Scripting</b></h5>
 	<p>
 		Each enemy had a "zone of awareness", represented by a circular trigger centered on the enemy, that determined what players they were aware of. When they became aware of a player, or the jet for ranged enemies, they would begin movingtoward it in such a way that they could attack. All of their movement was simply sliding along horizontal platforms (we kept it simple due to time constraints) and doing simple raycasts to check for edges to ensure they did not slide off.
 	</p>
@@ -61,7 +64,7 @@
 	<p>
 		To cut back on some resources, I only had the enemies check for the egde in the direction they were moving. Once they found the edge they would start to slow down so that they would change direction at approximately the edge. Looking back now, another way I could have reduced the number of raycasts would have been to set trigger zones that marked the enemy approaching the edge and only once these were passed would the enemy begin watching for the edge (with a second pass having them stop searching). I also could have turned the triggers on and off according to if the players have landed on the island the enemies are patrolling.
 	</p>
-	<h5 class='media-heading'><b>Behaviours</b></h5>
+	<h5 class='media-heading' style="text-indent: 20px;"><b>Behaviours</b></h5>
 	<p>
 		My initial decision was to have a diverse group of possible behaviour patterns. The main difference was how they approached players once they became aware of them: some would attack the most recently <b>noticed</b> player, the player that <b>attacked</b> them most recently, or the <b>closest</b> player. I felt that this would let the players play on the behaviours a bit more, and strategically "activate" and "juggle" the enemies to keep themselves alive more easily while stealing the crystals. However, as I became more aware of what the rest of the group wanted game-wise, I opted to reduce the number of options and keep the enemy behaviours more or less the same. This decision was made due to the fact that the different behaviours become irrelevant/unnoticed when there are swarms of enemies chasing the players with no easy way to distinguish one enemy from another.
 	</p>
@@ -70,6 +73,9 @@
 	</p>
 </div>
 <div class="col-xs-12 Spawning">
+	<p style="float: right;">
+  	<img class="media-object" src='/media/games/SkyPirates/screenCaps/CrystalTaken.png' style="width: 400px; height: 200px; padding-right: 10px; padding-bottom: 10px;">
+  </p>
 	<h4 class="media-heading"><b>Spawning</b></h4>
 	<p>
 		Each island had a portal attached to it that would spawn the enemies for that respective island. The spawner had an ideal number of enemies to be alive at each time, and kept track of those that it had previously spawned. Whenever an enemy was killed, the spawner would create a new one at a specific rate up until the desired number was reached. Through this method, enemies were constantly being spawned to force the players to act quickly, but it also gave the players a reprieve once clearing an island. This was a nice balance, as it provided a reason to kill the enemies, since they spawned slow enough for killing one to have an impact, and kept a constant pressure up to take the isnland's crystal quickly.
