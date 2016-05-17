@@ -30,7 +30,8 @@ def bio(request):
 	return render(request, 'bio.html', context)
 
 def resume(request):
-	context = {'download': True, 'downloadFile': '/media/resume/JaggerNast.pdf'}
+	downloadName = "Resume"
+	context = {'download': True, 'downloadFile': '/media/resume/JaggerNast.pdf', 'downloadName': downloadName}
 	return render(request, 'resume.html', context)
 
 #*********** game development pages ***********#
@@ -55,8 +56,9 @@ def getgame(request, gameFile):
 		downloadFile = False
 	print downloadFile
 
+	downloadName = game.title
 	# pass along the game object
-	context = {'download': download, 'downloadFile': downloadFile, 'game': game}
+	context = {'download': download, 'downloadFile': downloadFile, 'game': game, 'downloadName': downloadName}
 	return render(request, 'games/'+gameFile+'.html', context)
 
 #*********** game design pages ***********#

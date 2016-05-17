@@ -106,7 +106,7 @@
 					<li style='font-family: "Source Sans Pro", sans-serif; font-size: 20px;'><a href='/games/'><i class='fa fa-gamepad'></i> Games</a></li>
 					<li style='font-family: "Source Sans Pro", sans-serif; font-size: 20px;'><a href='/analysis/'><i class='fa fa-comment'></i> Analysis</a></li>
 					{% if download %}
-					<li style='font-family: "Source Sans Pro", sans-serif; font-size: 20px;'><a target="_blank" href='{{ downloadFile }}'><i class='fa fa-download'></i> Download</a></li>
+					<li style='font-family: "Source Sans Pro", sans-serif; font-size: 20px;'><a target="_blank" href='{{ downloadFile }}'><i class='fa fa-download'></i> Download: {{ downloadName }}</a></li>
 					{% endif %}
 	      </ul>
 	      <!-- <form class="navbar-form navbar-left" role="search">
