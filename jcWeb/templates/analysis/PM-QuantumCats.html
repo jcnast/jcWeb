@@ -1,17 +1,43 @@
 {% extends 'analysis/AnalysisSkin.html' %}
 
+{% block style %}
+.arrow{
+	background-color: #000000;
+	opacity: 0.7;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	border-radius: 50%;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.arrow:hover{
+	background-color: #FFFFFF;
+}
+{% endblock %}
+
+{% block headerHREF1 %}
+/games/QuantumCats
+{% endblock %}
 {% block header1 %}
 /media/games/QuantumCats/screenCaps/SuperPosition_abilityStart.png
 {% endblock %}
+{% block headerHREF2 %}
+/games/QuantumCats
+{% endblock %}
 {% block header2 %}
 /media/games/QuantumCats/screenCaps/StartPage.png
+{% endblock %}
+{% block headerHREF3 %}
+/games/QuantumCats
 {% endblock %}
 {% block header3 %}
 /media/games/QuantumCats/screenCaps/Tunneling_abilityStart.png
 {% endblock %}
 
 {% block title %}
-<a href="/analysis/series/{{ analysis.series.url }}"><i>Post Mortem:</i></a> <strong>Quantum Cats</strong>
+<a href="/analysis/series/{{ analysis.series.url }}"><i>Post Mortem:</i></a> <a href='/games/{{ analysis.game.htmlFile }}'><strong>Quantum Cats</strong></a>
 {% endblock %}
 
 {% block analysis %}
@@ -36,7 +62,16 @@
 		We wanted the game to be visually appealing, to draw in the open house guests, and mechanically simplistic to minimize the time spent learning how to play (allowing more participants an opportunity to play). Additionally, the quantum mechanics concepts had to be detailed enough to offer some degree of understanding while maintaining a functioning and engaging gameplay mechanic.
 	</p>
 </div>
-<div class="col-xs-12 Intuition">
+<div class="col-xs-12 Intuition LevelDesign">
+	<div style="float: right; width: 600px; height: 300px; margin-left: 10px; margin-bottom: 10px;">
+		<img class="level" src="/media/games/QuantumCats/screenCaps/Planning.png" style="width: 100%; height: 100%; display: none;">
+		<img class="level" src="/media/games/QuantumCats/screenCaps/Anticipation.png" style="width: 100%; height: 100%; display: none;">
+		<img class="level" src="/media/games/QuantumCats/screenCaps/Magnet.png" style="width: 100%; height: 100%; display: none;">
+		<img class="level" src="/media/games/QuantumCats/screenCaps/LiquidNitrogen.png" style="width: 100%; height: 100%; display: none;">
+		<img class="level" src="/media/games/QuantumCats/screenCaps/Laser.png" style="width: 100%; height: 100%; display: block;">
+		<div class='arrow' style="float: left; position: relative; left: 0px; top: -155px; font-size: 20px;"><a onclick="plusDivs_level(-1)"><b>❮</b></a></div>
+		<div class='arrow' style="float: right; position: relative; right: 0px; top: -155px; font-size: 20px;"><a onclick="plusDivs_level(+1)"><b>❯</b></a></div>
+	</div>
 	<h4 class="media-heading"><b>Intuition</b></h4>
 	<p>
 		To allow people to quickly start playing, and to remove the need for any 'tutorial' levels. This was due to production time constraints, and also the desire for people to be able to easily start playing with minimal time spent learning. It was also desireable to have the outcome of the cat colliding with the obstacles to make sense and for the player to have a sense of understanding regarding what would happen.
@@ -47,8 +82,8 @@
 	<p>
 		The other intuitive aspect we called upon was the assumption of how objects would behave when struck with a cat. I.e., lighter objects break more easlily and darker objects are sturdier. This aspect was also used with the Liquid Nitrogen object and the visual indicator for frozen objects.
 	</p>
-</div>
-<div class="col-xs-12 LevelDesign">
+<!-- </div> -->
+<!-- <div class="col-xs-12 LevelDesign"> -->
 	<h4 class="media-heading"><b>Level Design</b></h4>
 	<p>
 		Levels had to be difficult enough to warrant firing multiple cats, hopefully causing a better understanding of what each one's power was and how it could be used, while being simple enough to not take too many attempts. As such, levels tended to employ either a domino-effect to take out multiple towers at once, or a pre-set pattern that, when noticed, could collapse multiple towers at once.
@@ -61,6 +96,16 @@
 	</p>
 </div>
 <div class="col-xs-12 CatAbilities">
+	<div style="float: left; width: 600px; height: 300px; margin-right: 10px; margin-bottom: 10px;">
+		<img class="Abilities" src="/media/games/QuantumCats/screenCaps/Schro.png" style="width: 50%; height: 100%; display: none; float: left;">
+		<img class="Abilities" src="/media/games/QuantumCats/screenCaps/Digger.png" style="width: 50%; height: 100%; display: none; float: left;">
+		<img class="Abilities" src="/media/games/QuantumCats/screenCaps/Fuzzy.png" style="width: 50%; height: 100%; display: block; float: left;">
+		<img class="Used" src="/media/games/QuantumCats/screenCaps/SuperPosition_abilityStart.png" style="width: 50%; height: 100%; display: none; float: right;">
+		<img class="Used" src="/media/games/QuantumCats/screenCaps/Tunneling_abilityStart.png" style="width: 50%; height: 100%; display: none; float: right;">
+		<img class="Used" src="/media/games/QuantumCats/screenCaps/Uncertainty_abilityStart.png" style="width: 50%; height: 100%; display: block; float: right;">
+		<div class='arrow' style="float: left; position: relative; left: 0px; top: -155px; font-size: 20px;"><a onclick="plusDivs_cats(-1)"><b>❮</b></a></div>
+		<div class='arrow' style="float: right; position: relative; right: 0px; top: -155px; font-size: 20px;"><a onclick="plusDivs_cats(+1)"><b>❯</b></a></div>
+	</div>
 	<h4 class="media-heading"><b>Cat Abilities</b></h4>
 	<p>
 		Before finalizing the quantum abilities we gave each of the cats, we prototyped many additional possibilities. For each prototype, we had to consider how the ability would work in such a way that it would be fun, engaging, and provide a reasonable representation of the quantum phenomenon. On top of this, we tried to choose properties that would be easily understood given limited exposure and explanation.
@@ -78,4 +123,55 @@
 		<li>Levels should not draw focus away from the main goal of a game</li>
 	</ul>
 </div>
+{% endblock %}
+
+{% block script %}
+var slideIndex = 1;
+showDivs_catsDescript(slideIndex);
+showDivs_catsUsed(slideIndex);
+
+function plusDivs_cats(n) {
+  showDivs_catsDescript(slideIndex += n);
+  showDivs_catsUsed(slideIndex);
+}
+
+function showDivs_catsDescript(n) {
+  var i;
+  var x = document.getElementsByClassName("Abilities");
+  if (n > x.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  x[slideIndex-1].style.display = "block"; 
+}
+
+function showDivs_catsUsed(n) {
+  var i;
+  var x = document.getElementsByClassName("Used");
+  if (n > x.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  x[slideIndex-1].style.display = "block";
+}
+
+var levelIndex = 1;
+showDivs_levels(levelIndex)
+
+function plusDivs_level(n) {
+  showDivs_levels(levelIndex += n);
+}
+
+function showDivs_levels(n) {
+  var i;
+  var x = document.getElementsByClassName("level");
+  if (n > x.length) {levelIndex = 1} 
+  if (n < 1) {levelIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  x[levelIndex-1].style.display = "block"; 
+}
 {% endblock %}

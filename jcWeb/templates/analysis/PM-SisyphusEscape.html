@@ -1,17 +1,26 @@
 {% extends 'analysis/AnalysisSkin.html' %}
 
+{% block headerHREF1 %}
+/games/SisyphusEscape
+{% endblock %}
 {% block header1 %}
 /media/games/SisyphusEscape/screenCaps/surrounded_c.png
 {% endblock %}
+{% block headerHREF2 %}
+/games/SisyphusEscape
+{% endblock %}
 {% block header2 %}
 /media/games/SisyphusEscape/screenCaps/SisyphusEscape.png
+{% endblock %}
+{% block headerHREF3 %}
+/games/SisyphusEscape
 {% endblock %}
 {% block header3 %}
 /media/games/SisyphusEscape/screenCaps/hiding_c.png
 {% endblock %}
 
 {% block title %}
-<a href="/analysis/series/{{ analysis.series.url }}"><i>Post Mortem:</i></a> <strong>The Escape of Sisyphus</strong>
+<a href="/analysis/series/{{ analysis.series.url }}"><i>Post Mortem:</i></a> <a href='/games/{{ analysis.game.htmlFile }}'><strong>The Escape of Sisyphus</strong></a>
 {% endblock %}
 
 {% block analysis %}

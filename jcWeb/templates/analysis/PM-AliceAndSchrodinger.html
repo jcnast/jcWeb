@@ -1,17 +1,26 @@
 {% extends 'analysis/AnalysisSkin.html' %}
 
+{% block headerHREF1 %}
+/games/AliceAndSchrodinger
+{% endblock %}
 {% block header1 %}
 /media/games/AliceAndSchrodinger/screenCaps/ConversationDemo.png
 {% endblock %}
+{% block headerHREF2 %}
+/games/AliceAndSchrodinger
+{% endblock %}
 {% block header2 %}
 /media/games/AliceAndSchrodinger/screenCaps/UnlockedConversations.png
+{% endblock %}
+{% block headerHREF3 %}
+/games/AliceAndSchrodinger
 {% endblock %}
 {% block header3 %}
 /media/games/AliceAndSchrodinger/screenCaps/MainMenu.png
 {% endblock %}
 
 {% block title %}
-<a href="/analysis/series/{{ analysis.series.url }}"><i>Post Mortem:</i></a> <strong>Alice And Schrodinger</strong>
+<a href="/analysis/series/{{ analysis.series.url }}"><i>Post Mortem:</i></a> <a href='/games/{{ analysis.game.htmlFile }}'><strong>Alice And Schrodinger</strong></a>
 {% endblock %}
 
 {% block analysis %}
@@ -38,7 +47,7 @@
 <div class="col-xs-12 U.I.">
 	<h4 class="media-heading"><b>U.I.</b></h4>
 	<p>
-		
+		The U.I. for this app was very simple and
 	</p>
 </div>
 <div class="col-xs-12 Flow">

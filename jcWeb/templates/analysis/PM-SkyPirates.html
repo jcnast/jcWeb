@@ -1,17 +1,26 @@
 {% extends 'analysis/AnalysisSkin.html' %}
 
+{% block headerHREF1 %}
+/games/SkyPirates
+{% endblock %}
 {% block header1 %}
 /media/games/SkyPirates/screenCaps/IslandDestroyed.png
 {% endblock %}
+{% block headerHREF2 %}
+/games/SkyPirates
+{% endblock %}
 {% block header2 %}
 /media/games/SkyPirates/screenCaps/SkyPirates.png
+{% endblock %}
+{% block headerHREF3 %}
+/games/SkyPirates
 {% endblock %}
 {% block header3 %}
 /media/games/SkyPirates/screenCaps/Turret.png
 {% endblock %}
 
 {% block title %}
-<a href="/analysis/series/{{ analysis.series.url }}"><i>Post Mortem:</i></a> <strong>Sky Pirates</strong>
+<a href="/analysis/series/{{ analysis.series.url }}"><i>Post Mortem:</i></a> <a href='/games/{{ analysis.game.htmlFile }}'><strong>Sky Pirates</strong></a>
 {% endblock %}
 
 {% block analysis %}
