@@ -45,7 +45,11 @@ def games(request):
 
 def getgame(request, gameFile):
 	# get game based on game file
-	game = Game.objects.get(htmlFile = gameFile)
+	try:
+		game = Game.objects.get(htmlFile = gameFile)
+	except Game.DoesNotExist:
+		return HttpResponseRedirect('/games')
+
 	download = True
 	if(game.downloadFile):
 		downloadFile = game.downloadFile
@@ -77,7 +81,11 @@ def analysis(request):
 
 def series(request, series):
 	# get requested series
-	series = Series.objects.get(url = series)
+	try:
+		series = Series.objects.get(url = series)
+	except Series.DoesNotExist:
+		return HttpResponseRedirect('/analysis')
+
 	# get related analysis
 	analysis = Analysis.objects.filter(series__id = series.id)
 
@@ -86,7 +94,10 @@ def series(request, series):
 
 def getanalysis(request, analysisFile):
 	# get analysis based on analysis file
-	analysis = Analysis.objects.get(htmlFile = analysisFile)
+	try:
+		analysis = Analysis.objects.get(htmlFile = analysisFile)
+	except Analysis.DoesNotExist:
+		return HttpResponseRedirect('/analysis')
 	# get comments on the analysis
 	comments = Comment.objects.filter(analysis__id = analysis.id)
 
