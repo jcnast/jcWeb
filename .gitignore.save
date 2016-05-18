@@ -1,0 +1,4 @@
+# database
+db.sqlite3
+logs/*
+settings.py
