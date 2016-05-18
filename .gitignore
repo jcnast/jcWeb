@@ -1,3 +1,4 @@
 # database
 jcWeb/db.sqlite3
 jcWeb/logs/*
+jcWeb/settings.py
