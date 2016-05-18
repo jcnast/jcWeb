@@ -28,7 +28,7 @@ TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'templates'),
 )
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['jaggernast.ca', 'localhost']
 
 
 # Application definition

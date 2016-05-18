@@ -119,6 +119,4 @@ def comment(request, analysisFile):
 	# send user back to analysis page
 	return HttpResponseRedirect('/analysis/'+analysisFile)
 
-# def update(request):
-# 	call("restart-server")
-# 	return HttpResponseRedirect('/')
+#*********** error pages ***********#
