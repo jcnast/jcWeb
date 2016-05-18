@@ -167,22 +167,27 @@
 </div>
 <!-- ./wrapper -->
 <script>
-var curWidth = $(window).width();
-console.log(curWidth);
-$(window).resize(function(){
-	// console.log($(document).height());
-	// var bottom = $(window).height() - $('.content-wrapper').height();
-	// console.log(bottom);
-	// $(window).height(bottom)
-	// console.log(curWidth);
-	if($(window).width() != curWidth){
-		curWidth = $(window).width();
-		// console.log(curWidth);
-		location.reload();
-	}
-})
+	// cur width of page
+	var curWidth = $(window).width();
+
+	// reload page if the width gets changed
+	$(window).resize(function(){
+		if($(window).width() != curWidth){
+			curWidth = $(window).width();
+			location.reload();
+		}
+	})
+
+	// make sure .list__item has the right width
+	window.onload = function() {
+		if(curWidth < 425){
+			$('.list__item').css("width", '100%');
+		}else if(curWidth < 860){
+			$('.list__item').css("width", '50%');
+		}
+	};
+	</script>
 {% block script %}
 {% endblock %}
-</script>
 </body>
 </html>
