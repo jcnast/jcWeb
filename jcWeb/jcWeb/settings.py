@@ -22,13 +22,13 @@ SECRET_KEY = '$ww85mnmtk^k@=!ww@@+%qn1iql^pv)c)d)x%#r6&60z0z#v=3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = False
 
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'templates'),
 )
 
-ALLOWED_HOSTS = ['jaggernast.ca', 'localhost']
+ALLOWED_HOSTS = ['www.jaggernast.ca', 'localhost']
 
 
 # Application definition
