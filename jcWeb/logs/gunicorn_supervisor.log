@@ -6632,3 +6632,1410 @@ and the repository exists.
 [2016-05-18 22:30:47 +0000] [31942] [INFO] Booting worker with pid: 31942
 [2016-05-18 22:30:47 +0000] [31943] [INFO] Booting worker with pid: 31943
 [2016-05-18 22:30:47 +0000] [31912] [DEBUG] 2 workers
+[2016-05-18 22:30:47 +0000] [31942] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+[2016-05-18 22:30:47 +0000] [31943] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+[2016-05-18 22:30:47 +0000] [31942] [INFO] Worker exiting (pid: 31942)
+[2016-05-18 22:30:47 +0000] [31943] [INFO] Worker exiting (pid: 31943)
+Traceback (most recent call last):
+  File "/usr/local/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 206, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 302, in halt
+    self.stop()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 347, in stop
+    time.sleep(0.1)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 219, in handle_chld
+    self.reap_workers()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 464, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2016-05-18 22:30:50 +0000] [31971] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7659dc30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7659da30>
+  pre_fork: <function pre_fork at 0x7659db30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7659d970>
+  pre_exec: <function pre_exec at 0x7659df70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7659dd30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7652e370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7652e070>
+  post_request: <function post_request at 0x7652e0f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7659ddf0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7652e1b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7659d8b0>
+  worker_abort: <function worker_abort at 0x7659deb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7652e2b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-05-18 22:30:50 +0000] [31971] [INFO] Starting gunicorn 19.4.5
+[2016-05-18 22:30:50 +0000] [31971] [DEBUG] Arbiter booted
+[2016-05-18 22:30:50 +0000] [31971] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (31971)
+[2016-05-18 22:30:50 +0000] [31971] [INFO] Using worker: sync
+[2016-05-18 22:30:50 +0000] [32011] [INFO] Booting worker with pid: 32011
+[2016-05-18 22:30:50 +0000] [32015] [INFO] Booting worker with pid: 32015
+[2016-05-18 22:30:50 +0000] [31971] [DEBUG] 2 workers
+[2016-05-18 22:30:51 +0000] [32011] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+[2016-05-18 22:30:51 +0000] [32011] [INFO] Worker exiting (pid: 32011)
+[2016-05-18 22:30:51 +0000] [32015] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+[2016-05-18 22:30:51 +0000] [32015] [INFO] Worker exiting (pid: 32015)
+Traceback (most recent call last):
+  File "/usr/local/bin/gunicorn", line 11, in <module>
+    sys.exit(run())
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 74, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 192, in run
+    super(Application, self).run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 206, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 302, in halt
+    self.stop()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 347, in stop
+    time.sleep(0.1)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 219, in handle_chld
+    self.reap_workers()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 464, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2016-05-18 22:30:55 +0000] [32052] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x76607c30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x76607a30>
+  pre_fork: <function pre_fork at 0x76607b30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x76607970>
+  pre_exec: <function pre_exec at 0x76607f70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x76607d30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x76598370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x76598070>
+  post_request: <function post_request at 0x765980f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x76607df0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x765981b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x766078b0>
+  worker_abort: <function worker_abort at 0x76607eb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x765982b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-05-18 22:30:55 +0000] [32052] [INFO] Starting gunicorn 19.4.5
+[2016-05-18 22:30:55 +0000] [32052] [DEBUG] Arbiter booted
+[2016-05-18 22:30:55 +0000] [32052] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (32052)
+[2016-05-18 22:30:55 +0000] [32052] [INFO] Using worker: sync
+[2016-05-18 22:30:55 +0000] [32082] [INFO] Booting worker with pid: 32082
+[2016-05-18 22:30:55 +0000] [32083] [INFO] Booting worker with pid: 32083
+[2016-05-18 22:30:55 +0000] [32052] [DEBUG] 2 workers
+[2016-05-18 22:30:56 +0000] [32082] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+[2016-05-18 22:30:56 +0000] [32082] [INFO] Worker exiting (pid: 32082)
+[2016-05-18 22:30:56 +0000] [32083] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+[2016-05-18 22:30:56 +0000] [32083] [INFO] Worker exiting (pid: 32083)
+[2016-05-18 22:30:56 +0000] [32052] [INFO] Shutting down: Master
+[2016-05-18 22:30:56 +0000] [32052] [INFO] Reason: Worker failed to boot.
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2016-05-18 22:30:59 +0000] [32120] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x76622c30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x76622a30>
+  pre_fork: <function pre_fork at 0x76622b30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x76622970>
+  pre_exec: <function pre_exec at 0x76622f70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x76622d30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x765b3370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x765b3070>
+  post_request: <function post_request at 0x765b30f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x76622df0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x765b31b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x766228b0>
+  worker_abort: <function worker_abort at 0x76622eb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x765b32b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-05-18 22:30:59 +0000] [32120] [INFO] Starting gunicorn 19.4.5
+[2016-05-18 22:30:59 +0000] [32120] [DEBUG] Arbiter booted
+[2016-05-18 22:30:59 +0000] [32120] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (32120)
+[2016-05-18 22:30:59 +0000] [32120] [INFO] Using worker: sync
+[2016-05-18 22:30:59 +0000] [32150] [INFO] Booting worker with pid: 32150
+[2016-05-18 22:30:59 +0000] [32151] [INFO] Booting worker with pid: 32151
+[2016-05-18 22:30:59 +0000] [32120] [DEBUG] 2 workers
+[2016-05-18 22:31:00 +0000] [32150] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+[2016-05-18 22:31:00 +0000] [32150] [INFO] Worker exiting (pid: 32150)
+[2016-05-18 22:31:00 +0000] [32151] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+[2016-05-18 22:31:00 +0000] [32151] [INFO] Worker exiting (pid: 32151)
+[2016-05-18 22:31:00 +0000] [32120] [INFO] Shutting down: Master
+[2016-05-18 22:31:00 +0000] [32120] [INFO] Reason: Worker failed to boot.
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2016-05-18 22:31:03 +0000] [32152] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x76623c30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x76623a30>
+  pre_fork: <function pre_fork at 0x76623b30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x76623970>
+  pre_exec: <function pre_exec at 0x76623f70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x76623d30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x765b4370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x765b4070>
+  post_request: <function post_request at 0x765b40f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x76623df0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x765b41b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x766238b0>
+  worker_abort: <function worker_abort at 0x76623eb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x765b42b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-05-18 22:31:03 +0000] [32152] [INFO] Starting gunicorn 19.4.5
+[2016-05-18 22:31:03 +0000] [32152] [DEBUG] Arbiter booted
+[2016-05-18 22:31:03 +0000] [32152] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (32152)
+[2016-05-18 22:31:03 +0000] [32152] [INFO] Using worker: sync
+[2016-05-18 22:31:03 +0000] [32182] [INFO] Booting worker with pid: 32182
+[2016-05-18 22:31:03 +0000] [32183] [INFO] Booting worker with pid: 32183
+[2016-05-18 22:31:03 +0000] [32152] [DEBUG] 2 workers
+[2016-05-18 22:31:03 +0000] [32182] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+[2016-05-18 22:31:03 +0000] [32182] [INFO] Worker exiting (pid: 32182)
+[2016-05-18 22:31:03 +0000] [32183] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+[2016-05-18 22:31:03 +0000] [32183] [INFO] Worker exiting (pid: 32183)
+[2016-05-18 22:31:03 +0000] [32152] [INFO] Shutting down: Master
+[2016-05-18 22:31:03 +0000] [32152] [INFO] Reason: Worker failed to boot.
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2016-05-18 22:31:06 +0000] [32185] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x765c8c30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x765c8a30>
+  pre_fork: <function pre_fork at 0x765c8b30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x765c8970>
+  pre_exec: <function pre_exec at 0x765c8f70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x765c8d30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x76559370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x76559070>
+  post_request: <function post_request at 0x765590f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x765c8df0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x765591b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x765c88b0>
+  worker_abort: <function worker_abort at 0x765c8eb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x765592b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-05-18 22:31:06 +0000] [32185] [INFO] Starting gunicorn 19.4.5
+[2016-05-18 22:31:06 +0000] [32185] [DEBUG] Arbiter booted
+[2016-05-18 22:31:06 +0000] [32185] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (32185)
+[2016-05-18 22:31:06 +0000] [32185] [INFO] Using worker: sync
+[2016-05-18 22:31:06 +0000] [32216] [INFO] Booting worker with pid: 32216
+[2016-05-18 22:31:06 +0000] [32217] [INFO] Booting worker with pid: 32217
+[2016-05-18 22:31:06 +0000] [32185] [DEBUG] 2 workers
+[2016-05-18 22:31:07 +0000] [32216] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+[2016-05-18 22:31:07 +0000] [32216] [INFO] Worker exiting (pid: 32216)
+[2016-05-18 22:31:07 +0000] [32217] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+[2016-05-18 22:31:07 +0000] [32217] [INFO] Worker exiting (pid: 32217)
+[2016-05-18 22:31:07 +0000] [32185] [INFO] Shutting down: Master
+[2016-05-18 22:31:07 +0000] [32185] [INFO] Reason: Worker failed to boot.
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2016-05-18 22:31:09 +0000] [32255] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7661bc30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7661ba30>
+  pre_fork: <function pre_fork at 0x7661bb30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7661b970>
+  pre_exec: <function pre_exec at 0x7661bf70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7661bd30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x765ac370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x765ac070>
+  post_request: <function post_request at 0x765ac0f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7661bdf0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x765ac1b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7661b8b0>
+  worker_abort: <function worker_abort at 0x7661beb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x765ac2b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-05-18 22:31:09 +0000] [32255] [INFO] Starting gunicorn 19.4.5
+[2016-05-18 22:31:09 +0000] [32255] [DEBUG] Arbiter booted
+[2016-05-18 22:31:09 +0000] [32255] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (32255)
+[2016-05-18 22:31:09 +0000] [32255] [INFO] Using worker: sync
+[2016-05-18 22:31:09 +0000] [32293] [INFO] Booting worker with pid: 32293
+[2016-05-18 22:31:09 +0000] [32294] [INFO] Booting worker with pid: 32294
+[2016-05-18 22:31:09 +0000] [32255] [DEBUG] 2 workers
+[2016-05-18 22:31:10 +0000] [32293] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+[2016-05-18 22:31:10 +0000] [32293] [INFO] Worker exiting (pid: 32293)
+[2016-05-18 22:31:10 +0000] [32294] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/local/lib/python2.7/dist-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/Website/jcWeb/jcWeb/wsgi.py", line 14, in <module>
+    application = get_wsgi_application()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/wsgi.py", line 14, in get_wsgi_application
+    django.setup()
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 20, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 46, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 42, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 98, in __init__
+    % (self.SETTINGS_MODULE, e)
+ImportError: Could not import settings 'jcWeb.settings' (Is it on sys.path? Is there an import error in the settings file?): No module named settings
+[2016-05-18 22:31:10 +0000] [32294] [INFO] Worker exiting (pid: 32294)
+[2016-05-18 22:31:10 +0000] [32255] [INFO] Shutting down: Master
+[2016-05-18 22:31:10 +0000] [32255] [INFO] Reason: Worker failed to boot.
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
