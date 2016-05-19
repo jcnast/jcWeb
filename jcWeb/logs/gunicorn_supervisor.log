@@ -22925,3 +22925,108 @@ and the repository exists.
 [2016-05-19 02:07:19 +0000] [3129] [DEBUG] GET /resume/
 [2016-05-19 02:23:34 +0000] [3128] [DEBUG] GET /games/SisyphusEscape/
 [2016-05-19 02:23:40 +0000] [3129] [DEBUG] GET /games/SisyphusEscape/
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2016-05-19 12:58:09 +0000] [10428] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x765f7c30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x765f7a30>
+  pre_fork: <function pre_fork at 0x765f7b30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x765f7970>
+  pre_exec: <function pre_exec at 0x765f7f70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x765f7d30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x76588370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x76588070>
+  post_request: <function post_request at 0x765880f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x765f7df0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x765881b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x765f78b0>
+  worker_abort: <function worker_abort at 0x765f7eb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x765882b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-05-19 12:58:09 +0000] [10428] [INFO] Starting gunicorn 19.4.5
+[2016-05-19 12:58:09 +0000] [10428] [DEBUG] Arbiter booted
+[2016-05-19 12:58:09 +0000] [10428] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (10428)
+[2016-05-19 12:58:09 +0000] [10428] [INFO] Using worker: sync
+[2016-05-19 12:58:09 +0000] [10458] [INFO] Booting worker with pid: 10458
+[2016-05-19 12:58:09 +0000] [10459] [INFO] Booting worker with pid: 10459
+[2016-05-19 12:58:09 +0000] [10428] [DEBUG] 2 workers
+[2016-05-19 12:58:15 +0000] [10458] [DEBUG] GET /games/SisyphusEscape/
+[2016-05-19 12:58:45 +0000] [10459] [DEBUG] GET /games/SkyPirates/
+[2016-05-19 14:19:42 +0000] [10458] [DEBUG] GET /
+[2016-05-19 17:23:25 +0000] [10459] [DEBUG] GET /games/AliceAndSchrodinger/
+[2016-05-19 17:23:28 +0000] [10459] [DEBUG] GET /
+[2016-05-19 17:34:22 +0000] [10459] [DEBUG] GET /
+[2016-05-19 18:08:12 +0000] [10458] [DEBUG] GET /robots.txt
+[2016-05-19 18:23:59 +0000] [10459] [DEBUG] GET /
+[2016-05-19 18:38:05 +0000] [10458] [DEBUG] GET /
+[2016-05-19 18:38:05 +0000] [10459] [DEBUG] GET /favicon.ico
+[2016-05-19 18:43:22 +0000] [10459] [DEBUG] GET /
+[2016-05-19 18:44:01 +0000] [10458] [DEBUG] GET /duh
+[2016-05-19 18:44:04 +0000] [10459] [DEBUG] GET /
+[2016-05-19 18:44:06 +0000] [10459] [DEBUG] GET /bio/
+[2016-05-19 18:44:12 +0000] [10458] [DEBUG] GET /bio/
+[2016-05-19 19:10:45 +0000] [10459] [DEBUG] GET /
