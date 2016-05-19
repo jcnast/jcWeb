@@ -22691,3 +22691,237 @@ and the repository exists.
 [2016-05-18 22:45:11 +0000] [2796] [DEBUG] GET /resume/
 [2016-05-18 22:45:13 +0000] [2787] [DEBUG] GET /resume/
 [2016-05-18 22:45:14 +0000] [2787] [DEBUG] GET /resume/
+[2016-05-18 22:46:09 +0000] [2757] [INFO] Handling signal: term
+[2016-05-18 22:46:09 +0000] [2787] [INFO] Worker exiting (pid: 2787)
+[2016-05-18 22:46:09 +0000] [2796] [INFO] Worker exiting (pid: 2796)
+[2016-05-18 22:46:10 +0000] [2757] [INFO] Shutting down: Master
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2016-05-18 22:46:12 +0000] [3097] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x765acc30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x765aca30>
+  pre_fork: <function pre_fork at 0x765acb30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x765ac970>
+  pre_exec: <function pre_exec at 0x765acf70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x765acd30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7653d370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7653d070>
+  post_request: <function post_request at 0x7653d0f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x765acdf0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7653d1b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x765ac8b0>
+  worker_abort: <function worker_abort at 0x765aceb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7653d2b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-05-18 22:46:12 +0000] [3097] [INFO] Starting gunicorn 19.4.5
+[2016-05-18 22:46:12 +0000] [3097] [DEBUG] Arbiter booted
+[2016-05-18 22:46:12 +0000] [3097] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (3097)
+[2016-05-18 22:46:12 +0000] [3097] [INFO] Using worker: sync
+[2016-05-18 22:46:12 +0000] [3128] [INFO] Booting worker with pid: 3128
+[2016-05-18 22:46:12 +0000] [3129] [INFO] Booting worker with pid: 3129
+[2016-05-18 22:46:12 +0000] [3097] [DEBUG] 2 workers
+[2016-05-18 22:46:56 +0000] [3128] [DEBUG] GET /resume/
+[2016-05-18 22:46:59 +0000] [3129] [DEBUG] GET /r
+[2016-05-18 22:47:03 +0000] [3128] [DEBUG] GET /
+[2016-05-18 22:47:08 +0000] [3129] [DEBUG] GET /
+[2016-05-18 22:47:10 +0000] [3129] [DEBUG] GET /
+[2016-05-18 22:47:11 +0000] [3128] [DEBUG] GET /
+[2016-05-18 22:47:12 +0000] [3129] [DEBUG] GET /
+[2016-05-18 22:47:14 +0000] [3128] [DEBUG] GET /
+[2016-05-18 22:47:14 +0000] [3129] [DEBUG] GET /
+[2016-05-18 22:47:15 +0000] [3128] [DEBUG] GET /
+[2016-05-18 22:47:16 +0000] [3128] [DEBUG] GET /
+[2016-05-18 22:47:50 +0000] [3129] [DEBUG] GET /
+[2016-05-18 22:48:06 +0000] [3128] [DEBUG] GET /
+[2016-05-18 22:48:14 +0000] [3129] [DEBUG] GET /bio/
+[2016-05-18 22:48:23 +0000] [3128] [DEBUG] GET /bio/
+[2016-05-18 22:48:33 +0000] [3129] [DEBUG] GET /resume/
+[2016-05-18 22:48:41 +0000] [3128] [DEBUG] GET /resume/
+[2016-05-18 22:48:48 +0000] [3129] [DEBUG] GET /games/
+[2016-05-18 22:48:55 +0000] [3128] [DEBUG] GET /games/
+[2016-05-18 22:49:04 +0000] [3129] [DEBUG] GET /games/SisyphusEscape/
+[2016-05-18 22:49:08 +0000] [3128] [DEBUG] GET /games/SisyphusEscape/
+[2016-05-18 22:49:17 +0000] [3128] [DEBUG] GET /analysis/
+[2016-05-18 22:49:23 +0000] [3129] [DEBUG] GET /analysis/
+[2016-05-18 22:49:32 +0000] [3128] [DEBUG] GET /analysis/series/eSports
+[2016-05-18 22:49:32 +0000] [3129] [DEBUG] GET /analysis/series/eSports/
+[2016-05-18 22:49:32 +0000] [3129] [DEBUG] GET /favicon.ico
+[2016-05-18 22:49:36 +0000] [3128] [DEBUG] GET /analysis/ES-MakeAnESport
+[2016-05-18 22:49:36 +0000] [3129] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-05-18 22:49:42 +0000] [3128] [DEBUG] GET /analysis/series/eSports
+[2016-05-18 22:49:42 +0000] [3129] [DEBUG] GET /analysis/series/eSports/
+[2016-05-18 22:49:53 +0000] [3128] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-05-18 22:49:55 +0000] [3129] [DEBUG] GET /admin
+[2016-05-18 22:49:55 +0000] [3128] [DEBUG] GET /admin/
+[2016-05-18 22:49:56 +0000] [3129] [DEBUG] GET /admin/login/
+[2016-05-18 22:50:03 +0000] [3129] [DEBUG] GET /analysis/
+[2016-05-18 22:50:03 +0000] [3128] [DEBUG] POST /admin/login/
+[2016-05-18 22:50:04 +0000] [3128] [DEBUG] GET /admin/
+[2016-05-18 22:50:12 +0000] [3129] [DEBUG] GET /admin/jcWeb/series/
+[2016-05-18 22:50:13 +0000] [3128] [DEBUG] GET /admin/jsi18n/
+[2016-05-18 22:50:13 +0000] [3128] [DEBUG] GET /analysis/series/PostMortem
+[2016-05-18 22:50:13 +0000] [3128] [DEBUG] GET /analysis/series/PostMortem/
+[2016-05-18 22:50:14 +0000] [3129] [DEBUG] GET /admin/jcWeb/series/3/
+[2016-05-18 22:50:14 +0000] [3128] [DEBUG] GET /admin/jsi18n/
+[2016-05-18 22:50:43 +0000] [3129] [DEBUG] GET /
+[2016-05-18 22:50:44 +0000] [3128] [DEBUG] GET /
+[2016-05-18 22:50:47 +0000] [3128] [DEBUG] GET /analysis/
+[2016-05-18 22:50:49 +0000] [3129] [DEBUG] GET /analysis/series/eSports
+[2016-05-18 22:50:49 +0000] [3128] [DEBUG] GET /analysis/series/eSports/
+[2016-05-18 22:51:59 +0000] [3128] [DEBUG] POST /admin/jcWeb/series/3/
+[2016-05-18 22:51:59 +0000] [3129] [DEBUG] GET /admin/jcWeb/series/
+[2016-05-18 22:51:59 +0000] [3128] [DEBUG] GET /admin/jsi18n/
+[2016-05-18 22:52:04 +0000] [3129] [DEBUG] GET /analysis/series/eSports/
+[2016-05-18 22:52:04 +0000] [3128] [DEBUG] GET /analysis
+[2016-05-18 22:52:04 +0000] [3128] [DEBUG] GET /analysis/
+[2016-05-18 22:52:06 +0000] [3129] [DEBUG] GET /analysis/series/E-Sports
+[2016-05-18 22:52:06 +0000] [3129] [DEBUG] GET /analysis/series/E-Sports/
+[2016-05-18 22:52:15 +0000] [3128] [DEBUG] GET /analysis/ES-MakeAnESport
+[2016-05-18 22:52:15 +0000] [3128] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-05-18 22:52:17 +0000] [3129] [DEBUG] GET /analysis/series/E-Sports/
+[2016-05-18 22:52:20 +0000] [3129] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-05-18 22:52:23 +0000] [3128] [DEBUG] GET /
+[2016-05-18 22:52:35 +0000] [3129] [DEBUG] GET /bio/
+[2016-05-18 22:52:40 +0000] [3128] [DEBUG] GET /
+[2016-05-18 22:52:44 +0000] [3128] [DEBUG] GET /bio/
+[2016-05-18 22:53:10 +0000] [3129] [DEBUG] GET /
+[2016-05-18 22:53:17 +0000] [3128] [DEBUG] GET /analysis/
+[2016-05-18 22:53:19 +0000] [3128] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-05-18 22:53:37 +0000] [3129] [DEBUG] GET /analysis/
+[2016-05-18 22:53:39 +0000] [3128] [DEBUG] GET /analysis/
+[2016-05-18 22:53:42 +0000] [3129] [DEBUG] GET /
+[2016-05-18 22:53:50 +0000] [3129] [DEBUG] GET /
+[2016-05-18 22:53:54 +0000] [3128] [DEBUG] GET /analysis/
+[2016-05-18 22:53:57 +0000] [3129] [DEBUG] GET /analysis/series/E-Sports
+[2016-05-18 22:53:57 +0000] [3129] [DEBUG] GET /analysis/series/E-Sports/
+[2016-05-18 22:54:01 +0000] [3128] [DEBUG] GET /analysis/ES-MakeAnESport
+[2016-05-18 22:54:01 +0000] [3128] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-05-18 22:54:18 +0000] [3129] [DEBUG] GET /analysis/series/E-Sports/
+[2016-05-18 23:43:18 +0000] [3129] [DEBUG] GET /bio/
+[2016-05-18 23:43:26 +0000] [3128] [DEBUG] GET /games/
+[2016-05-18 23:43:27 +0000] [3129] [DEBUG] GET /analysis/
+[2016-05-18 23:43:39 +0000] [3128] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-05-18 23:47:08 +0000] [3129] [DEBUG] GET /resume/
+[2016-05-18 23:47:31 +0000] [3128] [DEBUG] GET /
+[2016-05-18 23:47:43 +0000] [3129] [DEBUG] GET /bio/
+[2016-05-18 23:48:12 +0000] [3128] [DEBUG] GET /resume/
+[2016-05-18 23:48:14 +0000] [3129] [DEBUG] GET /analysis/
+[2016-05-18 23:48:18 +0000] [3128] [DEBUG] GET /games/
+[2016-05-18 23:48:20 +0000] [3129] [DEBUG] GET /bio/
+[2016-05-18 23:48:23 +0000] [3128] [DEBUG] GET /
+[2016-05-18 23:48:33 +0000] [3128] [DEBUG] GET /analysis/
+[2016-05-18 23:49:39 +0000] [3129] [DEBUG] GET /bio/
+[2016-05-18 23:49:52 +0000] [3128] [DEBUG] GET /analysis/
+[2016-05-18 23:50:00 +0000] [3129] [DEBUG] GET /
+[2016-05-18 23:59:11 +0000] [3128] [DEBUG] GET /r
+[2016-05-19 00:00:38 +0000] [3129] [DEBUG] GET /admin/
+[2016-05-19 00:00:43 +0000] [3128] [DEBUG] GET /admin/jcWeb/series/3/
+[2016-05-19 00:00:46 +0000] [3129] [DEBUG] GET /admin/jcWeb/series/
+[2016-05-19 00:00:57 +0000] [3128] [DEBUG] GET /analysis/series/eSports/
+[2016-05-19 00:00:58 +0000] [3129] [DEBUG] GET /analysis
+[2016-05-19 00:00:58 +0000] [3129] [DEBUG] GET /analysis/
+[2016-05-19 00:02:48 +0000] [3129] [DEBUG] GET /analysis/series/E-Sports/
+[2016-05-19 00:27:54 +0000] [3128] [DEBUG] GET /
+[2016-05-19 01:14:31 +0000] [3129] [DEBUG] GET /analysis/ES-MakeAnESport
+[2016-05-19 01:14:31 +0000] [3128] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-05-19 01:14:40 +0000] [3129] [DEBUG] GET /
+[2016-05-19 01:15:06 +0000] [3128] [DEBUG] GET /
+[2016-05-19 01:15:08 +0000] [3129] [DEBUG] GET /
+[2016-05-19 01:17:50 +0000] [3128] [DEBUG] GET /analysis/
+[2016-05-19 01:18:11 +0000] [3129] [DEBUG] GET /analysis/
+[2016-05-19 01:18:12 +0000] [3128] [DEBUG] GET /games/
+[2016-05-19 01:19:01 +0000] [3128] [DEBUG] GET /
+[2016-05-19 01:19:11 +0000] [3129] [DEBUG] GET /
+[2016-05-19 01:19:11 +0000] [3128] [DEBUG] GET /
+[2016-05-19 01:19:12 +0000] [3128] [DEBUG] GET /
+[2016-05-19 01:21:19 +0000] [3129] [DEBUG] GET /
+[2016-05-19 01:21:25 +0000] [3128] [DEBUG] GET /games/SisyphusEscape
+[2016-05-19 01:21:25 +0000] [3129] [DEBUG] GET /games/SisyphusEscape/
+[2016-05-19 01:21:29 +0000] [3128] [DEBUG] GET /analysis/PM-SisyphusEscape
+[2016-05-19 01:21:29 +0000] [3128] [DEBUG] GET /analysis/PM-SisyphusEscape/
+[2016-05-19 01:22:15 +0000] [3129] [DEBUG] GET /
+[2016-05-19 01:22:49 +0000] [3129] [DEBUG] GET /games/AliceAndSchrodinger/
+[2016-05-19 01:22:53 +0000] [3128] [DEBUG] GET /games/SisyphusEscape/
+[2016-05-19 01:22:55 +0000] [3129] [DEBUG] GET /analysis/PM-SisyphusEscape
+[2016-05-19 01:22:56 +0000] [3128] [DEBUG] GET /analysis/PM-SisyphusEscape/
+[2016-05-19 01:23:03 +0000] [3128] [DEBUG] GET /
+[2016-05-19 01:23:03 +0000] [3129] [DEBUG] GET /games/SisyphusEscape
+[2016-05-19 01:23:03 +0000] [3129] [DEBUG] GET /games/SisyphusEscape/
+[2016-05-19 01:23:16 +0000] [3128] [DEBUG] GET /analysis/PM-SisyphusEscape/
+[2016-05-19 01:23:18 +0000] [3128] [DEBUG] GET /games/SisyphusEscape/
+[2016-05-19 01:23:20 +0000] [3129] [DEBUG] GET /analysis/PM-SisyphusEscape/
+[2016-05-19 01:23:23 +0000] [3128] [DEBUG] GET /games/
+[2016-05-19 01:23:34 +0000] [3128] [DEBUG] GET /games/SisyphusEscape/
+[2016-05-19 01:23:46 +0000] [3129] [DEBUG] GET /analysis/PM-SisyphusEscape/
+[2016-05-19 01:24:06 +0000] [3128] [DEBUG] GET /games/SisyphusEscape/
+[2016-05-19 01:24:18 +0000] [3129] [DEBUG] GET /games/SisyphusEscape/
+[2016-05-19 01:24:19 +0000] [3129] [DEBUG] GET /analysis/PM-SisyphusEscape/
+[2016-05-19 01:24:26 +0000] [3128] [DEBUG] GET /games/
+[2016-05-19 01:24:28 +0000] [3129] [DEBUG] GET /games/SisyphusEscape/
+[2016-05-19 02:07:19 +0000] [3129] [DEBUG] GET /resume/
+[2016-05-19 02:23:34 +0000] [3128] [DEBUG] GET /games/SisyphusEscape/
+[2016-05-19 02:23:40 +0000] [3129] [DEBUG] GET /games/SisyphusEscape/
