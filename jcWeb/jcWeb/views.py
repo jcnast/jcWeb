@@ -52,8 +52,7 @@ def getgame(request, gameFile):
 
 	download = True
 	if(game.downloadFile):
-		downloadFile = game.downloadFile
-		downloadFile = str(downloadFile).split('jcWeb', 1)[1]
+		downloadFile = '/media/games/downloadFiles/'+gameFile+'.zip'
 	elif(game.url):
 		downloadFile = game.url
 	else:
