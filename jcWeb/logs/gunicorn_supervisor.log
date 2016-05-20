@@ -23030,3 +23030,180 @@ and the repository exists.
 [2016-05-19 18:44:06 +0000] [10459] [DEBUG] GET /bio/
 [2016-05-19 18:44:12 +0000] [10458] [DEBUG] GET /bio/
 [2016-05-19 19:10:45 +0000] [10459] [DEBUG] GET /
+[2016-05-19 20:54:40 +0000] [10428] [INFO] Handling signal: term
+[2016-05-19 20:54:40 +0000] [10459] [INFO] Worker exiting (pid: 10459)
+/media/games/downloadFiles/SkyPirates.zip
+https://play.google.com/store/apps/details?id=com.UW_GI.qncAliceandSchrodinger&hl=en
+[2016-05-19 20:54:40 +0000] [10458] [INFO] Worker exiting (pid: 10458)
+/media/games/downloadFiles/SisyphusEscape.zip
+[2016-05-19 20:54:40 +0000] [10428] [INFO] Shutting down: Master
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2016-05-19 20:54:42 +0000] [14361] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x76550c30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x76550a30>
+  pre_fork: <function pre_fork at 0x76550b30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x76550970>
+  pre_exec: <function pre_exec at 0x76550f70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x76550d30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x764e1370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x764e1070>
+  post_request: <function post_request at 0x764e10f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x76550df0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x764e11b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x765508b0>
+  worker_abort: <function worker_abort at 0x76550eb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x764e12b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-05-19 20:54:42 +0000] [14361] [INFO] Starting gunicorn 19.4.5
+[2016-05-19 20:54:42 +0000] [14361] [DEBUG] Arbiter booted
+[2016-05-19 20:54:42 +0000] [14361] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (14361)
+[2016-05-19 20:54:42 +0000] [14361] [INFO] Using worker: sync
+[2016-05-19 20:54:42 +0000] [14391] [INFO] Booting worker with pid: 14391
+[2016-05-19 20:54:42 +0000] [14392] [INFO] Booting worker with pid: 14392
+[2016-05-19 20:54:42 +0000] [14361] [DEBUG] 2 workers
+[2016-05-19 20:54:47 +0000] [14392] [DEBUG] GET /games/SkyPirates/
+[2016-05-19 20:55:29 +0000] [14391] [DEBUG] GET /games/
+[2016-05-19 20:55:31 +0000] [14392] [DEBUG] GET /games/SisyphusEscape/
+[2016-05-19 20:59:48 +0000] [14391] [DEBUG] GET /
+[2016-05-19 22:10:34 +0000] [14392] [DEBUG] GET /
+[2016-05-19 23:43:56 +0000] [14391] [DEBUG] GET /testproxy.php
+[2016-05-20 01:40:26 +0000] [14391] [DEBUG] GET /
+[2016-05-20 02:06:23 +0000] [14391] [DEBUG] GET /
+[2016-05-20 10:43:27 +0000] [14392] [DEBUG] GET /
+[2016-05-20 10:43:38 +0000] [14391] [DEBUG] GET /
+[2016-05-20 12:53:56 +0000] [14391] [DEBUG] GET /
+[2016-05-20 12:53:56 +0000] [14392] [DEBUG] GET /
+[2016-05-20 12:54:56 +0000] [14392] [DEBUG] GET /
+[2016-05-20 12:56:26 +0000] [14391] [DEBUG] GET /analysis/ES-MakeAnESport
+[2016-05-20 12:56:26 +0000] [14392] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-05-20 12:56:26 +0000] [14391] [DEBUG] GET /analysis/ES-MakeAnESport
+[2016-05-20 12:56:26 +0000] [14391] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-05-20 13:02:01 +0000] [14392] [DEBUG] GET /analysis/PM-SkyPirates/
+[2016-05-20 13:02:01 +0000] [14391] [DEBUG] GET /analysis/PM-SkyPirates
+[2016-05-20 13:02:01 +0000] [14391] [DEBUG] GET /analysis/PM-SkyPirates/
+[2016-05-20 13:06:58 +0000] [14391] [DEBUG] GET /games/
+[2016-05-20 13:06:59 +0000] [14392] [DEBUG] GET /games
+[2016-05-20 13:06:59 +0000] [14391] [DEBUG] GET /games/
+[2016-05-20 13:07:00 +0000] [14392] [DEBUG] GET /games/QuantumCats/
+[2016-05-20 13:07:00 +0000] [14391] [DEBUG] GET /games/QuantumCats
+[2016-05-20 13:07:00 +0000] [14391] [DEBUG] GET /games/QuantumCats/
+[2016-05-20 13:07:03 +0000] [14392] [DEBUG] GET /games/SkyPirates/
+[2016-05-20 13:07:03 +0000] [14392] [DEBUG] GET /games/SkyPirates
+[2016-05-20 13:07:03 +0000] [14391] [DEBUG] GET /games/SkyPirates/
+[2016-05-20 13:10:26 +0000] [14391] [DEBUG] GET /games/
+[2016-05-20 13:10:44 +0000] [14392] [DEBUG] GET /games/QuantumCats/
+[2016-05-20 13:10:46 +0000] [14391] [DEBUG] GET /analysis/PM-QuantumCats/
+[2016-05-20 13:10:46 +0000] [14392] [DEBUG] GET /analysis/PM-QuantumCats
+[2016-05-20 13:10:46 +0000] [14391] [DEBUG] GET /analysis/PM-QuantumCats/
+[2016-05-20 13:17:55 +0000] [14392] [DEBUG] GET /analysis/
+[2016-05-20 13:17:55 +0000] [14391] [DEBUG] GET /analysis
+[2016-05-20 13:17:55 +0000] [14392] [DEBUG] GET /analysis/
+[2016-05-20 13:17:56 +0000] [14391] [DEBUG] GET /analysis
+[2016-05-20 13:17:56 +0000] [14391] [DEBUG] GET /analysis/
+[2016-05-20 13:17:58 +0000] [14392] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-05-20 13:18:04 +0000] [14391] [DEBUG] GET /analysis
+[2016-05-20 13:18:04 +0000] [14391] [DEBUG] GET /analysis/
+[2016-05-20 13:20:49 +0000] [14392] [DEBUG] GET /bio/
+[2016-05-20 13:20:49 +0000] [14391] [DEBUG] GET /bio
+[2016-05-20 13:20:49 +0000] [14391] [DEBUG] GET /bio/
+[2016-05-20 13:20:54 +0000] [14392] [DEBUG] GET /bio/
+[2016-05-20 13:20:56 +0000] [14392] [DEBUG] GET /resume/
+[2016-05-20 13:20:56 +0000] [14391] [DEBUG] GET /resume
+[2016-05-20 13:20:56 +0000] [14391] [DEBUG] GET /resume/
+[2016-05-20 13:21:23 +0000] [14392] [DEBUG] GET /bio/
+[2016-05-20 13:21:47 +0000] [14391] [DEBUG] GET /
+[2016-05-20 13:21:54 +0000] [14392] [DEBUG] GET /
+[2016-05-20 13:22:00 +0000] [14392] [DEBUG] GET /
+[2016-05-20 13:22:00 +0000] [14391] [DEBUG] GET /
+[2016-05-20 13:22:01 +0000] [14392] [DEBUG] GET /
+[2016-05-20 13:22:02 +0000] [14391] [DEBUG] GET /
+[2016-05-20 13:22:02 +0000] [14391] [DEBUG] GET /
+[2016-05-20 13:22:04 +0000] [14392] [DEBUG] GET /
+[2016-05-20 13:22:05 +0000] [14391] [DEBUG] GET /
+[2016-05-20 13:22:05 +0000] [14392] [DEBUG] GET /
+[2016-05-20 13:22:06 +0000] [14391] [DEBUG] GET /
+[2016-05-20 13:22:06 +0000] [14391] [DEBUG] GET /
+[2016-05-20 13:22:07 +0000] [14392] [DEBUG] GET /
+[2016-05-20 13:22:08 +0000] [14391] [DEBUG] GET /
+[2016-05-20 13:22:08 +0000] [14392] [DEBUG] GET /
+[2016-05-20 13:22:09 +0000] [14391] [DEBUG] GET /
+[2016-05-20 16:57:18 +0000] [14391] [DEBUG] GET /bio/
+[2016-05-20 17:00:03 +0000] [14392] [DEBUG] GET /bio/
+[2016-05-20 17:18:55 +0000] [14391] [DEBUG] HEAD /
+[2016-05-20 17:18:55 +0000] [14391] [DEBUG] Ignoring EPIPE
+[2016-05-20 17:18:55 +0000] [14392] [DEBUG] GET /clientaccesspolicy.xml
+[2016-05-20 17:47:27 +0000] [14391] [DEBUG] GET /bio/
+[2016-05-20 17:56:01 +0000] [14392] [DEBUG] GET /
+[2016-05-20 18:43:39 +0000] [14392] [DEBUG] GET /
+[2016-05-20 18:43:39 +0000] [14391] [DEBUG] GET /
+[2016-05-20 18:43:40 +0000] [14392] [DEBUG] GET /
+[2016-05-20 18:43:40 +0000] [14391] [DEBUG] GET /HNAP1/
+[2016-05-20 18:43:40 +0000] [14392] [DEBUG] GET /HNAP1/
+[2016-05-20 18:43:40 +0000] [14391] [DEBUG] GET /HNAP1/
+[2016-05-20 19:29:42 +0000] [14391] [DEBUG] GET /
+[2016-05-20 19:32:12 +0000] [14392] [DEBUG] GET /
