@@ -1,0 +1,111 @@
+{% extends 'analysis/AnalysisSkin.html' %}
+
+{% block headerHREF1 %}
+/games/SimpleVersus
+{% endblock %}
+{% block header1 %}
+/media/games/SimpleVersus/screenCaps/Stun.png
+{% endblock %}
+{% block headerHREF2 %}
+/games/SimpleVersus
+{% endblock %}
+{% block header2 %}
+/media/games/SimpleVersus/screenCaps/SimpleVersus.png
+{% endblock %}
+{% block headerHREF3 %}
+/games/SimpleVersus
+{% endblock %}
+{% block header3 %}
+/media/games/SimpleVersus/screenCaps/Winner.png
+{% endblock %}
+
+{% block title %}
+<a href="/analysis/series/{{ analysis.series.url }}"><i>Post Mortem:</i></a> <a href='/games/{{ analysis.game.htmlFile }}'><strong>Simple Versus</strong></a>
+{% endblock %}
+
+{% block analysis %}
+<div class='col-xs-12 overview'>
+	<h4><b>Overview</b></h4>
+	<p><i>
+		Simple Versus is a 2D platform arena game where 2 to 4 players compete to be the last one standing. Damage your foes by outmaneuvering them on the platforms and off the walls while shooting them and trying to bounce off their heads. Players can use their ability to jump at varying heights and jump off of walls to avoid and out position their enemies. But don't get too close or you will get stunned, losing control of your character and making yourself vulnerable!
+	</i></p>
+	<p>
+		This game was all hand made using C++ and SDL2 to render graphics and provide a way to handle various window events, such as joysticks and window events. I created this game in less than 4 weeks with no previous experience in SDL, and no previous experience in creating the workings of a game engine. I have plans to update the game, including multiple levels, additional character choices, improved sprites (as well as animations for the background and platforms), and several power-ups.
+	</p>
+</div>
+<div class='col-xs-12 summary'>
+	<h4><b>Summary</b></h4>
+	<ul>
+		<li>Limiting <b>input</b> does not necessarily limit possible <b>mechanics</b></li>
+		<li>A game must have the correct <b>feel</b> to be enjoyable</li>
+		<li>It is important to consider the core game loop <b>before</b> engine development</li>
+		<li>Development should take into consideration <b>future</b> improvements</li>
+	</ul>
+</div>
+<div class='col-xs-12 intentions'>
+	<h4><b>Intentions</b></h4>
+	<p>
+		I wanted to get a better grasp of what went in to a complete game loop and the inner workings of a game engine, such as collision detection, particle systems, and controller input. As I wanted to garner a fuller understanding of each aspect within a game's development, I wanted to limit the various forms of input for the player. However, the goal of the game was to create a full and complete experience for the players. As such, I did my best to provide multiple ways for the player to use each input, and included several interactions for the players to make use of without any input.
+	</p>
+</div>
+<div class="col-xs-12 Controls">
+	<p style="float: right;">
+		<img class="media-object" src='/media/games/SimpleVersus/screenCaps/WallSlide.png' style="width: 175; height: 200; padding-left: 10px; padding-bottom: 10px;">
+	</p>
+	<h4 class="media-heading"><b>Controls</b></h4>
+	<p>
+		To limit the player's input abilities, I restricted the input to the x-axis (using the left joystick), and a singe button input (which can be done using any button). To make the game more complete, and add an important aspect to input decisions, the players can only jump when on the ground, and can only shoot when in the air. However, I also included the ability to jump off walls when moving downwards. Additionally, to include another movement component when in the air, if the player holds in to a wall when in the air, they descend much more slowly - as shown to the right.
+	</p>
+	<p>
+		The general approach to the controls provided to the players was to allow them many methods in which they can use as few inputs as possible. In this regard, I believe I was able to create the smallest possible number of inputs while maintaining the need to consider character commands before issuing them.
+	</p>
+	<h4 class='media-heading' style="text-indent: 20px;"><b>Design Aspect</b></h4>
+	<p style="float: left;">
+  	<img class="media-object" src='/media/games/SimpleVersus/screenCaps/Jump.gif' style=" width: 225px; height: 170px; padding-right: 10px; padding-bottom: 10px;">
+  </p>
+	<p>
+		Due to players being unable to shoot on the ground, the game was initially much more 'floaty' in the early stages of development. As I received more player input, a large portion of the play testers requested that it be much faster so that they could have more options available to them, rather than being 'trapped' when in the air. Additionally, the initial design was that players had to charge their jump in order to jump higher, further reducing the options available to them at each point in time. As such, it was changed so that characters jumped for the duration of the button press (up to a cap), so that players could alter their input in a much smoother manner. The minimum and maximum jump heights are shown to the left.
+	</p>
+	<p style="float: right;">
+		<img class="media-object" src='/media/games/SimpleVersus/screenCaps/HeadStomp.gif' style="width: 225px; height: 200px; padding-left: 10px; padding-bottom: 10px;">
+	</p>
+	<p>
+		Another aspect that was brought forward during testing was the lack of danger in approaching enemy players in order to get a better shot. To counteract this result, and provide another method for the players to interact, I decided to have characters bounce away from one another, and temporarily be uncontrollable, to punish players getting too close. To add some flavour to this interaction, I also made it so that players would do damage to one another if they bounced on the other player's head. While this is a less dangerous interaction when only playing with two players, if there are additional players in the game, having no control over your character opens them up to receive damage for free. This mechanic is shown to the right.
+	</p>
+	<p>
+		Another important aspect of the game was to ensure the players knew what was going on. As such, whenever damage is done blood particles sly away from the impact site. Additionally, players can only take damage once every 0.5 second, and to demonstrate this invulnerability I had the characters flash white, which is a commonly used technique. For characters being uncontrolled, this is demonstrated by a sprite change. Unfortunately, this would be much more obvious with better sprites.
+	</p>
+	<h4 class='media-heading' style="text-indent: 20px;"><b>Engine Development</b></h4>
+	<p>
+		This was my first time developing the interactions typically handled by a game engine. To plan out the interactions, I outlined each type of object that would be included in the game, as well as the interactions and inheritances that would tie them together. Then, I created a class that would be in charge of iterating through the game object and behaving as the middle-man between the objects, updating each of the game objects when needed.
+	</p>
+	<p>
+		An important portion of this design was deciding what was in charge of each interaction. For example, should the player apply damage to itself, or should the object that dealt the damage in charge of applying the damage. In the end, I settled on having the object that caused the interaction be in charge of applying all effects. So, bullets apply the damage to the characters, but the characters are in charge of determining what that damage does to them - such as sprite changes, blood particles and also sounds effects.
+	</p>
+	<p>
+		Due to the rather limited scope of this project, and a limited amount of time for the initial development, the code is not as separated as I would have liked. For example, the character currently render both it's sprite and health bar, whereas in the future I plan on having health bars be their own entity that is owned by the player. The majority of these problems arose due to lack of foresight as to what aspects would be fully required once the game was further along in development.
+	</p>
+</div>
+<div class="col-xs-12 FutureDevelopment Conclusion">
+	<p style="float: left;">
+  	<img class="media-object" src='/media/games/SimpleVersus/screenCaps/WallShoot.png' style="width: 400px; height: 200px; padding-right: 10px; padding-bottom: 10px;">
+  </p>
+	<h4 class="media-heading"><b>Future Development</b></h4>
+	<p>
+		I split the development process up into two portions, the first being having a viable and completed product, and the second is continuous improvements. Having had this in mind when starting development, I created each object in such a way that I can easily add and modify code without having to touch any other objects. Therefore, I have easily been able to plan updates and changes without having to worry about restarting from scratch. I believe this to be very important so it allows the game to be very versatile, and even a base for me to develop entirely separate games on.
+	</p>
+	<p>
+		Some of my future plans are centered at adding versatility to the players. For example, due to the wall jump mechanics, it can often be useful for players to get in a corner and continuously hop and shoot to 'wall out' their enemies. However, by adding options, such as power ups, I can provide the players with options that can potentially reduce the usefulness of this tactic.
+	</p>
+	<p>
+		Some of my plans for future development include: <b>Improved Graphics/ Sounds, Power Ups, Additional Levels, Additional Characters, Improved Particle Systems, Updated Menu/Win Screens</b>
+	</p>
+	<h4><b>Conclusion</b></h4>
+	<p>
+		It is better to think of character controls and game mechanics as separate entities. Controls are the ways in which the player can interact with their character, and game mechanics are how the character can interact with the game. Limiting controls does not necessarily mean limiting the possible mechanics and interactions.
+	</p>
+	<p>
+		It is very important to have a thorough understanding of not only what you want players to get out of the game, but also what you wish to do with the game at later stages. This allows you to more easily make alterations and expand the game without having to make potentially unnecessary alterations to the game code.
+	</p>
+</div>
+{% endblock %}
