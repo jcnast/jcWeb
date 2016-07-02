@@ -1,0 +1,81 @@
+{% extends 'skin.html' %}
+
+{% block headerHREF1 %}
+/analysis/PM-SimpleVersus
+{% endblock %}
+{% block header1 %}
+/media/games/SimpleVersus/screenCaps/Stun.png
+{% endblock %}
+{% block headerHREF2 %}
+/analysis/PM-SimpleVersus
+{% endblock %}
+{% block header2 %}
+/media/games/SimpleVersus/screenCaps/SimpleVersus.png
+{% endblock %}
+{% block headerHREF3 %}
+/analysis/PM-SimpleVersus
+{% endblock %}
+{% block header3 %}
+/media/games/SimpleVersus/screenCaps/Winner.png
+{% endblock %}
+
+{% block content %}
+<!-- Small boxes (Stat box) -->
+<div class='row' style='margin: 0px'>
+	<!-- Intro -->
+	<div class='col-xs-12'>
+		<div class="box box-default">
+			<div class="box-header">
+				<h3 class="box-title"><b>Simple Versus</b></h3>
+				<a target="_blank" href='{{ downloadFile }}' style='padding-left: 10px; font-size: 18px;'><big><b><i class="fa fa-download"></i></b></big></a>
+			</div>
+			<div class="slimScrollDiv" style="position: relative; overflow: hidden; width:">
+				<div class="box-body chat" id="chat-box" style="overflow: hidden;">
+					<div id="lipsum">
+						<div class='row col-xs-12'>
+							<p>
+								Simple Versus is a 2D platform arena game where 2 to 4 players compete to be the last one standing. Damage your foes by outmaneuvering them on the platforms and off the walls while shooting them and trying to bounce off their heads. Players can use their ability to jump at varying heights and jump off of walls to avoid and out position their enemies.
+							</p>
+							<p>
+								This game was all hand made using C++ and SDL2 to render graphics and provide a way to handle various window events, such as joysticks and window events. I created this game in less than 4 weeks with no previous experience in SDL, and no previous experience in creating the workings of a game engine. I have plans to update the game, including multiple levels, additional character choices, improved sprites (as well as animations for the background and platforms), and several power-ups.
+							</p>
+						</div>
+						<div class='row col-xs-12'>
+							<hr>
+							<p>
+								For more information and an analysis of the design/development process, or if you would like to leave any comments about the game, please view the <a href="/analysis/PM-SimpleVersus"><big><b>Simple Versus Post Mortem</b></big></a>.
+							</p>
+						</div>
+						<div class='row col-xs-12'>
+							<hr>
+							<p>
+								<b>Note:</b> The game will spawn a character for the number of joysticks plugged in, with only characters that activate themselves during the main menu being active in the game loop. While characters handle their joysticks being unplugged and plugged in again after they are active, plugging in an originally unplugged controller will not create a new character in the menu, and so the game will need to be restarted to allow the new player to take part.
+							</p>
+							<h5><b>Controls</b></h5>
+							<p style="padding-left: 20px;">
+								<b>Game:</b> Left joystick controls left/right movement, jumping (when on ground) and shooting (when in air) is any button
+							</p>
+							<p style="padding-left: 20px;">
+								<b>Menu:</b> Any button to activate character, hold any button to start game (must have at least two characters active)
+							</p>
+							<p style="padding-left: 20px;">
+								<b>Win Screen:</b> Press any button to return to menu, hold for rematch
+							</p>
+							<h5><b>Supported Devices</b></h5>
+							<p>
+								This game is made for Windows and Linux. Most versions should be supported, however please leave a comment on the  <a href="/analysis/PM-SimpleVersus"><b>Post Mortem</b></a> if it does not work for you so I can try and resolve any issues.
+							</p>
+							<h5><b>Software Used</b></h5>
+							<ul>
+								<li><b>Game Engine:</b> Hand Made using C++ and SDL2 for graphics</li>
+								<li><b>Languages:</b> C++</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
