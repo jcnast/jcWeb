@@ -25610,3 +25610,216 @@ and the repository exists.
 [2016-07-02 21:16:24 +0000] [972] [DEBUG] GET /
 [2016-07-02 22:21:20 +0000] [972] [DEBUG] GET /
 [2016-07-02 22:57:45 +0000] [972] [DEBUG] GET /
+[2016-07-02 23:08:38 +0000] [678] [INFO] Handling signal: term
+[2016-07-02 23:08:38 +0000] [971] [INFO] Worker exiting (pid: 971)
+/media/games/downloadFiles/SkyPirates.zip
+/media/games/downloadFiles/SisyphusEscape.zip
+/media/games/downloadFiles/SkyPirates.zip
+/media/games/downloadFiles/SkyPirates.zip
+/media/games/downloadFiles/SkyPirates.zip
+/media/games/downloadFiles/SkyPirates.zip
+/media/games/downloadFiles/SkyPirates.zip
+/media/games/downloadFiles/SkyPirates.zip
+[2016-07-02 23:08:38 +0000] [972] [INFO] Worker exiting (pid: 972)
+/media/games/downloadFiles/SkyPirates.zip
+/media/games/downloadFiles/SisyphusEscape.zip
+/media/games/downloadFiles/SkyPirates.zip
+/media/games/downloadFiles/SkyPirates.zip
+[2016-07-02 23:08:38 +0000] [678] [INFO] Shutting down: Master
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2016-07-02 23:08:41 +0000] [7938] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x765cdc30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x765cda30>
+  pre_fork: <function pre_fork at 0x765cdb30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x765cd970>
+  pre_exec: <function pre_exec at 0x765cdf70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x765cdd30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7655e370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7655e070>
+  post_request: <function post_request at 0x7655e0f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x765cddf0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7655e1b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x765cd8b0>
+  worker_abort: <function worker_abort at 0x765cdeb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7655e2b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-07-02 23:08:41 +0000] [7938] [INFO] Starting gunicorn 19.4.5
+[2016-07-02 23:08:41 +0000] [7938] [DEBUG] Arbiter booted
+[2016-07-02 23:08:41 +0000] [7938] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (7938)
+[2016-07-02 23:08:41 +0000] [7938] [INFO] Using worker: sync
+[2016-07-02 23:08:41 +0000] [7968] [INFO] Booting worker with pid: 7968
+[2016-07-02 23:08:41 +0000] [7977] [INFO] Booting worker with pid: 7977
+[2016-07-02 23:08:41 +0000] [7938] [DEBUG] 2 workers
+[2016-07-02 23:08:45 +0000] [7977] [DEBUG] GET /
+[2016-07-02 23:09:12 +0000] [7968] [DEBUG] GET /admin
+[2016-07-02 23:09:12 +0000] [7977] [DEBUG] GET /admin/
+[2016-07-02 23:09:12 +0000] [7968] [DEBUG] GET /admin/login/
+[2016-07-02 23:09:13 +0000] [7968] [DEBUG] GET /favicon.ico
+[2016-07-02 23:09:20 +0000] [7977] [DEBUG] POST /admin/login/
+[2016-07-02 23:09:21 +0000] [7977] [DEBUG] GET /admin/
+[2016-07-02 23:09:25 +0000] [7968] [DEBUG] GET /admin/jcWeb/game/add/
+[2016-07-02 23:09:26 +0000] [7977] [DEBUG] GET /admin/jsi18n/
+[2016-07-02 23:10:04 +0000] [7977] [DEBUG] GET /admin
+[2016-07-02 23:10:04 +0000] [7968] [DEBUG] GET /admin/
+[2016-07-02 23:10:04 +0000] [7977] [DEBUG] GET /admin/login/
+[2016-07-02 23:10:04 +0000] [7968] [DEBUG] GET /favicon.ico
+[2016-07-02 23:10:06 +0000] [7977] [DEBUG] POST /admin/login/
+[2016-07-02 23:10:07 +0000] [7977] [DEBUG] GET /admin/
+[2016-07-02 23:10:09 +0000] [7968] [DEBUG] GET /admin/jcWeb/game/add/
+[2016-07-02 23:10:10 +0000] [7977] [DEBUG] GET /admin/jsi18n/
+[2016-07-02 23:10:16 +0000] [7977] [DEBUG] GET /
+[2016-07-02 23:16:55 +0000] [7977] [DEBUG] GET /
+[2016-07-02 23:16:57 +0000] [7968] [DEBUG] GET /
+[2016-07-02 23:17:11 +0000] [7977] [DEBUG] GET /admin/jcWeb/game/add/
+[2016-07-02 23:18:11 +0000] [7968] [DEBUG] GET /admin/jcWeb/game/add/
+[2016-07-02 23:18:11 +0000] [7968] [DEBUG] GET /admin/jsi18n/
+[2016-07-02 23:18:59 +0000] [7977] [DEBUG] POST /admin/jcWeb/game/add/
+[2016-07-02 23:19:20 +0000] [7968] [DEBUG] GET /admin/jcWeb/game/
+[2016-07-02 23:19:20 +0000] [7977] [DEBUG] GET /admin/jsi18n/
+[2016-07-02 23:19:25 +0000] [7968] [DEBUG] GET /
+[2016-07-02 23:19:27 +0000] [7977] [DEBUG] GET /games/SimpleVersus/
+[2016-07-02 23:20:11 +0000] [7977] [DEBUG] GET /admin/jcWeb/
+[2016-07-02 23:20:12 +0000] [7968] [DEBUG] GET /admin/jcWeb/analysis/
+[2016-07-02 23:20:13 +0000] [7977] [DEBUG] GET /admin/jsi18n/
+[2016-07-02 23:20:23 +0000] [7968] [DEBUG] GET /admin/jcWeb/analysis/add/
+[2016-07-02 23:20:23 +0000] [7968] [DEBUG] GET /admin/jsi18n/
+[2016-07-02 23:20:45 +0000] [7977] [DEBUG] POST /admin/jcWeb/analysis/add/
+[2016-07-02 23:20:45 +0000] [7968] [DEBUG] GET /admin/jcWeb/analysis/
+[2016-07-02 23:20:46 +0000] [7977] [DEBUG] GET /admin/jsi18n/
+[2016-07-02 23:20:48 +0000] [7977] [DEBUG] GET /admin/jcWeb/analysis/8/
+[2016-07-02 23:20:49 +0000] [7968] [DEBUG] GET /admin/jsi18n/
+[2016-07-02 23:21:09 +0000] [7977] [DEBUG] POST /admin/jcWeb/analysis/8/
+[2016-07-02 23:21:09 +0000] [7968] [DEBUG] GET /admin/jcWeb/analysis/
+[2016-07-02 23:21:10 +0000] [7968] [DEBUG] GET /admin/jsi18n/
+[2016-07-02 23:21:12 +0000] [7977] [DEBUG] GET /games/SimpleVersus/
+[2016-07-02 23:21:13 +0000] [7977] [DEBUG] GET /analysis/PM-SimpleVersus
+[2016-07-02 23:21:13 +0000] [7968] [DEBUG] GET /analysis/PM-SimpleVersus/
+[2016-07-02 23:22:20 +0000] [7968] [DEBUG] POST /analysis/comment/PM-SimpleVersus/
+[2016-07-02 23:22:21 +0000] [7977] [DEBUG] GET /analysis/PM-SimpleVersus
+[2016-07-02 23:22:21 +0000] [7968] [DEBUG] GET /analysis/PM-SimpleVersus/
+[2016-07-02 23:22:28 +0000] [7977] [DEBUG] GET /analysis/PM-SimpleVersus/
+[2016-07-02 23:22:30 +0000] [7968] [DEBUG] GET /analysis/PM-SimpleVersus/
+[2016-07-02 23:23:19 +0000] [7977] [DEBUG] GET /
+[2016-07-02 23:23:23 +0000] [7968] [DEBUG] GET /
+[2016-07-02 23:23:29 +0000] [7977] [DEBUG] GET /games/SimpleVersus/
+[2016-07-02 23:24:09 +0000] [7968] [DEBUG] GET /games/SimpleVersus/
+[2016-07-02 23:24:23 +0000] [7977] [DEBUG] GET /games/SimpleVersus/
+[2016-07-02 23:24:31 +0000] [7968] [DEBUG] GET /analysis/PM-SimpleVersus/
+[2016-07-02 23:24:33 +0000] [7968] [DEBUG] GET /games/SimpleVersus
+[2016-07-02 23:24:33 +0000] [7977] [DEBUG] GET /games/SimpleVersus/
+[2016-07-02 23:24:36 +0000] [7977] [DEBUG] GET /analysis/PM-SimpleVersus/
+[2016-07-02 23:24:43 +0000] [7968] [DEBUG] GET /
+[2016-07-03 01:05:31 +0000] [7968] [DEBUG] GET /analysis/PM-SimpleVersus/
+[2016-07-03 02:21:46 +0000] [7968] [DEBUG] GET /analysis/PM-SimpleVersus/
+[2016-07-03 05:21:06 +0000] [7977] [DEBUG] GET /wp/wp-login.php
+[2016-07-03 05:27:34 +0000] [7968] [DEBUG] GET /
+[2016-07-03 05:29:33 +0000] [7977] [DEBUG] GET /
+[2016-07-03 05:29:53 +0000] [7968] [DEBUG] GET /
+[2016-07-03 05:29:54 +0000] [7977] [DEBUG] GET /
+[2016-07-03 05:32:11 +0000] [7968] [DEBUG] GET /
+[2016-07-03 05:32:12 +0000] [7968] [DEBUG] GET /
+[2016-07-03 06:15:32 +0000] [7968] [DEBUG] GET /
+[2016-07-03 06:18:57 +0000] [7968] [DEBUG] GET /
+[2016-07-03 06:33:54 +0000] [7977] [DEBUG] GET /
+[2016-07-03 08:21:19 +0000] [7968] [DEBUG] GET /
+[2016-07-03 17:00:15 +0000] [7968] [DEBUG] GET /
+[2016-07-03 17:00:15 +0000] [7977] [DEBUG] GET /
+[2016-07-03 17:00:15 +0000] [7977] [DEBUG] GET /
+[2016-07-03 17:00:15 +0000] [7968] [DEBUG] GET /HNAP1/
+[2016-07-03 17:00:16 +0000] [7968] [DEBUG] GET /HNAP1/
+[2016-07-03 17:00:16 +0000] [7977] [DEBUG] GET /HNAP1/
+[2016-07-03 18:37:47 +0000] [7968] [DEBUG] GET /analysis/PM-SimpleVersus/
+[2016-07-04 01:38:44 +0000] [7977] [DEBUG] GET /
+[2016-07-04 04:10:50 +0000] [7968] [DEBUG] GET /manager/html
+[2016-07-04 06:28:31 +0000] [7968] [DEBUG] GET /robots.txt
+[2016-07-04 06:28:35 +0000] [7977] [DEBUG] GET /
+[2016-07-04 07:36:27 +0000] [7977] [DEBUG] GET /manager/html
+[2016-07-04 10:06:41 +0000] [7977] [DEBUG] GET /
+[2016-07-04 10:06:55 +0000] [7968] [DEBUG] GET /analysis/ES-MakeAnESport
+[2016-07-04 10:06:55 +0000] [7968] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-07-04 10:06:55 +0000] [7977] [DEBUG] GET /analysis/ES-MakeAnESport
+[2016-07-04 10:06:56 +0000] [7968] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-07-04 10:06:56 +0000] [7968] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-07-04 10:07:12 +0000] [7968] [DEBUG] GET /
+[2016-07-04 15:11:17 +0000] [7977] [DEBUG] GET /
+[2016-07-04 15:39:14 +0000] [7977] [DEBUG] GET /games/SimpleVersus/
+[2016-07-04 15:52:06 +0000] [7977] [DEBUG] GET /
+[2016-07-04 15:56:47 +0000] [7968] [DEBUG] GET /games/SimpleVersus/
+[2016-07-04 15:56:49 +0000] [7977] [DEBUG] GET /
+[2016-07-04 16:22:56 +0000] [7968] [DEBUG] GET /
+[2016-07-04 16:26:18 +0000] [7968] [DEBUG] GET /
+[2016-07-04 16:26:26 +0000] [7968] [DEBUG] GET /
+[2016-07-04 18:10:51 +0000] [7968] [DEBUG] GET /
+[2016-07-04 18:52:13 +0000] [7968] [DEBUG] GET /
+[2016-07-04 18:52:14 +0000] [7977] [DEBUG] GET /
+[2016-07-04 18:52:14 +0000] [7968] [DEBUG] GET /
+[2016-07-04 18:52:14 +0000] [7968] [DEBUG] GET /HNAP1/
+[2016-07-04 18:52:14 +0000] [7977] [DEBUG] GET /HNAP1/
+[2016-07-04 18:52:15 +0000] [7977] [DEBUG] GET /HNAP1/
+[2016-07-04 19:47:04 +0000] [7968] [DEBUG] GET /
