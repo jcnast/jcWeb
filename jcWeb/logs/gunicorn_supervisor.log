@@ -25823,3 +25823,2964 @@ and the repository exists.
 [2016-07-04 18:52:14 +0000] [7977] [DEBUG] GET /HNAP1/
 [2016-07-04 18:52:15 +0000] [7977] [DEBUG] GET /HNAP1/
 [2016-07-04 19:47:04 +0000] [7968] [DEBUG] GET /
+[2016-07-04 22:05:48 +0000] [7968] [DEBUG] GET /
+[2016-07-04 22:05:56 +0000] [7938] [INFO] Handling signal: term
+[2016-07-04 22:05:56 +0000] [7977] [INFO] Worker exiting (pid: 7977)
+/media/games/downloadFiles/SimpleVersus.zip
+/media/games/downloadFiles/SimpleVersus.zip
+/media/games/downloadFiles/SimpleVersus.zip
+/media/games/downloadFiles/SimpleVersus.zip
+/media/games/downloadFiles/SimpleVersus.zip
+/media/games/downloadFiles/SimpleVersus.zip
+[2016-07-04 22:05:56 +0000] [7968] [INFO] Worker exiting (pid: 7968)
+/media/games/downloadFiles/SimpleVersus.zip
+/media/games/downloadFiles/SimpleVersus.zip
+[2016-07-04 22:05:56 +0000] [7938] [INFO] Shutting down: Master
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+Warning: Permanently added the RSA host key for IP address '192.30.253.112' to the list of known hosts.
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2016-07-04 22:05:58 +0000] [29472] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x765d3c30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x765d3a30>
+  pre_fork: <function pre_fork at 0x765d3b30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x765d3970>
+  pre_exec: <function pre_exec at 0x765d3f70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x765d3d30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x76564370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x76564070>
+  post_request: <function post_request at 0x765640f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x765d3df0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x765641b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x765d38b0>
+  worker_abort: <function worker_abort at 0x765d3eb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x765642b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-07-04 22:05:58 +0000] [29472] [INFO] Starting gunicorn 19.4.5
+[2016-07-04 22:05:58 +0000] [29472] [DEBUG] Arbiter booted
+[2016-07-04 22:05:58 +0000] [29472] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (29472)
+[2016-07-04 22:05:58 +0000] [29472] [INFO] Using worker: sync
+[2016-07-04 22:05:58 +0000] [29502] [INFO] Booting worker with pid: 29502
+[2016-07-04 22:05:58 +0000] [29511] [INFO] Booting worker with pid: 29511
+[2016-07-04 22:05:58 +0000] [29472] [DEBUG] 2 workers
+[2016-07-04 22:06:00 +0000] [29511] [DEBUG] GET /
+[2016-07-04 22:06:07 +0000] [29502] [DEBUG] GET /resume/
+[2016-07-04 22:06:15 +0000] [29511] [DEBUG] GET /
+[2016-07-04 22:06:36 +0000] [29511] [DEBUG] GET /
+[2016-07-04 22:06:42 +0000] [29502] [DEBUG] GET /games/SimpleVersus/
+[2016-07-04 22:08:00 +0000] [29511] [DEBUG] GET /
+[2016-07-04 23:21:32 +0000] [29502] [DEBUG] GET /
+[2016-07-05 00:58:37 +0000] [29502] [DEBUG] GET /games/SkyPirates/
+[2016-07-05 01:01:35 +0000] [29511] [DEBUG] GET /
+[2016-07-05 01:04:32 +0000] [29502] [DEBUG] GET /analysis/PM-SimpleVersus/
+[2016-07-05 01:34:41 +0000] [29511] [DEBUG] GET /
+[2016-07-05 01:34:50 +0000] [29502] [DEBUG] GET /
+[2016-07-05 01:34:50 +0000] [29502] [DEBUG] GET /
+[2016-07-05 01:34:54 +0000] [29511] [DEBUG] GET /HNAP1/
+[2016-07-05 01:34:54 +0000] [29502] [DEBUG] GET /HNAP1/
+[2016-07-05 01:34:54 +0000] [29511] [DEBUG] GET /HNAP1/
+[2016-07-05 02:25:51 +0000] [29502] [DEBUG] GET /analysis/PM-SimpleVersus/
+[2016-07-05 10:54:17 +0000] [29502] [DEBUG] GET /games/
+[2016-07-05 10:54:17 +0000] [29511] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-07-05 10:54:18 +0000] [29502] [DEBUG] GET /apple-touch-icon.png
+[2016-07-05 10:54:18 +0000] [29511] [DEBUG] GET /games/
+[2016-07-05 10:54:18 +0000] [29502] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-07-05 10:54:18 +0000] [29511] [DEBUG] GET /apple-touch-icon.png
+[2016-07-05 15:43:29 +0000] [29511] [DEBUG] GET /
+[2016-07-05 15:44:42 +0000] [29502] [DEBUG] GET /
+[2016-07-05 16:35:37 +0000] [29511] [DEBUG] GET /
+[2016-07-05 18:46:15 +0000] [29511] [DEBUG] GET /
+[2016-07-05 18:53:44 +0000] [29502] [DEBUG] GET /games/
+[2016-07-05 18:53:46 +0000] [29511] [DEBUG] GET /games/SimpleVersus/
+[2016-07-05 18:57:43 +0000] [29502] [DEBUG] GET /games/SimpleVersus/
+[2016-07-05 18:58:24 +0000] [29511] [DEBUG] GET /
+[2016-07-05 18:58:27 +0000] [29502] [DEBUG] GET /
+[2016-07-05 19:00:14 +0000] [29502] [DEBUG] GET /
+[2016-07-05 19:02:16 +0000] [29502] [DEBUG] GET /games/SimpleVersus/
+[2016-07-05 19:02:24 +0000] [29511] [DEBUG] GET /games/SkyPirates
+[2016-07-05 19:02:24 +0000] [29511] [DEBUG] GET /games/SkyPirates/
+[2016-07-05 19:02:48 +0000] [29502] [DEBUG] GET /analysis/ES-MakeAnESport
+[2016-07-05 19:02:48 +0000] [29511] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-07-05 19:02:59 +0000] [29511] [DEBUG] GET /
+[2016-07-05 19:03:26 +0000] [29502] [DEBUG] GET /games/QuantumCats
+[2016-07-05 19:03:26 +0000] [29511] [DEBUG] GET /games/QuantumCats/
+[2016-07-05 19:03:46 +0000] [29502] [DEBUG] GET /games/SisyphusEscape
+[2016-07-05 19:03:47 +0000] [29511] [DEBUG] GET /games/SisyphusEscape/
+[2016-07-05 19:04:05 +0000] [29502] [DEBUG] GET /games/SkyPirates
+[2016-07-05 19:04:05 +0000] [29511] [DEBUG] GET /games/SkyPirates/
+[2016-07-05 19:04:09 +0000] [29511] [DEBUG] GET /analysis/ES-Coaches
+[2016-07-05 19:04:09 +0000] [29502] [DEBUG] GET /analysis/ES-Coaches/
+[2016-07-05 19:47:14 +0000] [29502] [DEBUG] GET /
+[2016-07-05 20:15:35 +0000] [29511] [DEBUG] GET /hndUnblock.cgi
+[2016-07-05 20:15:35 +0000] [29511] [DEBUG] GET /tmUnblock.cgi
+[2016-07-05 20:15:36 +0000] [29511] [DEBUG] GET /cgi/common.cgi
+[2016-07-05 20:15:36 +0000] [29502] [DEBUG] GET /stssys.htm
+[2016-07-05 20:15:36 +0000] [29502] [DEBUG] GET /
+[2016-07-05 20:15:37 +0000] [29511] [DEBUG] POST /command.php
+[2016-07-05 20:17:28 +0000] [29502] [DEBUG] GET /
+[2016-07-06 01:08:24 +0000] [29511] [DEBUG] GET /ic.asp
+[2016-07-06 01:30:43 +0000] [29502] [DEBUG] GET /
+[2016-07-06 03:01:43 +0000] [29502] [DEBUG] GET /
+[2016-07-06 18:11:25 +0000] [29502] [DEBUG] GET /
+[2016-07-06 18:21:42 +0000] [29502] [DEBUG] GET /
+[2016-07-06 18:41:10 +0000] [29511] [DEBUG] GET /
+[2016-07-06 19:47:23 +0000] [29502] [DEBUG] GET /
+[2016-07-07 01:50:53 +0000] [29502] [DEBUG] GET /
+[2016-07-07 01:50:53 +0000] [29511] [DEBUG] GET /
+[2016-07-07 01:50:53 +0000] [29502] [DEBUG] GET /
+[2016-07-07 01:50:54 +0000] [29502] [DEBUG] GET /HNAP1/
+[2016-07-07 01:50:54 +0000] [29511] [DEBUG] GET /HNAP1/
+[2016-07-07 01:50:54 +0000] [29502] [DEBUG] GET /HNAP1/
+[2016-07-07 01:59:28 +0000] [29502] [DEBUG] GET /
+[2016-07-07 05:42:57 +0000] [29511] [DEBUG] GET /w00tw00t.at.blackhats.romanian.anti-sec:)
+[2016-07-07 05:42:57 +0000] [29511] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2016-07-07 05:42:57 +0000] [29511] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2016-07-07 05:42:57 +0000] [29511] [DEBUG] GET /pma/scripts/setup.php
+[2016-07-07 05:42:57 +0000] [29502] [DEBUG] GET /myadmin/scripts/setup.php
+[2016-07-07 05:42:57 +0000] [29502] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2016-07-07 06:03:38 +0000] [29502] [DEBUG] GET /
+[2016-07-07 06:09:00 +0000] [29511] [DEBUG] GET /
+[2016-07-07 06:43:38 +0000] [29511] [DEBUG] GET /
+[2016-07-07 08:06:53 +0000] [29511] [DEBUG] GET /
+[2016-07-07 16:27:29 +0000] [29502] [DEBUG] GET /
+[2016-07-07 16:27:33 +0000] [29511] [DEBUG] GET /
+[2016-07-07 16:37:38 +0000] [29502] [DEBUG] GET /robots.txt
+[2016-07-07 16:37:42 +0000] [29511] [DEBUG] GET /games/SimpleVersus/
+[2016-07-07 17:11:04 +0000] [29511] [DEBUG] GET /
+[2016-07-07 17:26:22 +0000] [29502] [DEBUG] GET /
+[2016-07-07 18:08:58 +0000] [29502] [DEBUG] GET /robots.txt
+[2016-07-07 18:20:54 +0000] [29511] [DEBUG] GET /
+[2016-07-07 19:04:30 +0000] [29502] [DEBUG] GET /
+[2016-07-08 01:09:04 +0000] [29511] [DEBUG] GET /
+[2016-07-08 01:33:15 +0000] [29502] [DEBUG] GET /
+[2016-07-08 01:33:21 +0000] [29511] [DEBUG] GET /
+[2016-07-08 01:33:32 +0000] [29502] [DEBUG] GET /games/
+[2016-07-08 01:33:34 +0000] [29511] [DEBUG] GET /games/SimpleVersus/
+[2016-07-08 01:33:37 +0000] [29511] [DEBUG] GET /analysis/PM-SimpleVersus
+[2016-07-08 01:33:37 +0000] [29502] [DEBUG] GET /analysis/PM-SimpleVersus/
+[2016-07-08 02:57:42 +0000] [29511] [DEBUG] GET /
+[2016-07-08 06:40:25 +0000] [29502] [DEBUG] GET /check_proxy
+[2016-07-08 06:49:41 +0000] [29511] [DEBUG] GET /
+[2016-07-08 08:41:58 +0000] [29511] [DEBUG] GET /
+[2016-07-08 08:41:59 +0000] [29511] [DEBUG] GET /
+[2016-07-08 08:41:59 +0000] [29502] [DEBUG] GET /
+[2016-07-08 08:41:59 +0000] [29502] [DEBUG] GET /HNAP1/
+[2016-07-08 08:42:00 +0000] [29511] [DEBUG] GET /HNAP1/
+[2016-07-08 08:42:00 +0000] [29511] [DEBUG] GET /HNAP1/
+[2016-07-08 09:20:38 +0000] [29502] [DEBUG] GET /
+[2016-07-08 12:59:32 +0000] [29511] [DEBUG] GET /
+[2016-07-08 12:59:37 +0000] [29511] [DEBUG] GET /
+[2016-07-08 13:00:14 +0000] [29511] [DEBUG] GET /games/
+[2016-07-08 14:32:30 +0000] [29502] [DEBUG] GET /
+[2016-07-08 14:32:30 +0000] [29502] [DEBUG] GET /
+[2016-07-08 14:32:37 +0000] [29511] [DEBUG] GET /games/SkyPirates
+[2016-07-08 14:32:38 +0000] [29511] [DEBUG] GET /games/SkyPirates/
+[2016-07-08 14:32:38 +0000] [29502] [DEBUG] GET /games/SkyPirates
+[2016-07-08 14:32:38 +0000] [29502] [DEBUG] GET /games/SkyPirates/
+[2016-07-08 16:10:00 +0000] [29511] [DEBUG] GET /
+[2016-07-08 16:33:31 +0000] [29511] [DEBUG] GET /
+[2016-07-08 16:49:10 +0000] [29502] [DEBUG] GET /xmlrpc.php
+[2016-07-08 16:54:01 +0000] [29502] [DEBUG] GET /
+[2016-07-08 17:25:53 +0000] [29511] [DEBUG] GET /
+[2016-07-08 20:22:29 +0000] [29511] [DEBUG] GET /
+[2016-07-08 20:22:29 +0000] [29502] [DEBUG] GET /
+[2016-07-08 20:22:30 +0000] [29502] [DEBUG] GET /
+[2016-07-08 20:22:30 +0000] [29511] [DEBUG] GET /HNAP1/
+[2016-07-08 20:22:30 +0000] [29502] [DEBUG] GET /HNAP1/
+[2016-07-08 20:22:31 +0000] [29511] [DEBUG] GET /HNAP1/
+[2016-07-09 03:02:28 +0000] [29511] [DEBUG] GET /
+[2016-07-09 06:47:07 +0000] [29511] [DEBUG] GET /
+[2016-07-09 12:24:16 +0000] [29502] [DEBUG] GET /games/
+[2016-07-09 12:24:17 +0000] [29511] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-07-09 12:24:19 +0000] [29502] [DEBUG] GET /apple-touch-icon.png
+[2016-07-09 12:24:19 +0000] [29511] [DEBUG] GET /games/
+[2016-07-09 12:24:19 +0000] [29502] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-07-09 12:24:20 +0000] [29511] [DEBUG] GET /apple-touch-icon.png
+[2016-07-09 15:52:20 +0000] [29511] [DEBUG] GET /
+[2016-07-09 17:14:36 +0000] [29511] [DEBUG] GET /robots.txt
+[2016-07-09 19:18:35 +0000] [29511] [DEBUG] GET /
+[2016-07-09 19:19:11 +0000] [29502] [DEBUG] GET /
+[2016-07-09 19:20:21 +0000] [29502] [DEBUG] GET /
+[2016-07-09 22:50:40 +0000] [29511] [DEBUG] GET /clientaccesspolicy.xml
+[2016-07-10 02:17:21 +0000] [29502] [DEBUG] GET /
+[2016-07-10 03:58:29 +0000] [29511] [DEBUG] GET /
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2016-07-10 10:17:10 +0000] [703] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7663ac30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7663aa30>
+  pre_fork: <function pre_fork at 0x7663ab30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7663a970>
+  pre_exec: <function pre_exec at 0x7663af70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7663ad30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x765cb370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x765cb070>
+  post_request: <function post_request at 0x765cb0f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7663adf0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x765cb1b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7663a8b0>
+  worker_abort: <function worker_abort at 0x7663aeb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x765cb2b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-07-10 10:17:10 +0000] [703] [INFO] Starting gunicorn 19.4.5
+[2016-07-10 10:17:10 +0000] [703] [DEBUG] Arbiter booted
+[2016-07-10 10:17:10 +0000] [703] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (703)
+[2016-07-10 10:17:10 +0000] [703] [INFO] Using worker: sync
+[2016-07-10 10:17:10 +0000] [813] [INFO] Booting worker with pid: 813
+[2016-07-10 10:17:10 +0000] [814] [INFO] Booting worker with pid: 814
+[2016-07-10 10:17:10 +0000] [703] [DEBUG] 2 workers
+[2016-07-10 10:22:50 +0000] [703] [CRITICAL] WORKER TIMEOUT (pid:813)
+[2016-07-10 10:22:50 +0000] [703] [CRITICAL] WORKER TIMEOUT (pid:814)
+[2016-07-10 10:22:50 +0000] [814] [INFO] Worker exiting (pid: 814)
+[2016-07-10 10:22:50 +0000] [813] [INFO] Worker exiting (pid: 813)
+[2016-07-10 10:22:50 +0000] [703] [DEBUG] 1 workers
+[2016-07-10 10:22:50 +0000] [1109] [INFO] Booting worker with pid: 1109
+[2016-07-10 10:22:50 +0000] [1110] [INFO] Booting worker with pid: 1110
+[2016-07-10 10:22:50 +0000] [703] [DEBUG] 2 workers
+[2016-07-10 15:25:34 +0000] [1109] [DEBUG] GET /
+[2016-07-10 17:32:22 +0000] [1109] [DEBUG] GET /
+[2016-07-10 17:33:50 +0000] [1110] [DEBUG] GET /resume
+[2016-07-10 17:33:50 +0000] [1109] [DEBUG] GET /resume/
+[2016-07-10 21:28:03 +0000] [1109] [DEBUG] GET /
+[2016-07-10 21:28:25 +0000] [1110] [DEBUG] GET /resume/
+[2016-07-10 21:33:16 +0000] [1110] [DEBUG] GET /
+[2016-07-10 21:33:48 +0000] [1109] [DEBUG] GET /
+[2016-07-11 00:24:03 +0000] [1109] [DEBUG] GET /
+[2016-07-11 00:24:03 +0000] [1110] [DEBUG] GET /
+[2016-07-11 00:24:03 +0000] [1110] [DEBUG] GET /
+[2016-07-11 00:24:04 +0000] [1109] [DEBUG] GET /HNAP1/
+[2016-07-11 00:24:04 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-11 00:24:04 +0000] [1109] [DEBUG] GET /HNAP1/
+[2016-07-11 06:21:53 +0000] [1110] [DEBUG] GET /xmlrpc.php
+[2016-07-11 08:43:50 +0000] [1110] [DEBUG] GET /manager/html
+[2016-07-11 15:36:29 +0000] [1110] [DEBUG] GET /
+[2016-07-11 15:55:02 +0000] [1109] [DEBUG] GET /
+[2016-07-11 15:55:05 +0000] [1110] [DEBUG] GET /
+[2016-07-11 15:55:08 +0000] [1109] [DEBUG] GET /analysis/
+[2016-07-11 15:55:10 +0000] [1110] [DEBUG] GET /analysis/ES-Coaches
+[2016-07-11 15:55:10 +0000] [1110] [DEBUG] GET /analysis/ES-Coaches/
+[2016-07-11 15:55:13 +0000] [1109] [DEBUG] GET /analysis/ES-MakeAnESport
+[2016-07-11 15:55:13 +0000] [1110] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-07-11 15:55:17 +0000] [1109] [DEBUG] GET /analysis/series/PostMortem
+[2016-07-11 15:55:17 +0000] [1110] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-11 15:55:19 +0000] [1109] [DEBUG] GET /analysis/PM-SisyphusEscape
+[2016-07-11 15:55:19 +0000] [1110] [DEBUG] GET /analysis/PM-SisyphusEscape/
+[2016-07-11 15:55:23 +0000] [1110] [DEBUG] GET /analysis/PM-SkyPirates
+[2016-07-11 15:55:23 +0000] [1110] [DEBUG] GET /analysis/PM-SkyPirates/
+[2016-07-11 15:55:25 +0000] [1110] [DEBUG] GET /analysis/PM-QuantumCats
+[2016-07-11 15:55:25 +0000] [1110] [DEBUG] GET /analysis/PM-QuantumCats/
+[2016-07-11 15:55:27 +0000] [1110] [DEBUG] GET /analysis/PM-AliceAndSchrodinger
+[2016-07-11 15:55:27 +0000] [1109] [DEBUG] GET /analysis/PM-AliceAndSchrodinger/
+[2016-07-11 15:55:31 +0000] [1110] [DEBUG] GET /analysis/PM-SimpleVersus
+[2016-07-11 15:55:31 +0000] [1109] [DEBUG] GET /analysis/PM-SimpleVersus/
+[2016-07-11 15:55:37 +0000] [1110] [DEBUG] GET /
+[2016-07-11 18:23:29 +0000] [1110] [DEBUG] GET /
+[2016-07-11 18:23:40 +0000] [1109] [DEBUG] GET /games/SisyphusEscape
+[2016-07-11 18:23:40 +0000] [1110] [DEBUG] GET /games/SisyphusEscape/
+[2016-07-11 18:26:32 +0000] [1110] [DEBUG] GET /
+[2016-07-11 18:27:30 +0000] [1109] [DEBUG] GET /games/SimpleVersus/
+[2016-07-11 18:28:46 +0000] [1110] [DEBUG] GET /analysis/PM-SimpleVersus
+[2016-07-11 18:28:46 +0000] [1109] [DEBUG] GET /analysis/PM-SimpleVersus/
+[2016-07-11 18:36:13 +0000] [1109] [DEBUG] GET /games/SimpleVersus/
+[2016-07-11 18:36:21 +0000] [1110] [DEBUG] GET /
+[2016-07-11 18:37:25 +0000] [1110] [DEBUG] GET /
+[2016-07-11 18:37:54 +0000] [1109] [DEBUG] GET /games/SisyphusEscape/
+[2016-07-11 18:38:40 +0000] [1110] [DEBUG] GET /analysis/PM-SisyphusEscape
+[2016-07-11 18:38:40 +0000] [1109] [DEBUG] GET /analysis/PM-SisyphusEscape/
+[2016-07-11 18:47:12 +0000] [1110] [DEBUG] GET /games/SkyPirates/
+[2016-07-11 18:47:49 +0000] [1109] [DEBUG] GET /analysis/PM-SkyPirates
+[2016-07-11 18:47:49 +0000] [1110] [DEBUG] GET /analysis/PM-SkyPirates/
+[2016-07-11 19:27:04 +0000] [1110] [DEBUG] GET /robots.txt
+[2016-07-11 20:38:41 +0000] [1109] [DEBUG] GET /
+[2016-07-11 20:56:50 +0000] [1109] [DEBUG] GET /
+[2016-07-11 20:57:01 +0000] [1110] [DEBUG] GET /bio/
+[2016-07-11 20:57:46 +0000] [1109] [DEBUG] GET /bio/
+[2016-07-11 20:57:53 +0000] [1110] [DEBUG] GET /bio/
+[2016-07-11 20:57:54 +0000] [1110] [DEBUG] GET /resume/
+[2016-07-11 20:58:48 +0000] [1109] [DEBUG] GET /games/
+[2016-07-11 21:59:21 +0000] [1110] [DEBUG] GET /
+[2016-07-11 21:59:25 +0000] [1109] [DEBUG] GET /games/SimpleVersus/
+[2016-07-11 21:59:30 +0000] [1110] [DEBUG] GET /games/SimpleVersus/
+[2016-07-11 23:20:00 +0000] [1110] [DEBUG] GET /
+[2016-07-11 23:20:00 +0000] [1110] [DEBUG] GET /robots.txt
+[2016-07-11 23:20:00 +0000] [1109] [DEBUG] GET /sitemap.xml
+[2016-07-12 00:01:27 +0000] [1110] [DEBUG] GET /clientaccesspolicy.xml
+[2016-07-12 00:23:09 +0000] [1110] [DEBUG] HEAD /
+[2016-07-12 00:23:09 +0000] [1110] [DEBUG] Ignoring EPIPE
+[2016-07-12 00:23:09 +0000] [1110] [DEBUG] GET /clientaccesspolicy.xml
+[2016-07-12 00:25:01 +0000] [1109] [DEBUG] GET /
+[2016-07-12 01:21:08 +0000] [1109] [DEBUG] GET /bio/
+[2016-07-12 01:23:17 +0000] [1110] [DEBUG] GET /games/AliceAndSchrodinger/
+[2016-07-12 01:26:05 +0000] [1110] [DEBUG] GET /analysis/PM-QuantumCats/
+[2016-07-12 01:28:10 +0000] [1109] [DEBUG] GET /resume/
+[2016-07-12 04:08:43 +0000] [1109] [DEBUG] GET /
+[2016-07-12 12:33:52 +0000] [1110] [DEBUG] GET /
+[2016-07-12 12:33:52 +0000] [1109] [DEBUG] GET /
+[2016-07-12 12:33:53 +0000] [1109] [DEBUG] GET /
+[2016-07-12 12:33:53 +0000] [1109] [DEBUG] GET /HNAP1/
+[2016-07-12 12:33:53 +0000] [1109] [DEBUG] GET /HNAP1/
+[2016-07-12 12:33:53 +0000] [1109] [DEBUG] GET /HNAP1/
+[2016-07-12 13:10:16 +0000] [1110] [DEBUG] GET /
+[2016-07-12 13:10:16 +0000] [1109] [DEBUG] GET /
+[2016-07-12 13:10:17 +0000] [1109] [DEBUG] GET /
+[2016-07-12 13:10:17 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-12 13:10:17 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-12 13:10:18 +0000] [1109] [DEBUG] GET /HNAP1/
+[2016-07-12 14:35:19 +0000] [1109] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-12 14:58:01 +0000] [1109] [DEBUG] GET /
+[2016-07-12 14:58:11 +0000] [1110] [DEBUG] GET /games/QuantumCats
+[2016-07-12 14:58:11 +0000] [1110] [DEBUG] GET /games/QuantumCats/
+[2016-07-12 14:58:29 +0000] [1109] [DEBUG] GET /games/SkyPirates
+[2016-07-12 14:58:30 +0000] [1109] [DEBUG] GET /games/SkyPirates/
+[2016-07-12 15:10:18 +0000] [1109] [DEBUG] GET /analysis/PM-SkyPirates
+[2016-07-12 15:10:18 +0000] [1110] [DEBUG] GET /analysis/PM-SkyPirates/
+[2016-07-12 16:48:37 +0000] [1109] [DEBUG] GET /
+[2016-07-12 16:48:53 +0000] [1109] [DEBUG] GET /bio/
+[2016-07-12 16:51:22 +0000] [1110] [DEBUG] GET /
+[2016-07-12 16:51:33 +0000] [1109] [DEBUG] GET /resume
+[2016-07-12 16:51:33 +0000] [1110] [DEBUG] GET /resume/
+[2016-07-12 17:16:29 +0000] [1109] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-12 17:27:35 +0000] [1110] [DEBUG] GET /
+[2016-07-12 18:47:23 +0000] [1109] [DEBUG] GET /
+[2016-07-12 19:47:20 +0000] [1110] [DEBUG] GET /robots.txt
+[2016-07-12 19:47:20 +0000] [1109] [DEBUG] GET /
+[2016-07-12 21:55:48 +0000] [1109] [DEBUG] GET /
+[2016-07-12 22:52:11 +0000] [1109] [DEBUG] GET /
+[2016-07-12 22:52:20 +0000] [1110] [DEBUG] GET /games/QuantumCats
+[2016-07-12 22:52:21 +0000] [1109] [DEBUG] GET /games/QuantumCats/
+[2016-07-12 23:44:05 +0000] [1109] [DEBUG] HEAD /
+[2016-07-12 23:44:05 +0000] [1109] [DEBUG] Ignoring EPIPE
+[2016-07-12 23:44:05 +0000] [1110] [DEBUG] GET /clientaccesspolicy.xml
+[2016-07-13 00:30:50 +0000] [1110] [DEBUG] GET /wp-content/plugins/mailpress/mp-includes/action.php
+[2016-07-13 10:20:25 +0000] [1109] [DEBUG] GET /
+[2016-07-13 12:16:34 +0000] [1109] [DEBUG] GET /
+[2016-07-13 15:53:26 +0000] [1109] [DEBUG] GET /
+[2016-07-13 15:53:26 +0000] [1110] [DEBUG] GET /
+[2016-07-13 15:53:26 +0000] [1109] [DEBUG] GET /
+[2016-07-13 15:53:27 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-13 15:53:27 +0000] [1109] [DEBUG] GET /HNAP1/
+[2016-07-13 15:53:27 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-13 21:59:23 +0000] [1110] [DEBUG] GET /
+[2016-07-13 22:07:03 +0000] [1110] [DEBUG] GET /games/
+[2016-07-13 22:07:03 +0000] [1110] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-07-13 22:07:03 +0000] [1109] [DEBUG] GET /apple-touch-icon.png
+[2016-07-13 22:07:03 +0000] [1109] [DEBUG] GET /games/
+[2016-07-13 22:07:03 +0000] [1109] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-07-13 22:07:03 +0000] [1109] [DEBUG] GET /apple-touch-icon.png
+[2016-07-14 01:35:55 +0000] [1109] [DEBUG] GET /
+[2016-07-14 02:27:22 +0000] [1109] [DEBUG] GET /
+[2016-07-14 06:14:21 +0000] [1110] [DEBUG] GET /
+[2016-07-14 06:40:04 +0000] [1110] [DEBUG] GET /nagiosxi/
+[2016-07-14 08:49:26 +0000] [1109] [DEBUG] GET /
+[2016-07-14 08:49:39 +0000] [1110] [DEBUG] HEAD /
+[2016-07-14 08:49:39 +0000] [1110] [DEBUG] Ignoring EPIPE
+[2016-07-14 08:49:40 +0000] [1109] [DEBUG] GET /
+[2016-07-14 11:54:53 +0000] [1110] [DEBUG] GET /phpMyAdmin
+[2016-07-14 14:44:47 +0000] [1110] [DEBUG] HEAD /
+[2016-07-14 14:44:47 +0000] [1110] [DEBUG] Ignoring EPIPE
+[2016-07-14 15:54:27 +0000] [1109] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-14 16:15:29 +0000] [1110] [DEBUG] GET /
+[2016-07-14 16:27:55 +0000] [1110] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-14 16:40:35 +0000] [1109] [DEBUG] GET /
+[2016-07-14 17:03:15 +0000] [1110] [DEBUG] GET /
+[2016-07-14 17:03:25 +0000] [1109] [DEBUG] GET /games/
+[2016-07-14 17:03:28 +0000] [1110] [DEBUG] GET /bio/
+[2016-07-14 17:46:13 +0000] [1109] [DEBUG] GET /check_proxy
+[2016-07-14 18:12:47 +0000] [1110] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-14 19:24:46 +0000] [1110] [DEBUG] GET /
+[2016-07-14 21:09:22 +0000] [1109] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-14 21:38:42 +0000] [1109] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-15 08:54:25 +0000] [1109] [DEBUG] GET /
+[2016-07-15 08:54:25 +0000] [1109] [DEBUG] GET /
+[2016-07-15 08:54:26 +0000] [1110] [DEBUG] GET /
+[2016-07-15 08:54:26 +0000] [1109] [DEBUG] GET /HNAP1/
+[2016-07-15 08:54:26 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-15 08:54:27 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-15 15:39:42 +0000] [1110] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-15 18:09:36 +0000] [1110] [DEBUG] GET /clientaccesspolicy.xml
+[2016-07-15 19:52:45 +0000] [1110] [DEBUG] GET /games/QuantumCats/
+[2016-07-15 20:37:54 +0000] [1109] [DEBUG] GET /
+[2016-07-15 20:57:04 +0000] [1109] [DEBUG] GET /hndUnblock.cgi
+[2016-07-15 20:57:04 +0000] [1110] [DEBUG] GET /tmUnblock.cgi
+[2016-07-15 20:57:04 +0000] [1109] [DEBUG] GET /cgi/common.cgi
+[2016-07-15 20:57:05 +0000] [1110] [DEBUG] GET /stssys.htm
+[2016-07-15 20:57:05 +0000] [1110] [DEBUG] GET /
+[2016-07-15 20:57:05 +0000] [1109] [DEBUG] POST /command.php
+[2016-07-16 07:02:49 +0000] [1109] [DEBUG] GET /manager/html
+[2016-07-16 13:54:05 +0000] [1109] [DEBUG] GET /
+[2016-07-16 13:54:05 +0000] [1110] [DEBUG] GET /
+[2016-07-16 13:54:05 +0000] [1110] [DEBUG] GET /
+[2016-07-16 13:54:06 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-16 13:54:06 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-16 13:54:06 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-16 16:08:48 +0000] [1110] [DEBUG] GET /
+[2016-07-16 16:18:29 +0000] [1109] [DEBUG] GET /
+[2016-07-16 16:43:49 +0000] [1110] [DEBUG] GET /
+[2016-07-16 20:24:40 +0000] [1110] [DEBUG] GET /
+[2016-07-17 02:23:52 +0000] [1109] [DEBUG] GET /manager/html
+[2016-07-17 04:35:07 +0000] [1109] [DEBUG] GET /manager/html
+[2016-07-17 16:36:26 +0000] [1109] [DEBUG] GET /
+[2016-07-17 19:15:35 +0000] [1109] [DEBUG] GET /
+[2016-07-17 22:01:26 +0000] [1109] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-17 22:02:32 +0000] [1110] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-18 00:13:53 +0000] [1110] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-18 02:47:11 +0000] [1110] [DEBUG] GET /
+[2016-07-18 02:47:11 +0000] [1110] [DEBUG] GET /
+[2016-07-18 02:47:11 +0000] [1109] [DEBUG] GET /
+[2016-07-18 02:47:12 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-18 02:47:12 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-18 02:47:12 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-18 04:13:29 +0000] [1109] [DEBUG] GET /
+[2016-07-18 04:13:29 +0000] [1110] [DEBUG] HEAD /redirect.php
+[2016-07-18 04:13:29 +0000] [1110] [DEBUG] Ignoring EPIPE
+[2016-07-18 07:46:07 +0000] [1110] [DEBUG] GET /
+[2016-07-18 13:23:19 +0000] [1110] [DEBUG] GET /
+[2016-07-18 13:30:55 +0000] [1110] [DEBUG] GET /phpMyAdmin
+[2016-07-18 14:03:35 +0000] [1109] [DEBUG] GET /manager/html
+[2016-07-18 15:39:03 +0000] [1109] [DEBUG] GET /
+[2016-07-18 15:39:28 +0000] [1110] [DEBUG] GET /games/QuantumCats/
+[2016-07-18 15:46:04 +0000] [1110] [DEBUG] GET /w00tw00t.at.blackhats.romanian.anti-sec:)
+[2016-07-18 15:46:04 +0000] [1109] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2016-07-18 15:46:04 +0000] [1109] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2016-07-18 15:46:04 +0000] [1110] [DEBUG] GET /pma/scripts/setup.php
+[2016-07-18 15:46:05 +0000] [1109] [DEBUG] GET /myadmin/scripts/setup.php
+[2016-07-18 15:46:05 +0000] [1109] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2016-07-18 17:32:33 +0000] [1109] [DEBUG] GET /
+[2016-07-18 18:06:17 +0000] [1110] [DEBUG] GET /
+[2016-07-18 18:06:41 +0000] [1109] [DEBUG] GET /resume/
+[2016-07-18 18:17:34 +0000] [1110] [DEBUG] GET /games/
+[2016-07-18 19:39:31 +0000] [1110] [DEBUG] GET /resume/
+[2016-07-18 19:43:11 +0000] [1110] [DEBUG] GET /games/
+[2016-07-18 20:15:34 +0000] [1110] [DEBUG] GET /etc/lib/pChart2/examples/index.php
+[2016-07-18 22:35:58 +0000] [1110] [DEBUG] GET /games/
+[2016-07-18 23:18:42 +0000] [1109] [DEBUG] GET /manager/html
+[2016-07-18 23:51:22 +0000] [1110] [DEBUG] GET /games/
+[2016-07-18 23:51:22 +0000] [1109] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-07-18 23:51:26 +0000] [1110] [DEBUG] GET /apple-touch-icon.png
+[2016-07-18 23:51:26 +0000] [1109] [DEBUG] GET /games/
+[2016-07-18 23:51:26 +0000] [1110] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-07-18 23:51:26 +0000] [1109] [DEBUG] GET /apple-touch-icon.png
+[2016-07-19 02:28:22 +0000] [1109] [DEBUG] POST /login.action
+[2016-07-19 03:28:27 +0000] [1110] [DEBUG] HEAD /
+[2016-07-19 03:28:27 +0000] [1110] [DEBUG] Ignoring EPIPE
+[2016-07-19 03:28:27 +0000] [1109] [DEBUG] GET /clientaccesspolicy.xml
+[2016-07-19 06:46:24 +0000] [1109] [DEBUG] GET /
+[2016-07-19 11:03:18 +0000] [1110] [DEBUG] GET /
+[2016-07-19 11:37:47 +0000] [1109] [DEBUG] GET /robots.txt
+[2016-07-19 11:37:51 +0000] [1110] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-19 11:55:36 +0000] [1110] [DEBUG] GET /
+[2016-07-19 12:44:10 +0000] [1109] [DEBUG] GET /games/SimpleVersus/
+[2016-07-19 12:56:30 +0000] [1110] [DEBUG] GET /
+[2016-07-19 12:56:31 +0000] [1109] [DEBUG] GET /
+[2016-07-19 12:56:40 +0000] [1110] [DEBUG] GET /
+[2016-07-19 13:48:42 +0000] [1109] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-07-19 13:51:54 +0000] [1110] [DEBUG] GET /games/SisyphusEscape/
+[2016-07-19 13:54:12 +0000] [1110] [DEBUG] GET /analysis/PM-SkyPirates/
+[2016-07-19 13:56:33 +0000] [1109] [DEBUG] GET /games/AliceAndSchrodinger/
+[2016-07-19 13:58:59 +0000] [1110] [DEBUG] GET /games/
+[2016-07-19 14:01:04 +0000] [1110] [DEBUG] GET /analysis/PM-QuantumCats/
+[2016-07-19 14:36:50 +0000] [1109] [DEBUG] GET /games/SkyPirates/
+[2016-07-19 16:04:52 +0000] [1110] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-19 17:21:43 +0000] [1110] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-19 17:23:06 +0000] [1109] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-19 17:33:31 +0000] [1109] [DEBUG] GET /
+[2016-07-19 17:38:40 +0000] [1110] [DEBUG] GET /bio/
+[2016-07-19 17:40:45 +0000] [1110] [DEBUG] GET /analysis/
+[2016-07-19 18:35:11 +0000] [1109] [DEBUG] GET /resume/
+[2016-07-19 18:40:22 +0000] [1110] [DEBUG] GET /%22%3E%3Cscript%20src%3Dhttps%3A%2F%2Fu.xss.ht%3E%3C%2Fscript%3E
+[2016-07-19 19:09:00 +0000] [1110] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-19 19:18:45 +0000] [1109] [DEBUG] GET /
+[2016-07-19 20:01:18 +0000] [1110] [DEBUG] GET /
+[2016-07-19 20:01:18 +0000] [1109] [DEBUG] GET /
+[2016-07-19 20:01:19 +0000] [1109] [DEBUG] GET /
+[2016-07-19 20:01:19 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-19 20:01:19 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-19 20:01:20 +0000] [1109] [DEBUG] GET /HNAP1/
+[2016-07-20 00:13:38 +0000] [1109] [DEBUG] GET /
+[2016-07-20 01:29:19 +0000] [1110] [DEBUG] GET /
+[2016-07-20 01:43:53 +0000] [1110] [DEBUG] GET /games/
+[2016-07-20 02:22:33 +0000] [1110] [DEBUG] GET /games/
+[2016-07-20 06:42:15 +0000] [1109] [DEBUG] GET /
+[2016-07-20 09:14:52 +0000] [1109] [DEBUG] GET /robots.txt
+[2016-07-20 10:34:12 +0000] [1110] [DEBUG] GET /
+[2016-07-20 12:01:39 +0000] [1110] [DEBUG] GET /analysis/PM-AliceAndSchrodinger/
+[2016-07-20 16:04:08 +0000] [1109] [DEBUG] GET /
+[2016-07-20 16:04:08 +0000] [1110] [DEBUG] GET /
+[2016-07-20 16:04:09 +0000] [1110] [DEBUG] GET /
+[2016-07-20 16:04:09 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-20 16:04:09 +0000] [1109] [DEBUG] GET /HNAP1/
+[2016-07-20 16:04:10 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-20 16:39:18 +0000] [1110] [DEBUG] GET /bio/
+[2016-07-20 16:47:58 +0000] [1110] [DEBUG] GET /resume/
+[2016-07-20 16:48:02 +0000] [1109] [DEBUG] GET /resume/
+[2016-07-20 16:48:03 +0000] [1110] [DEBUG] GET /bio/
+[2016-07-20 17:19:37 +0000] [1110] [DEBUG] GET /robots.txt
+[2016-07-20 17:19:38 +0000] [1109] [DEBUG] GET /
+[2016-07-20 17:24:48 +0000] [1109] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-20 18:13:18 +0000] [1109] [DEBUG] GET /
+[2016-07-20 18:13:18 +0000] [1110] [DEBUG] GET /
+[2016-07-20 18:13:54 +0000] [1110] [DEBUG] GET /resume/
+[2016-07-20 18:13:54 +0000] [1109] [DEBUG] GET /resume
+[2016-07-20 18:13:54 +0000] [1110] [DEBUG] GET /resume/
+[2016-07-20 18:16:29 +0000] [1109] [DEBUG] GET /
+[2016-07-20 18:16:33 +0000] [1110] [DEBUG] GET /
+[2016-07-20 21:46:47 +0000] [1110] [DEBUG] GET /xmlrpc.php
+[2016-07-20 23:52:41 +0000] [1110] [DEBUG] GET /bio/
+[2016-07-21 07:41:54 +0000] [1109] [DEBUG] GET /
+[2016-07-21 14:35:38 +0000] [1110] [DEBUG] GET /
+[2016-07-21 14:54:48 +0000] [1109] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-21 17:27:13 +0000] [1109] [DEBUG] GET /
+[2016-07-21 18:13:22 +0000] [1110] [DEBUG] GET /check_proxy
+[2016-07-21 20:07:45 +0000] [1110] [DEBUG] GET /
+[2016-07-21 20:07:45 +0000] [1110] [DEBUG] GET /
+[2016-07-21 20:07:45 +0000] [1109] [DEBUG] GET /
+[2016-07-21 20:07:45 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-21 20:07:45 +0000] [1109] [DEBUG] GET /HNAP1/
+[2016-07-21 20:07:45 +0000] [1109] [DEBUG] GET /HNAP1/
+[2016-07-21 20:43:26 +0000] [1109] [DEBUG] GET /bio/
+[2016-07-21 20:53:08 +0000] [1110] [DEBUG] GET /
+[2016-07-21 21:34:50 +0000] [1110] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2016-07-21 21:36:25 +0000] [1110] [DEBUG] GET /bio/
+[2016-07-22 02:48:01 +0000] [1109] [DEBUG] GET /
+[2016-07-22 02:48:07 +0000] [1110] [DEBUG] GET /
+[2016-07-22 07:54:08 +0000] [1110] [DEBUG] HEAD /
+[2016-07-22 07:54:09 +0000] [1110] [DEBUG] Ignoring EPIPE
+[2016-07-22 07:54:09 +0000] [1109] [DEBUG] GET /
+[2016-07-22 10:40:53 +0000] [1109] [DEBUG] GET /
+[2016-07-22 10:40:54 +0000] [1110] [DEBUG] GET /
+[2016-07-22 10:40:54 +0000] [1109] [DEBUG] GET /
+[2016-07-22 10:40:54 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-22 10:40:55 +0000] [1110] [DEBUG] GET /HNAP1/
+[2016-07-22 10:40:55 +0000] [1109] [DEBUG] GET /HNAP1/
+[2016-07-22 13:39:42 +0000] [1109] [DEBUG] GET /bio/
+[2016-07-22 13:40:50 +0000] [1109] [DEBUG] GET /bio/
+[2016-07-22 13:53:50 +0000] [1109] [DEBUG] GET /
+[2016-07-22 15:19:50 +0000] [1110] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-22 17:15:18 +0000] [1110] [DEBUG] GET /
+[2016-07-22 17:33:21 +0000] [1110] [DEBUG] HEAD /
+[2016-07-22 17:33:21 +0000] [1110] [DEBUG] Ignoring EPIPE
+[2016-07-22 17:33:21 +0000] [1109] [DEBUG] GET /clientaccesspolicy.xml
+[2016-07-22 18:32:08 +0000] [1109] [DEBUG] HEAD /
+[2016-07-22 18:32:08 +0000] [1109] [DEBUG] Ignoring EPIPE
+[2016-07-22 18:32:08 +0000] [1110] [DEBUG] GET /clientaccesspolicy.xml
+[2016-07-22 22:47:27 +0000] [1110] [DEBUG] HEAD /
+[2016-07-22 22:47:27 +0000] [1110] [DEBUG] Ignoring EPIPE
+[2016-07-22 22:47:27 +0000] [1109] [DEBUG] GET /clientaccesspolicy.xml
+[2016-07-23 08:55:23 +0000] [1110] [DEBUG] GET /ip_json.php
+[2016-07-23 12:34:04 +0000] [1110] [DEBUG] GET /games/
+[2016-07-23 12:34:04 +0000] [1109] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-07-23 12:34:04 +0000] [1109] [DEBUG] GET /apple-touch-icon.png
+[2016-07-23 12:34:04 +0000] [1110] [DEBUG] GET /games/
+[2016-07-23 12:34:04 +0000] [1109] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-07-23 12:34:04 +0000] [1109] [DEBUG] GET /apple-touch-icon.png
+[2016-07-23 16:52:33 +0000] [1110] [DEBUG] GET /
+[2016-07-23 20:01:20 +0000] [1109] [DEBUG] GET /
+[2016-07-23 21:02:31 +0000] [1109] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-23 22:45:39 +0000] [1109] [DEBUG] GET /
+[2016-07-24 01:21:38 +0000] [1110] [DEBUG] GET /muieblackcat
+[2016-07-24 01:21:38 +0000] [1109] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2016-07-24 01:21:38 +0000] [1110] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2016-07-24 01:21:39 +0000] [1109] [DEBUG] GET /pma/scripts/setup.php
+[2016-07-24 01:21:39 +0000] [1109] [DEBUG] GET /myadmin/scripts/setup.php
+[2016-07-24 01:21:39 +0000] [1110] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2016-07-24 03:45:42 +0000] [1110] [DEBUG] GET /web-console/ServerInfo.jsp
+[2016-07-24 03:45:42 +0000] [1109] [DEBUG] GET /jmx-console/HtmlAdaptor
+[2016-07-24 03:45:42 +0000] [1110] [DEBUG] GET /invoker/JMXInvokerServlet
+[2016-07-24 06:25:33 +0000] [1109] [DEBUG] GET /ip_json.php
+[2016-07-24 06:43:50 +0000] [1110] [DEBUG] GET /
+[2016-07-24 07:31:04 +0000] [1110] [DEBUG] GET /
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2016-07-24 09:17:10 +0000] [700] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x76612c30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x76612a30>
+  pre_fork: <function pre_fork at 0x76612b30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x76612970>
+  pre_exec: <function pre_exec at 0x76612f70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x76612d30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x765a3370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x765a3070>
+  post_request: <function post_request at 0x765a30f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x76612df0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x765a31b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x766128b0>
+  worker_abort: <function worker_abort at 0x76612eb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x765a32b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-07-24 09:17:10 +0000] [700] [INFO] Starting gunicorn 19.4.5
+[2016-07-24 09:17:10 +0000] [700] [DEBUG] Arbiter booted
+[2016-07-24 09:17:10 +0000] [700] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (700)
+[2016-07-24 09:17:10 +0000] [700] [INFO] Using worker: sync
+[2016-07-24 09:17:10 +0000] [814] [INFO] Booting worker with pid: 814
+[2016-07-24 09:17:10 +0000] [815] [INFO] Booting worker with pid: 815
+[2016-07-24 09:17:10 +0000] [700] [DEBUG] 2 workers
+[2016-07-24 10:10:33 +0000] [700] [CRITICAL] WORKER TIMEOUT (pid:814)
+[2016-07-24 10:10:33 +0000] [700] [CRITICAL] WORKER TIMEOUT (pid:815)
+[2016-07-24 10:10:33 +0000] [815] [INFO] Worker exiting (pid: 815)
+[2016-07-24 10:10:33 +0000] [814] [INFO] Worker exiting (pid: 814)
+[2016-07-24 10:10:33 +0000] [700] [DEBUG] 1 workers
+[2016-07-24 10:10:33 +0000] [993] [INFO] Booting worker with pid: 993
+[2016-07-24 10:10:33 +0000] [994] [INFO] Booting worker with pid: 994
+[2016-07-24 10:10:33 +0000] [700] [DEBUG] 2 workers
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2016-07-24 10:17:10 +0000] [699] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x765b5c30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x765b5a30>
+  pre_fork: <function pre_fork at 0x765b5b30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x765b5970>
+  pre_exec: <function pre_exec at 0x765b5f70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x765b5d30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x76546370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x76546070>
+  post_request: <function post_request at 0x765460f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x765b5df0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x765461b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x765b58b0>
+  worker_abort: <function worker_abort at 0x765b5eb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x765462b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-07-24 10:17:10 +0000] [699] [INFO] Starting gunicorn 19.4.5
+[2016-07-24 10:17:10 +0000] [699] [DEBUG] Arbiter booted
+[2016-07-24 10:17:10 +0000] [699] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (699)
+[2016-07-24 10:17:10 +0000] [699] [INFO] Using worker: sync
+[2016-07-24 10:17:10 +0000] [818] [INFO] Booting worker with pid: 818
+[2016-07-24 10:17:10 +0000] [821] [INFO] Booting worker with pid: 821
+[2016-07-24 10:17:10 +0000] [699] [DEBUG] 2 workers
+[2016-07-24 11:18:09 +0000] [699] [CRITICAL] WORKER TIMEOUT (pid:818)
+[2016-07-24 11:18:09 +0000] [818] [INFO] Worker exiting (pid: 818)
+[2016-07-24 11:18:09 +0000] [699] [CRITICAL] WORKER TIMEOUT (pid:821)
+[2016-07-24 11:18:09 +0000] [821] [INFO] Worker exiting (pid: 821)
+[2016-07-24 11:18:09 +0000] [699] [DEBUG] 1 workers
+[2016-07-24 11:18:09 +0000] [993] [INFO] Booting worker with pid: 993
+[2016-07-24 11:18:09 +0000] [994] [INFO] Booting worker with pid: 994
+[2016-07-24 11:18:09 +0000] [699] [DEBUG] 2 workers
+[2016-07-24 14:55:51 +0000] [994] [DEBUG] GET /
+[2016-07-24 15:15:32 +0000] [993] [DEBUG] GET /
+[2016-07-24 15:28:37 +0000] [993] [DEBUG] GET /
+[2016-07-24 17:53:14 +0000] [994] [DEBUG] GET /
+[2016-07-24 21:34:44 +0000] [994] [DEBUG] GET /
+[2016-07-24 21:34:45 +0000] [993] [DEBUG] GET /
+[2016-07-24 21:34:45 +0000] [994] [DEBUG] GET /
+[2016-07-24 21:34:46 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-07-24 21:34:46 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-07-24 21:34:46 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-07-25 00:33:26 +0000] [994] [DEBUG] GET /
+[2016-07-25 15:16:41 +0000] [993] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-25 16:15:07 +0000] [994] [DEBUG] GET /
+[2016-07-26 01:19:31 +0000] [994] [DEBUG] GET /
+[2016-07-26 01:56:00 +0000] [993] [DEBUG] GET /
+[2016-07-26 09:18:10 +0000] [993] [DEBUG] GET /hndUnblock.cgi
+[2016-07-26 09:18:10 +0000] [994] [DEBUG] GET /tmUnblock.cgi
+[2016-07-26 09:18:11 +0000] [993] [DEBUG] GET /cgi/common.cgi
+[2016-07-26 09:18:11 +0000] [994] [DEBUG] GET /stssys.htm
+[2016-07-26 09:18:11 +0000] [993] [DEBUG] GET /
+[2016-07-26 09:18:12 +0000] [994] [DEBUG] POST /command.php
+[2016-07-26 10:10:17 +0000] [994] [DEBUG] GET /
+[2016-07-26 10:10:17 +0000] [993] [DEBUG] GET /
+[2016-07-26 10:10:17 +0000] [994] [DEBUG] GET /
+[2016-07-26 10:10:18 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-07-26 10:10:18 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-07-26 10:10:18 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-07-26 13:18:26 +0000] [993] [DEBUG] GET /
+[2016-07-26 15:39:34 +0000] [994] [DEBUG] GET /
+[2016-07-26 15:45:11 +0000] [993] [DEBUG] GET /
+[2016-07-26 16:00:52 +0000] [994] [DEBUG] GET /
+[2016-07-26 17:33:08 +0000] [993] [DEBUG] GET /
+[2016-07-26 19:16:51 +0000] [994] [DEBUG] GET /
+[2016-07-26 20:28:11 +0000] [993] [DEBUG] GET /
+[2016-07-26 22:57:30 +0000] [994] [DEBUG] GET /
+[2016-07-27 01:34:43 +0000] [994] [DEBUG] GET /
+[2016-07-27 04:00:59 +0000] [993] [DEBUG] GET /
+[2016-07-27 04:01:00 +0000] [994] [DEBUG] GET /
+[2016-07-27 04:01:01 +0000] [993] [DEBUG] GET /
+[2016-07-27 04:01:02 +0000] [993] [DEBUG] GET /
+[2016-07-27 04:01:02 +0000] [994] [DEBUG] GET /
+[2016-07-27 04:01:03 +0000] [994] [DEBUG] GET /
+[2016-07-27 14:26:45 +0000] [994] [DEBUG] GET /
+[2016-07-27 15:24:55 +0000] [994] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-27 15:30:35 +0000] [993] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-27 15:30:37 +0000] [994] [DEBUG] GET /
+[2016-07-27 15:30:39 +0000] [993] [DEBUG] GET /analysis/
+[2016-07-27 15:30:41 +0000] [994] [DEBUG] GET /analysis/ES-Coaches
+[2016-07-27 15:30:41 +0000] [993] [DEBUG] GET /analysis/ES-Coaches/
+[2016-07-27 15:30:45 +0000] [994] [DEBUG] GET /analysis/ES-MakeAnESport
+[2016-07-27 15:30:45 +0000] [993] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-07-27 15:30:48 +0000] [993] [DEBUG] GET /analysis/series/PostMortem
+[2016-07-27 15:30:48 +0000] [994] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-27 15:30:49 +0000] [994] [DEBUG] GET /analysis/PM-SisyphusEscape
+[2016-07-27 15:30:49 +0000] [993] [DEBUG] GET /analysis/PM-SisyphusEscape/
+[2016-07-27 15:30:52 +0000] [994] [DEBUG] GET /analysis/PM-SkyPirates
+[2016-07-27 15:30:52 +0000] [994] [DEBUG] GET /analysis/PM-SkyPirates/
+[2016-07-27 15:30:54 +0000] [993] [DEBUG] GET /analysis/PM-QuantumCats
+[2016-07-27 15:30:54 +0000] [994] [DEBUG] GET /analysis/PM-QuantumCats/
+[2016-07-27 15:30:58 +0000] [993] [DEBUG] GET /analysis/PM-AliceAndSchrodinger
+[2016-07-27 15:30:58 +0000] [994] [DEBUG] GET /analysis/PM-AliceAndSchrodinger/
+[2016-07-27 15:31:00 +0000] [994] [DEBUG] GET /analysis/PM-SimpleVersus
+[2016-07-27 15:31:00 +0000] [993] [DEBUG] GET /analysis/PM-SimpleVersus/
+[2016-07-27 15:31:04 +0000] [994] [DEBUG] GET /
+[2016-07-27 16:40:09 +0000] [994] [DEBUG] GET /
+[2016-07-27 17:14:14 +0000] [993] [DEBUG] GET /
+[2016-07-27 17:48:38 +0000] [993] [DEBUG] GET /muieblackcat
+[2016-07-27 17:48:39 +0000] [994] [DEBUG] GET /scripts/setup.php
+[2016-07-27 17:48:41 +0000] [993] [DEBUG] GET /admin/scripts/setup.php
+[2016-07-27 17:48:41 +0000] [993] [DEBUG] GET /admin/pma/scripts/setup.php
+[2016-07-27 17:48:41 +0000] [994] [DEBUG] GET /admin/phpmyadmin/scripts/setup.php
+[2016-07-27 17:48:42 +0000] [994] [DEBUG] GET /db/scripts/setup.php
+[2016-07-27 17:48:56 +0000] [993] [DEBUG] GET /typo3/phpmyadmin/scripts/setup.php
+[2016-07-27 17:48:59 +0000] [994] [DEBUG] GET /pma/scripts/setup.php
+[2016-07-27 17:49:02 +0000] [993] [DEBUG] GET /xampp/phpmyadmin/scripts/setup.php
+[2016-07-27 17:49:02 +0000] [994] [DEBUG] GET /web/scripts/setup.php
+[2016-07-27 17:49:03 +0000] [993] [DEBUG] GET /php-my-admin/scripts/setup.php
+[2016-07-27 17:49:03 +0000] [994] [DEBUG] GET /websql/scripts/setup.php
+[2016-07-27 17:49:07 +0000] [993] [DEBUG] GET /_phpmyadmin/scripts/setup.php
+[2016-07-27 17:49:22 +0000] [993] [DEBUG] GET /forum/phpmyadmin/scripts/setup.php
+[2016-07-27 17:49:35 +0000] [994] [DEBUG] GET /phpMyAdmin-2.10.0.2/scripts/setup.php
+[2016-07-27 17:49:35 +0000] [994] [DEBUG] GET /phpMyAdmin-2.10.0/scripts/setup.php
+[2016-07-27 17:49:41 +0000] [993] [DEBUG] GET /phpMyAdmin-2.11.0.0/scripts/setup.php
+[2016-07-27 17:49:42 +0000] [993] [DEBUG] GET /phpMyAdmin-2.11.1-all-languages/scripts/setup.php
+[2016-07-27 17:49:42 +0000] [994] [DEBUG] GET /phpMyAdmin-2.11.1.0/scripts/setup.php
+[2016-07-27 17:49:44 +0000] [993] [DEBUG] GET /phpMyAdmin-2.11.1.1/scripts/setup.php
+[2016-07-27 17:49:47 +0000] [994] [DEBUG] GET /phpMyAdmin-2.6.1-pl2/scripts/setup.php
+[2016-07-27 17:49:48 +0000] [993] [DEBUG] GET /phpMyAdmin-2.6.1-pl3/scripts/setup.php
+[2016-07-27 17:49:54 +0000] [994] [DEBUG] GET /phpMyAdmin-2.6.4-rc1/scripts/setup.php
+[2016-07-27 17:49:54 +0000] [993] [DEBUG] GET /phpMyAdmin-2.6.5/scripts/setup.php
+[2016-07-27 17:49:55 +0000] [994] [DEBUG] GET /phpMyAdmin-2.6.6/scripts/setup.php
+[2016-07-27 17:49:59 +0000] [994] [DEBUG] GET /phpMyAdmin-2.7.0-beta1/scripts/setup.php
+[2016-07-27 17:49:59 +0000] [993] [DEBUG] GET /phpMyAdmin-2.7.0-pl1/scripts/setup.php
+[2016-07-27 17:50:00 +0000] [994] [DEBUG] GET /phpMyAdmin-2.7.0-pl2/scripts/setup.php
+[2016-07-27 17:50:01 +0000] [994] [DEBUG] GET /phpMyAdmin-2.7.0-rc1/scripts/setup.php
+[2016-07-27 17:50:02 +0000] [993] [DEBUG] GET /phpMyAdmin-2.7.5/scripts/setup.php
+[2016-07-27 17:50:14 +0000] [994] [DEBUG] GET /phpMyAdmin-2.8.3/scripts/setup.php
+[2016-07-27 17:50:14 +0000] [994] [DEBUG] GET /phpMyAdmin-2.8.4/scripts/setup.php
+[2016-07-27 17:50:16 +0000] [993] [DEBUG] GET /phpMyAdmin-2.8.5/scripts/setup.php
+[2016-07-27 17:50:16 +0000] [993] [DEBUG] GET /phpMyAdmin-2.8.6/scripts/setup.php
+[2016-07-27 17:50:22 +0000] [994] [DEBUG] GET /phpMyAdmin-2.8.9/scripts/setup.php
+[2016-07-27 17:50:24 +0000] [994] [DEBUG] GET /phpMyAdmin-2.9.0-rc1/scripts/setup.php
+[2016-07-27 17:50:24 +0000] [993] [DEBUG] GET /phpMyAdmin-2.9.0.1/scripts/setup.php
+[2016-07-27 17:50:25 +0000] [993] [DEBUG] GET /phpMyAdmin-2.9.0.2/scripts/setup.php
+[2016-07-27 17:50:28 +0000] [994] [DEBUG] GET /phpMyAdmin-2.9.1/scripts/setup.php
+[2016-07-27 17:50:28 +0000] [993] [DEBUG] GET /phpMyAdmin-2.9.2/scripts/setup.php
+[2016-07-27 17:50:29 +0000] [993] [DEBUG] GET /phpMyAdmin-2/scripts/setup.php
+[2016-07-27 17:50:32 +0000] [994] [DEBUG] GET /phpMyAdmin-3.0.0.0-all-languages/scripts/setup.php
+[2016-07-27 17:50:32 +0000] [994] [DEBUG] GET /phpMyAdmin-3.0.1.0-english/scripts/setup.php
+[2016-07-27 17:50:39 +0000] [993] [DEBUG] GET /phpMyAdmin-3.1.0.0-english/scripts/setup.php
+[2016-07-27 17:50:40 +0000] [993] [DEBUG] GET /phpMyAdmin-3.1.0.0/scripts/setup.php
+[2016-07-27 17:50:41 +0000] [994] [DEBUG] GET /phpMyAdmin-3.1.1.0-all-languages/scripts/setup.php
+[2016-07-27 17:50:41 +0000] [993] [DEBUG] GET /phpMyAdmin-3.1.2.0-all-languages/scripts/setup.php
+[2016-07-27 17:50:42 +0000] [994] [DEBUG] GET /phpMyAdmin-3.1.2.0-english/scripts/setup.php
+[2016-07-27 17:50:43 +0000] [993] [DEBUG] GET /phpMyAdmin-3.1.2.0/scripts/setup.php
+[2016-07-27 17:50:44 +0000] [994] [DEBUG] GET /phpMyAdmin-3.4.3.1/scripts/setup.php
+[2016-07-27 17:50:44 +0000] [994] [DEBUG] GET /phpMyAdmin2/scripts/setup.php
+[2016-07-27 20:12:58 +0000] [993] [DEBUG] GET /
+[2016-07-27 21:02:50 +0000] [994] [DEBUG] GET /games/
+[2016-07-27 21:02:50 +0000] [993] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-07-27 21:02:50 +0000] [994] [DEBUG] GET /apple-touch-icon.png
+[2016-07-27 21:02:50 +0000] [993] [DEBUG] GET /games/
+[2016-07-27 21:02:50 +0000] [994] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-07-27 21:02:51 +0000] [993] [DEBUG] GET /apple-touch-icon.png
+[2016-07-27 22:32:23 +0000] [993] [DEBUG] GET /
+[2016-07-27 22:34:29 +0000] [994] [DEBUG] GET /robots.txt
+[2016-07-27 22:34:32 +0000] [993] [DEBUG] GET /analysis/
+[2016-07-27 22:36:34 +0000] [994] [DEBUG] GET /bio/
+[2016-07-28 02:55:15 +0000] [994] [DEBUG] GET /
+[2016-07-28 02:55:16 +0000] [993] [DEBUG] GET /
+[2016-07-28 02:55:16 +0000] [993] [DEBUG] GET /
+[2016-07-28 02:55:16 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-07-28 02:55:17 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-07-28 02:55:17 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-07-28 04:41:11 +0000] [993] [DEBUG] GET /w00tw00t.at.blackhats.romanian.anti-sec:)
+[2016-07-28 04:41:12 +0000] [994] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2016-07-28 04:41:12 +0000] [994] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2016-07-28 04:41:12 +0000] [994] [DEBUG] GET /pma/scripts/setup.php
+[2016-07-28 04:41:12 +0000] [994] [DEBUG] GET /myadmin/scripts/setup.php
+[2016-07-28 04:41:13 +0000] [994] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2016-07-28 13:08:39 +0000] [994] [DEBUG] GET /phpmyadmin
+[2016-07-28 13:36:16 +0000] [993] [DEBUG] HEAD /
+[2016-07-28 13:36:16 +0000] [993] [DEBUG] Ignoring EPIPE
+[2016-07-28 13:36:16 +0000] [994] [DEBUG] GET /clientaccesspolicy.xml
+[2016-07-28 17:17:08 +0000] [994] [DEBUG] GET /
+[2016-07-28 17:44:34 +0000] [993] [DEBUG] GET /check_proxy
+[2016-07-28 19:10:45 +0000] [993] [DEBUG] GET /robots.txt
+[2016-07-28 19:10:49 +0000] [994] [DEBUG] GET /
+[2016-07-28 19:51:06 +0000] [994] [DEBUG] GET /
+[2016-07-28 20:44:22 +0000] [993] [DEBUG] GET /
+[2016-07-28 21:56:13 +0000] [994] [DEBUG] GET /
+[2016-07-28 22:43:43 +0000] [994] [DEBUG] GET /
+[2016-07-29 02:44:58 +0000] [994] [DEBUG] GET /
+[2016-07-29 02:45:38 +0000] [994] [DEBUG] GET /robots.txt
+[2016-07-29 02:45:38 +0000] [993] [DEBUG] GET /
+[2016-07-29 04:44:32 +0000] [994] [DEBUG] HEAD /
+[2016-07-29 04:44:32 +0000] [994] [DEBUG] Ignoring EPIPE
+[2016-07-29 11:16:22 +0000] [993] [DEBUG] GET /etc/lib/pChart2/examples/index.php
+[2016-07-29 11:45:41 +0000] [994] [DEBUG] GET /xmlrpc.php
+[2016-07-29 14:45:15 +0000] [993] [DEBUG] GET /
+[2016-07-29 14:45:15 +0000] [994] [DEBUG] GET /robots.txt
+[2016-07-29 14:45:15 +0000] [994] [DEBUG] GET /sitemap.xml
+[2016-07-29 16:52:46 +0000] [994] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2016-07-29 19:27:22 +0000] [993] [DEBUG] GET /
+[2016-07-29 19:27:27 +0000] [994] [DEBUG] GET /bio/
+[2016-07-29 19:45:17 +0000] [994] [DEBUG] GET /
+[2016-07-29 22:25:39 +0000] [993] [DEBUG] GET /
+[2016-07-30 02:17:07 +0000] [993] [DEBUG] GET /robots.txt
+[2016-07-30 02:17:11 +0000] [994] [DEBUG] GET /analysis/
+[2016-07-30 02:19:11 +0000] [994] [DEBUG] GET /games/SisyphusEscape/
+[2016-07-30 02:21:17 +0000] [994] [DEBUG] GET /analysis/series/PostMortem/
+[2016-07-30 03:08:49 +0000] [993] [DEBUG] GET /hndUnblock.cgi
+[2016-07-30 03:08:50 +0000] [994] [DEBUG] GET /tmUnblock.cgi
+[2016-07-30 03:08:50 +0000] [993] [DEBUG] GET /cgi/common.cgi
+[2016-07-30 03:08:51 +0000] [994] [DEBUG] GET /stssys.htm
+[2016-07-30 03:08:51 +0000] [993] [DEBUG] GET /
+[2016-07-30 03:08:51 +0000] [994] [DEBUG] POST /command.php
+[2016-07-30 04:11:51 +0000] [994] [DEBUG] GET /
+[2016-07-30 06:19:27 +0000] [994] [DEBUG] GET /
+[2016-07-30 06:20:17 +0000] [993] [DEBUG] GET /
+[2016-07-30 06:43:07 +0000] [994] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2016-07-30 14:18:07 +0000] [994] [DEBUG] GET /c/
+[2016-07-30 16:44:01 +0000] [993] [DEBUG] GET /
+[2016-07-30 18:30:38 +0000] [994] [DEBUG] GET /
+[2016-07-30 18:40:58 +0000] [993] [DEBUG] GET /myadmin/scripts/setup.php
+[2016-07-30 20:43:29 +0000] [993] [DEBUG] GET /
+[2016-07-30 21:30:03 +0000] [994] [DEBUG] POST /login.action
+[2016-07-31 06:46:45 +0000] [993] [DEBUG] GET /pma/scripts/setup.php
+[2016-07-31 07:23:38 +0000] [993] [DEBUG] GET /w00tw00t.at.blackhats.romanian.anti-sec:)
+[2016-07-31 07:23:38 +0000] [994] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2016-07-31 07:23:38 +0000] [993] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2016-07-31 07:23:38 +0000] [993] [DEBUG] GET /pma/scripts/setup.php
+[2016-07-31 07:23:38 +0000] [994] [DEBUG] GET /myadmin/scripts/setup.php
+[2016-07-31 07:23:38 +0000] [993] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2016-07-31 07:23:39 +0000] [994] [DEBUG] GET /php-my-admin/scripts/setup.php
+[2016-07-31 07:51:58 +0000] [994] [DEBUG] GET /
+[2016-07-31 09:13:34 +0000] [994] [DEBUG] GET /
+[2016-07-31 09:50:26 +0000] [994] [DEBUG] GET /
+[2016-07-31 16:39:17 +0000] [993] [DEBUG] GET /
+[2016-07-31 16:58:13 +0000] [994] [DEBUG] GET /
+[2016-07-31 19:05:21 +0000] [993] [DEBUG] GET /manager/html
+[2016-07-31 19:06:45 +0000] [993] [DEBUG] GET /
+[2016-07-31 19:06:45 +0000] [994] [DEBUG] GET /
+[2016-07-31 19:06:45 +0000] [993] [DEBUG] GET /
+[2016-07-31 19:06:46 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-07-31 19:06:46 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-07-31 19:06:46 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-07-31 21:11:44 +0000] [994] [DEBUG] GET /
+[2016-08-01 09:43:44 +0000] [994] [DEBUG] GET /
+[2016-08-01 14:47:19 +0000] [994] [DEBUG] GET /games/
+[2016-08-01 14:47:19 +0000] [993] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-08-01 14:47:19 +0000] [994] [DEBUG] GET /apple-touch-icon.png
+[2016-08-01 14:47:19 +0000] [994] [DEBUG] GET /games/
+[2016-08-01 14:47:19 +0000] [993] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-08-01 14:47:19 +0000] [993] [DEBUG] GET /apple-touch-icon.png
+[2016-08-01 20:35:12 +0000] [994] [DEBUG] GET /robots.txt
+[2016-08-01 20:35:16 +0000] [994] [DEBUG] GET /analysis/
+[2016-08-01 20:37:21 +0000] [993] [DEBUG] GET /bio/
+[2016-08-01 20:39:28 +0000] [993] [DEBUG] GET /games/AliceAndSchrodinger/
+[2016-08-01 23:44:09 +0000] [993] [DEBUG] GET /
+[2016-08-02 01:35:26 +0000] [993] [DEBUG] GET /analysis/series/PostMortem/
+[2016-08-02 01:38:01 +0000] [994] [DEBUG] GET /
+[2016-08-02 01:43:06 +0000] [994] [DEBUG] GET /
+[2016-08-02 01:43:06 +0000] [993] [DEBUG] GET /
+[2016-08-02 01:43:06 +0000] [993] [DEBUG] GET /
+[2016-08-02 01:43:06 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-08-02 01:43:07 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-08-02 01:43:07 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-08-02 02:15:34 +0000] [993] [DEBUG] GET /
+[2016-08-02 03:47:17 +0000] [993] [DEBUG] GET /
+[2016-08-02 09:05:43 +0000] [993] [DEBUG] GET /hndUnblock.cgi
+[2016-08-02 09:05:44 +0000] [994] [DEBUG] GET /tmUnblock.cgi
+[2016-08-02 09:05:44 +0000] [994] [DEBUG] GET /cgi/common.cgi
+[2016-08-02 09:05:44 +0000] [994] [DEBUG] GET /stssys.htm
+[2016-08-02 09:05:45 +0000] [994] [DEBUG] GET /
+[2016-08-02 09:05:45 +0000] [994] [DEBUG] POST /command.php
+[2016-08-02 13:14:13 +0000] [993] [DEBUG] POST /index.action
+[2016-08-02 14:29:09 +0000] [993] [DEBUG] GET /
+[2016-08-02 15:14:29 +0000] [993] [DEBUG] HEAD /
+[2016-08-02 15:14:29 +0000] [993] [DEBUG] Ignoring EPIPE
+[2016-08-02 15:14:29 +0000] [994] [DEBUG] GET /
+[2016-08-02 15:14:29 +0000] [993] [DEBUG] HEAD /
+[2016-08-02 15:14:29 +0000] [993] [DEBUG] Ignoring EPIPE
+[2016-08-02 15:14:30 +0000] [994] [DEBUG] GET /
+[2016-08-02 15:28:20 +0000] [994] [DEBUG] GET /robots.txt
+[2016-08-02 15:28:24 +0000] [993] [DEBUG] GET /games/SimpleVersus/
+[2016-08-02 16:16:19 +0000] [993] [DEBUG] GET /resume/
+[2016-08-02 18:14:06 +0000] [994] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-08-02 22:36:03 +0000] [993] [DEBUG] GET /games/
+[2016-08-02 23:15:26 +0000] [993] [DEBUG] HEAD /
+[2016-08-02 23:15:26 +0000] [993] [DEBUG] Ignoring EPIPE
+[2016-08-02 23:15:26 +0000] [994] [DEBUG] GET /clientaccesspolicy.xml
+[2016-08-02 23:35:16 +0000] [993] [DEBUG] GET /games/SkyPirates/
+[2016-08-03 00:31:43 +0000] [993] [DEBUG] GET /analysis/PM-QuantumCats/
+[2016-08-03 01:38:36 +0000] [994] [DEBUG] GET /
+[2016-08-03 01:50:53 +0000] [993] [DEBUG] HEAD /irj/portal
+[2016-08-03 02:47:31 +0000] [993] [DEBUG] HEAD /
+[2016-08-03 02:47:31 +0000] [993] [DEBUG] Ignoring EPIPE
+[2016-08-03 02:47:32 +0000] [994] [DEBUG] GET /
+[2016-08-03 05:13:22 +0000] [994] [DEBUG] GET /
+[2016-08-03 13:34:28 +0000] [994] [DEBUG] GET /robots.txt
+[2016-08-03 13:34:31 +0000] [993] [DEBUG] GET /analysis/PM-SkyPirates/
+[2016-08-03 15:02:28 +0000] [994] [DEBUG] GET /
+[2016-08-03 15:02:28 +0000] [994] [DEBUG] GET /robots.txt
+[2016-08-03 15:02:28 +0000] [993] [DEBUG] GET /sitemap.xml
+[2016-08-03 20:33:58 +0000] [993] [DEBUG] GET /
+[2016-08-03 21:11:03 +0000] [993] [DEBUG] GET /
+[2016-08-03 22:33:08 +0000] [994] [DEBUG] GET /
+[2016-08-03 22:33:09 +0000] [993] [DEBUG] GET /robots.txt
+[2016-08-03 22:33:09 +0000] [993] [DEBUG] GET /sitemap.xml
+[2016-08-04 01:35:28 +0000] [994] [DEBUG] GET /
+[2016-08-04 02:24:24 +0000] [994] [DEBUG] GET /manager/html
+[2016-08-04 02:35:58 +0000] [993] [DEBUG] GET /
+[2016-08-04 03:25:11 +0000] [994] [DEBUG] HEAD /
+[2016-08-04 03:25:11 +0000] [994] [DEBUG] Ignoring EPIPE
+[2016-08-04 03:25:11 +0000] [993] [DEBUG] GET /clientaccesspolicy.xml
+[2016-08-04 06:12:29 +0000] [994] [DEBUG] GET /
+[2016-08-04 10:54:26 +0000] [994] [DEBUG] GET /
+[2016-08-04 10:54:27 +0000] [993] [DEBUG] GET /
+[2016-08-04 10:54:27 +0000] [994] [DEBUG] GET /
+[2016-08-04 10:54:27 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-08-04 10:54:28 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-08-04 10:54:28 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-08-04 16:11:07 +0000] [994] [DEBUG] GET /
+[2016-08-04 16:30:47 +0000] [994] [DEBUG] GET /analysis/
+[2016-08-04 16:30:50 +0000] [993] [DEBUG] GET /analysis/ES-Coaches
+[2016-08-04 16:30:50 +0000] [994] [DEBUG] GET /analysis/ES-Coaches/
+[2016-08-04 16:30:53 +0000] [994] [DEBUG] GET /analysis/ES-MakeAnESport
+[2016-08-04 16:30:53 +0000] [993] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-08-04 16:30:56 +0000] [993] [DEBUG] GET /analysis/series/PostMortem
+[2016-08-04 16:30:56 +0000] [994] [DEBUG] GET /analysis/series/PostMortem/
+[2016-08-04 16:30:57 +0000] [993] [DEBUG] GET /analysis/PM-SisyphusEscape
+[2016-08-04 16:30:57 +0000] [993] [DEBUG] GET /analysis/PM-SisyphusEscape/
+[2016-08-04 16:31:02 +0000] [994] [DEBUG] GET /analysis/PM-SkyPirates
+[2016-08-04 16:31:02 +0000] [994] [DEBUG] GET /analysis/PM-SkyPirates/
+[2016-08-04 16:31:04 +0000] [993] [DEBUG] GET /analysis/PM-QuantumCats
+[2016-08-04 16:31:04 +0000] [994] [DEBUG] GET /analysis/PM-QuantumCats/
+[2016-08-04 16:31:07 +0000] [993] [DEBUG] GET /analysis/PM-AliceAndSchrodinger
+[2016-08-04 16:31:07 +0000] [994] [DEBUG] GET /analysis/PM-AliceAndSchrodinger/
+[2016-08-04 16:31:10 +0000] [993] [DEBUG] GET /analysis/PM-SimpleVersus
+[2016-08-04 16:31:10 +0000] [993] [DEBUG] GET /analysis/PM-SimpleVersus/
+[2016-08-04 16:31:17 +0000] [994] [DEBUG] GET /
+[2016-08-04 16:31:20 +0000] [993] [DEBUG] GET /
+[2016-08-04 18:32:16 +0000] [993] [DEBUG] GET /check_proxy
+[2016-08-04 20:05:32 +0000] [994] [DEBUG] GET /
+[2016-08-04 22:05:12 +0000] [993] [DEBUG] GET /
+[2016-08-04 22:05:29 +0000] [994] [DEBUG] GET /games
+[2016-08-04 22:05:29 +0000] [994] [DEBUG] GET /games/
+[2016-08-05 00:43:59 +0000] [994] [DEBUG] GET /phpMyAdmin
+[2016-08-05 04:10:03 +0000] [994] [DEBUG] HEAD /
+[2016-08-05 04:10:03 +0000] [994] [DEBUG] Ignoring EPIPE
+[2016-08-05 11:19:12 +0000] [993] [DEBUG] GET /
+[2016-08-05 11:19:12 +0000] [994] [DEBUG] GET /robots.txt
+[2016-08-05 11:19:12 +0000] [993] [DEBUG] GET /sitemap.xml
+[2016-08-05 12:22:56 +0000] [993] [DEBUG] GET /startup.php
+[2016-08-05 12:29:22 +0000] [993] [DEBUG] GET /stalker_portal/c/
+[2016-08-05 20:38:19 +0000] [994] [DEBUG] GET /
+[2016-08-05 21:48:50 +0000] [993] [DEBUG] GET /games/
+[2016-08-05 21:48:50 +0000] [994] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-08-05 21:48:50 +0000] [994] [DEBUG] GET /apple-touch-icon.png
+[2016-08-05 21:48:51 +0000] [993] [DEBUG] GET /games/
+[2016-08-05 21:48:51 +0000] [993] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-08-05 21:48:51 +0000] [994] [DEBUG] GET /apple-touch-icon.png
+[2016-08-06 01:02:55 +0000] [993] [DEBUG] HEAD /
+[2016-08-06 01:02:55 +0000] [993] [DEBUG] Ignoring EPIPE
+[2016-08-06 01:02:55 +0000] [994] [DEBUG] GET /
+[2016-08-06 06:14:19 +0000] [993] [DEBUG] GET /.htaccess
+[2016-08-06 10:16:08 +0000] [994] [DEBUG] GET /
+[2016-08-06 14:28:18 +0000] [994] [DEBUG] GET /
+[2016-08-06 14:51:16 +0000] [993] [DEBUG] GET /
+[2016-08-06 14:51:16 +0000] [994] [DEBUG] GET /
+[2016-08-06 14:51:16 +0000] [994] [DEBUG] GET /
+[2016-08-06 14:51:17 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-08-06 14:51:17 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-08-06 14:51:17 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-08-06 16:07:13 +0000] [994] [DEBUG] GET /
+[2016-08-06 16:35:05 +0000] [993] [DEBUG] GET /
+[2016-08-06 21:35:15 +0000] [994] [DEBUG] GET /manager/html
+[2016-08-06 22:52:04 +0000] [993] [DEBUG] GET /
+[2016-08-06 22:58:53 +0000] [994] [DEBUG] GET /
+[2016-08-07 03:05:02 +0000] [994] [DEBUG] GET /
+[2016-08-07 03:05:03 +0000] [993] [DEBUG] GET /
+[2016-08-07 03:05:03 +0000] [993] [DEBUG] GET /
+[2016-08-07 03:05:03 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-08-07 03:05:04 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-08-07 03:05:04 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-08-07 06:16:25 +0000] [993] [DEBUG] GET /manager/html
+[2016-08-07 08:47:15 +0000] [994] [DEBUG] HEAD /
+[2016-08-07 08:47:15 +0000] [994] [DEBUG] Ignoring EPIPE
+[2016-08-07 08:47:15 +0000] [993] [DEBUG] GET /
+[2016-08-07 17:35:20 +0000] [993] [DEBUG] GET /user/soapCaller.bs
+[2016-08-07 18:56:09 +0000] [993] [DEBUG] GET /server-status
+[2016-08-07 21:05:31 +0000] [994] [DEBUG] GET /
+[2016-08-08 01:02:59 +0000] [993] [DEBUG] GET /hndUnblock.cgi
+[2016-08-08 01:02:59 +0000] [994] [DEBUG] GET /tmUnblock.cgi
+[2016-08-08 01:03:00 +0000] [994] [DEBUG] GET /cgi/common.cgi
+[2016-08-08 01:03:01 +0000] [993] [DEBUG] GET /stssys.htm
+[2016-08-08 01:03:01 +0000] [993] [DEBUG] GET /
+[2016-08-08 01:03:02 +0000] [994] [DEBUG] POST /command.php
+[2016-08-08 03:25:44 +0000] [993] [DEBUG] GET /
+[2016-08-08 03:25:45 +0000] [994] [DEBUG] GET /
+[2016-08-08 03:25:45 +0000] [993] [DEBUG] GET /
+[2016-08-08 03:25:45 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-08-08 03:25:46 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-08-08 03:25:46 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-08-08 04:13:19 +0000] [994] [DEBUG] GET /
+[2016-08-08 04:13:20 +0000] [993] [DEBUG] GET /robots.txt
+[2016-08-08 04:13:20 +0000] [993] [DEBUG] GET /sitemap.xml
+[2016-08-08 04:17:02 +0000] [993] [DEBUG] GET /
+[2016-08-08 05:30:53 +0000] [993] [DEBUG] GET /
+[2016-08-08 11:15:03 +0000] [994] [DEBUG] GET /
+[2016-08-08 11:15:34 +0000] [993] [DEBUG] GET /games/SkyPirates/
+[2016-08-08 11:15:41 +0000] [994] [DEBUG] GET /bio/
+[2016-08-08 11:15:59 +0000] [993] [DEBUG] GET /games/QuantumCats
+[2016-08-08 11:15:59 +0000] [994] [DEBUG] GET /games/QuantumCats/
+[2016-08-08 16:59:51 +0000] [994] [DEBUG] GET /
+[2016-08-08 20:00:37 +0000] [994] [DEBUG] GET /admin/i18n/readme.txt
+[2016-08-08 20:01:31 +0000] [994] [DEBUG] GET /
+[2016-08-08 20:17:40 +0000] [993] [DEBUG] GET /
+[2016-08-09 09:58:37 +0000] [994] [DEBUG] GET /
+[2016-08-09 09:58:46 +0000] [993] [DEBUG] GET /robots.txt
+[2016-08-09 09:59:17 +0000] [994] [DEBUG] GET /games/QuantumCats
+[2016-08-09 09:59:18 +0000] [993] [DEBUG] GET /games/QuantumCats/
+[2016-08-09 10:00:42 +0000] [993] [DEBUG] GET /analysis/PM-SkyPirates
+[2016-08-09 10:00:42 +0000] [994] [DEBUG] GET /analysis/PM-SkyPirates/
+[2016-08-09 10:00:43 +0000] [994] [DEBUG] GET /resume
+[2016-08-09 10:00:43 +0000] [993] [DEBUG] GET /resume/
+[2016-08-09 10:01:29 +0000] [993] [DEBUG] GET /resume/
+[2016-08-09 10:02:13 +0000] [993] [DEBUG] GET /bio/
+[2016-08-09 10:02:52 +0000] [994] [DEBUG] GET /analysis/ES-Coaches
+[2016-08-09 10:02:52 +0000] [993] [DEBUG] GET /analysis/ES-Coaches/
+[2016-08-09 10:03:33 +0000] [993] [DEBUG] GET /games
+[2016-08-09 10:03:33 +0000] [994] [DEBUG] GET /games/
+[2016-08-09 10:04:14 +0000] [993] [DEBUG] GET /analysis/series/PostMortem/
+[2016-08-09 10:04:55 +0000] [994] [DEBUG] GET /games/AliceAndSchrodinger/
+[2016-08-09 10:05:35 +0000] [993] [DEBUG] GET /analysis/
+[2016-08-09 10:05:35 +0000] [994] [DEBUG] GET /games/SisyphusEscape
+[2016-08-09 10:05:36 +0000] [994] [DEBUG] GET /games/SisyphusEscape/
+[2016-08-09 10:06:52 +0000] [994] [DEBUG] GET /games/
+[2016-08-09 10:07:38 +0000] [993] [DEBUG] GET /games/SkyPirates/
+[2016-08-09 10:08:19 +0000] [994] [DEBUG] GET /games/SkyPirates
+[2016-08-09 10:08:19 +0000] [993] [DEBUG] GET /games/SkyPirates/
+[2016-08-09 10:08:58 +0000] [994] [DEBUG] GET /bio/
+[2016-08-09 19:43:55 +0000] [994] [DEBUG] GET /
+[2016-08-09 20:30:19 +0000] [994] [DEBUG] GET /
+[2016-08-09 22:19:31 +0000] [994] [DEBUG] GET /games/
+[2016-08-09 22:19:31 +0000] [993] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-08-09 22:19:31 +0000] [993] [DEBUG] GET /apple-touch-icon.png
+[2016-08-09 22:19:31 +0000] [993] [DEBUG] GET /games/
+[2016-08-09 22:19:31 +0000] [993] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-08-09 22:19:31 +0000] [993] [DEBUG] GET /apple-touch-icon.png
+[2016-08-10 00:44:57 +0000] [993] [DEBUG] GET /clientaccesspolicy.xml
+[2016-08-10 01:22:59 +0000] [994] [DEBUG] GET /
+[2016-08-10 02:16:25 +0000] [994] [DEBUG] GET /robots.txt
+[2016-08-10 02:16:29 +0000] [994] [DEBUG] GET /resume/
+[2016-08-10 03:29:37 +0000] [994] [DEBUG] GET /bio/
+[2016-08-10 04:35:20 +0000] [993] [DEBUG] GET /analysis/PM-SkyPirates/
+[2016-08-10 05:52:55 +0000] [993] [DEBUG] GET /analysis/
+[2016-08-10 06:09:04 +0000] [994] [DEBUG] GET /games/AliceAndSchrodinger/
+[2016-08-10 06:30:34 +0000] [993] [DEBUG] GET /phpMyAdmin
+[2016-08-10 09:38:42 +0000] [994] [DEBUG] HEAD /
+[2016-08-10 09:38:42 +0000] [994] [DEBUG] Ignoring EPIPE
+[2016-08-10 09:38:42 +0000] [993] [DEBUG] GET /
+[2016-08-10 10:42:39 +0000] [993] [DEBUG] GET /
+[2016-08-10 10:46:09 +0000] [994] [DEBUG] GET /games/SisyphusEscape/
+[2016-08-10 10:48:15 +0000] [993] [DEBUG] GET /games/SimpleVersus/
+[2016-08-10 10:50:28 +0000] [994] [DEBUG] GET /analysis/PM-QuantumCats/
+[2016-08-10 10:52:35 +0000] [993] [DEBUG] GET /games/SkyPirates/
+[2016-08-10 10:54:45 +0000] [994] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-08-10 16:09:45 +0000] [994] [DEBUG] GET /
+[2016-08-10 17:09:21 +0000] [994] [DEBUG] GET /robots.txt
+[2016-08-10 17:09:25 +0000] [993] [DEBUG] GET /analysis/series/PostMortem/
+[2016-08-10 17:11:27 +0000] [994] [DEBUG] GET /games/
+[2016-08-10 17:13:32 +0000] [994] [DEBUG] GET /
+[2016-08-10 19:01:07 +0000] [994] [DEBUG] GET /hndUnblock.cgi
+[2016-08-10 19:01:07 +0000] [993] [DEBUG] GET /tmUnblock.cgi
+[2016-08-10 19:01:07 +0000] [993] [DEBUG] GET /cgi/common.cgi
+[2016-08-10 19:01:08 +0000] [994] [DEBUG] GET /stssys.htm
+[2016-08-10 19:01:08 +0000] [993] [DEBUG] GET /
+[2016-08-10 19:01:09 +0000] [994] [DEBUG] POST /command.php
+[2016-08-10 23:05:51 +0000] [993] [DEBUG] GET /
+[2016-08-11 01:27:41 +0000] [993] [DEBUG] GET /
+[2016-08-11 05:32:48 +0000] [994] [DEBUG] GET /phpMyAdmin
+[2016-08-11 06:50:20 +0000] [993] [DEBUG] GET /
+[2016-08-11 08:40:57 +0000] [993] [DEBUG] GET /
+[2016-08-11 11:47:32 +0000] [994] [DEBUG] GET /manager/html
+[2016-08-11 13:38:10 +0000] [993] [DEBUG] GET /
+[2016-08-11 18:51:57 +0000] [993] [DEBUG] GET /
+[2016-08-11 18:51:57 +0000] [994] [DEBUG] GET /
+[2016-08-11 18:51:58 +0000] [994] [DEBUG] GET /
+[2016-08-11 18:51:58 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-08-11 18:51:58 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-08-11 18:51:59 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-08-11 19:08:42 +0000] [993] [DEBUG] GET /
+[2016-08-11 20:27:17 +0000] [993] [DEBUG] GET /
+[2016-08-11 21:45:48 +0000] [994] [DEBUG] GET /
+[2016-08-12 01:13:56 +0000] [994] [DEBUG] GET /manager/html
+[2016-08-12 02:46:40 +0000] [993] [DEBUG] GET /
+[2016-08-12 04:18:26 +0000] [993] [DEBUG] GET /check_proxy
+[2016-08-12 07:09:26 +0000] [993] [DEBUG] GET /
+[2016-08-12 11:53:04 +0000] [993] [DEBUG] GET /
+[2016-08-12 11:53:19 +0000] [994] [DEBUG] GET /games/
+[2016-08-12 11:53:22 +0000] [993] [DEBUG] GET /games/QuantumCats/
+[2016-08-12 12:57:22 +0000] [993] [DEBUG] GET /
+[2016-08-12 12:57:24 +0000] [994] [DEBUG] GET /games/SkyPirates
+[2016-08-12 12:57:24 +0000] [993] [DEBUG] GET /games/SkyPirates/
+[2016-08-12 12:57:31 +0000] [994] [DEBUG] GET /games/QuantumCats
+[2016-08-12 12:57:31 +0000] [994] [DEBUG] GET /games/QuantumCats/
+[2016-08-12 12:57:32 +0000] [993] [DEBUG] GET /analysis/PM-QuantumCats
+[2016-08-12 12:57:32 +0000] [994] [DEBUG] GET /analysis/PM-QuantumCats/
+[2016-08-12 12:57:46 +0000] [993] [DEBUG] GET /games/QuantumCats/
+[2016-08-12 13:10:03 +0000] [994] [DEBUG] GET /cgi-bin/test-cgi
+[2016-08-12 15:32:54 +0000] [993] [DEBUG] GET /
+[2016-08-12 16:24:19 +0000] [994] [DEBUG] GET /
+[2016-08-12 16:37:18 +0000] [994] [DEBUG] GET /
+[2016-08-12 19:11:01 +0000] [994] [DEBUG] HEAD /
+[2016-08-12 19:11:02 +0000] [994] [DEBUG] GET /
+[2016-08-12 19:33:37 +0000] [993] [DEBUG] GET /
+[2016-08-12 23:23:55 +0000] [993] [DEBUG] GET /robots.txt
+[2016-08-12 23:23:59 +0000] [994] [DEBUG] GET /games/SkyPirates/
+[2016-08-13 00:27:47 +0000] [993] [DEBUG] GET /cgi-bin/test-cgi
+[2016-08-13 00:42:19 +0000] [994] [DEBUG] GET /
+[2016-08-13 02:37:10 +0000] [994] [DEBUG] GET /
+[2016-08-13 07:57:46 +0000] [993] [DEBUG] GET /
+[2016-08-13 15:22:00 +0000] [993] [DEBUG] GET /robots.txt
+[2016-08-13 15:22:04 +0000] [994] [DEBUG] GET /bio/
+[2016-08-13 16:13:16 +0000] [994] [DEBUG] GET /
+[2016-08-13 16:19:11 +0000] [993] [DEBUG] HEAD /
+[2016-08-13 16:19:11 +0000] [993] [DEBUG] Ignoring EPIPE
+[2016-08-13 20:24:11 +0000] [994] [DEBUG] GET /
+[2016-08-13 20:25:04 +0000] [993] [DEBUG] GET /
+[2016-08-13 22:15:07 +0000] [994] [DEBUG] GET /
+[2016-08-14 01:30:58 +0000] [993] [DEBUG] OPTIONS /
+[2016-08-14 02:41:06 +0000] [993] [DEBUG] HEAD /
+[2016-08-14 02:41:06 +0000] [993] [DEBUG] Ignoring EPIPE
+[2016-08-14 02:46:04 +0000] [994] [DEBUG] GET /
+[2016-08-14 02:46:04 +0000] [993] [DEBUG] GET /
+[2016-08-14 02:46:04 +0000] [994] [DEBUG] GET /
+[2016-08-14 02:46:05 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-08-14 02:46:05 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-08-14 02:46:06 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-08-14 04:49:31 +0000] [993] [DEBUG] GET /robots.txt
+[2016-08-14 04:49:31 +0000] [994] [DEBUG] GET /
+[2016-08-14 09:10:25 +0000] [994] [DEBUG] GET /manager/html
+[2016-08-14 11:16:58 +0000] [993] [DEBUG] HEAD /
+[2016-08-14 11:16:58 +0000] [993] [DEBUG] Ignoring EPIPE
+[2016-08-14 11:53:44 +0000] [993] [DEBUG] GET /games/
+[2016-08-14 11:53:44 +0000] [994] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-08-14 11:53:44 +0000] [993] [DEBUG] GET /apple-touch-icon.png
+[2016-08-14 11:53:44 +0000] [993] [DEBUG] GET /games/
+[2016-08-14 11:53:44 +0000] [994] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-08-14 11:53:44 +0000] [994] [DEBUG] GET /apple-touch-icon.png
+[2016-08-14 12:18:13 +0000] [994] [DEBUG] GET /user/soapCaller.bs
+[2016-08-14 17:06:15 +0000] [993] [DEBUG] GET /
+[2016-08-14 17:07:12 +0000] [994] [DEBUG] GET /robots.txt
+[2016-08-14 17:07:16 +0000] [993] [DEBUG] GET /analysis/
+[2016-08-14 17:12:00 +0000] [994] [DEBUG] GET /manager/html
+[2016-08-14 17:52:55 +0000] [993] [DEBUG] GET /analysis/PM-SkyPirates/
+[2016-08-14 17:55:00 +0000] [994] [DEBUG] GET /
+[2016-08-14 18:48:09 +0000] [993] [DEBUG] GET /
+[2016-08-14 23:15:43 +0000] [993] [DEBUG] GET /
+[2016-08-14 23:15:43 +0000] [993] [DEBUG] GET /
+[2016-08-14 23:15:43 +0000] [994] [DEBUG] GET /
+[2016-08-14 23:15:44 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-08-14 23:15:44 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-08-14 23:15:45 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-08-14 23:58:38 +0000] [994] [DEBUG] GET /games/SimpleVersus/
+[2016-08-15 02:16:31 +0000] [993] [DEBUG] GET /etc/lib/pChart2/examples/index.php
+[2016-08-15 02:25:28 +0000] [994] [DEBUG] GET /resume/
+[2016-08-15 03:44:42 +0000] [993] [DEBUG] GET /analysis/PM-QuantumCats/
+[2016-08-15 07:16:05 +0000] [993] [DEBUG] GET /
+[2016-08-15 13:27:55 +0000] [994] [DEBUG] GET /
+[2016-08-15 14:40:52 +0000] [993] [DEBUG] GET /
+[2016-08-15 15:27:13 +0000] [993] [DEBUG] GET /
+[2016-08-15 15:27:18 +0000] [994] [DEBUG] GET /games/SkyPirates
+[2016-08-15 15:27:18 +0000] [994] [DEBUG] GET /games/SkyPirates/
+[2016-08-15 15:27:21 +0000] [993] [DEBUG] GET /games/QuantumCats
+[2016-08-15 15:27:21 +0000] [993] [DEBUG] GET /games/QuantumCats/
+[2016-08-15 15:27:23 +0000] [994] [DEBUG] GET /games/SisyphusEscape
+[2016-08-15 15:27:24 +0000] [993] [DEBUG] GET /games/SisyphusEscape/
+[2016-08-15 15:27:32 +0000] [994] [DEBUG] GET /analysis/PM-QuantumCats
+[2016-08-15 15:27:32 +0000] [994] [DEBUG] GET /analysis/PM-QuantumCats/
+[2016-08-15 15:48:51 +0000] [993] [DEBUG] GET /
+[2016-08-15 15:48:55 +0000] [994] [DEBUG] GET /games/SkyPirates/
+[2016-08-15 15:48:58 +0000] [994] [DEBUG] GET /
+[2016-08-15 15:48:59 +0000] [993] [DEBUG] GET /analysis/PM-SimpleVersus
+[2016-08-15 15:48:59 +0000] [993] [DEBUG] GET /analysis/PM-SimpleVersus/
+[2016-08-15 15:49:09 +0000] [994] [DEBUG] GET /
+[2016-08-15 15:49:12 +0000] [993] [DEBUG] GET /games/SkyPirates/
+[2016-08-15 15:49:17 +0000] [994] [DEBUG] GET /analysis/PM-SkyPirates
+[2016-08-15 15:49:17 +0000] [993] [DEBUG] GET /analysis/PM-SkyPirates/
+[2016-08-15 15:49:25 +0000] [994] [DEBUG] GET /
+[2016-08-15 15:58:08 +0000] [993] [DEBUG] GET /
+[2016-08-15 16:58:38 +0000] [994] [DEBUG] GET /admin/config.php
+[2016-08-15 18:03:47 +0000] [993] [DEBUG] GET /
+[2016-08-15 19:05:48 +0000] [994] [DEBUG] GET /robots.txt
+[2016-08-15 19:05:52 +0000] [994] [DEBUG] GET /games/
+[2016-08-15 19:46:30 +0000] [993] [DEBUG] GET /
+[2016-08-15 19:49:27 +0000] [993] [DEBUG] GET /
+[2016-08-15 19:58:12 +0000] [994] [DEBUG] GET /
+[2016-08-15 20:05:29 +0000] [994] [DEBUG] GET /
+[2016-08-15 20:13:43 +0000] [993] [DEBUG] GET /manager/html
+[2016-08-15 21:37:12 +0000] [994] [DEBUG] GET /analysis/series/PostMortem/
+[2016-08-15 21:39:17 +0000] [994] [DEBUG] GET /games/SimpleVersus/
+[2016-08-15 21:44:48 +0000] [994] [DEBUG] GET /
+[2016-08-15 23:15:32 +0000] [994] [DEBUG] GET /admin/ajax.php
+[2016-08-16 00:02:43 +0000] [994] [DEBUG] GET /
+[2016-08-16 01:36:23 +0000] [994] [DEBUG] GET /analysis/
+[2016-08-16 03:38:39 +0000] [994] [DEBUG] HEAD /
+[2016-08-16 03:38:39 +0000] [993] [DEBUG] HEAD /
+[2016-08-16 03:38:39 +0000] [993] [DEBUG] Ignoring EPIPE
+[2016-08-16 03:38:40 +0000] [994] [DEBUG] Ignoring EPIPE
+[2016-08-16 03:38:40 +0000] [993] [DEBUG] GET /
+[2016-08-16 03:38:40 +0000] [994] [DEBUG] GET /
+[2016-08-16 03:38:40 +0000] [994] [DEBUG] HEAD /
+[2016-08-16 03:38:40 +0000] [994] [DEBUG] Ignoring EPIPE
+[2016-08-16 03:38:40 +0000] [993] [DEBUG] GET /
+[2016-08-16 07:08:03 +0000] [993] [DEBUG] GET /
+[2016-08-16 07:49:25 +0000] [994] [DEBUG] GET /
+[2016-08-16 10:50:23 +0000] [993] [DEBUG] GET /
+[2016-08-16 11:50:05 +0000] [993] [DEBUG] GET /
+[2016-08-16 12:57:13 +0000] [993] [DEBUG] GET /
+[2016-08-16 12:58:50 +0000] [994] [DEBUG] GET /
+[2016-08-16 12:58:50 +0000] [993] [DEBUG] GET /
+[2016-08-16 12:58:50 +0000] [994] [DEBUG] GET /
+[2016-08-16 12:58:51 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-08-16 12:58:51 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-08-16 12:58:51 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-08-16 13:01:21 +0000] [994] [DEBUG] GET /robots.txt
+[2016-08-16 13:01:24 +0000] [993] [DEBUG] GET /games/AliceAndSchrodinger/
+[2016-08-16 13:03:26 +0000] [993] [DEBUG] GET /bio/
+[2016-08-16 13:05:50 +0000] [993] [DEBUG] GET /games/SkyPirates/
+[2016-08-16 13:42:12 +0000] [994] [DEBUG] GET /
+[2016-08-16 13:44:55 +0000] [993] [DEBUG] GET /analysis/PM-SkyPirates/
+[2016-08-16 13:47:00 +0000] [994] [DEBUG] GET /games/SisyphusEscape/
+[2016-08-16 13:52:34 +0000] [993] [DEBUG] GET /
+[2016-08-16 14:23:46 +0000] [993] [DEBUG] GET /
+[2016-08-16 17:14:48 +0000] [993] [DEBUG] GET /admin/config.php
+[2016-08-16 20:58:04 +0000] [993] [DEBUG] GET /
+[2016-08-17 02:21:01 +0000] [993] [DEBUG] GET /
+[2016-08-17 08:16:51 +0000] [994] [DEBUG] GET /robots.txt
+[2016-08-17 08:16:55 +0000] [993] [DEBUG] GET /bio/
+[2016-08-17 08:18:55 +0000] [993] [DEBUG] GET /games/
+[2016-08-17 08:21:04 +0000] [994] [DEBUG] GET /games/AliceAndSchrodinger/
+[2016-08-17 08:28:47 +0000] [993] [DEBUG] GET /
+[2016-08-17 10:13:02 +0000] [994] [DEBUG] GET /analysis/series/PostMortem/
+[2016-08-17 10:59:56 +0000] [994] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-08-17 11:26:03 +0000] [993] [DEBUG] GET /analysis/
+[2016-08-17 11:35:06 +0000] [993] [DEBUG] GET /resume/
+[2016-08-17 13:55:20 +0000] [993] [DEBUG] GET /robots.txt
+[2016-08-17 13:55:24 +0000] [994] [DEBUG] GET /
+[2016-08-17 14:24:20 +0000] [994] [DEBUG] GET /
+[2016-08-17 14:58:21 +0000] [993] [DEBUG] GET /admin/config.php
+[2016-08-17 16:05:45 +0000] [994] [DEBUG] GET /games/SimpleVersus/
+[2016-08-17 16:19:26 +0000] [994] [DEBUG] GET /
+[2016-08-17 16:20:29 +0000] [994] [DEBUG] GET /
+[2016-08-17 17:57:26 +0000] [994] [DEBUG] GET /
+[2016-08-17 18:31:52 +0000] [993] [DEBUG] GET /robots.txt
+[2016-08-17 18:31:55 +0000] [994] [DEBUG] GET /analysis/PM-QuantumCats/
+[2016-08-17 19:50:53 +0000] [994] [DEBUG] GET /hndUnblock.cgi
+[2016-08-17 19:50:53 +0000] [993] [DEBUG] GET /tmUnblock.cgi
+[2016-08-17 19:50:54 +0000] [993] [DEBUG] GET /cgi/common.cgi
+[2016-08-17 19:50:54 +0000] [994] [DEBUG] GET /stssys.htm
+[2016-08-17 19:50:55 +0000] [994] [DEBUG] GET /
+[2016-08-17 19:50:55 +0000] [993] [DEBUG] POST /command.php
+[2016-08-17 20:21:04 +0000] [993] [DEBUG] GET /admin/config.php
+[2016-08-17 22:47:40 +0000] [994] [DEBUG] GET /
+[2016-08-17 22:47:43 +0000] [993] [DEBUG] GET /games/SkyPirates
+[2016-08-17 22:47:43 +0000] [994] [DEBUG] GET /games/SkyPirates/
+[2016-08-17 22:56:52 +0000] [994] [DEBUG] GET /
+[2016-08-18 00:23:13 +0000] [993] [DEBUG] GET /manager/html
+[2016-08-18 04:15:33 +0000] [993] [DEBUG] GET /check_proxy
+[2016-08-18 07:37:24 +0000] [993] [DEBUG] GET /
+[2016-08-18 09:51:55 +0000] [993] [DEBUG] GET /admin/config.php
+[2016-08-18 15:26:04 +0000] [994] [DEBUG] GET /
+[2016-08-18 15:33:18 +0000] [993] [DEBUG] GET /
+[2016-08-18 15:33:20 +0000] [993] [DEBUG] GET /analysis/
+[2016-08-18 15:33:22 +0000] [994] [DEBUG] GET /analysis/ES-Coaches/
+[2016-08-18 15:33:24 +0000] [993] [DEBUG] GET /analysis/ES-MakeAnESport/
+[2016-08-18 15:33:27 +0000] [994] [DEBUG] GET /analysis/series/PostMortem/
+[2016-08-18 15:33:28 +0000] [994] [DEBUG] GET /analysis/PM-SisyphusEscape/
+[2016-08-18 15:33:32 +0000] [993] [DEBUG] GET /analysis/PM-SkyPirates/
+[2016-08-18 15:33:35 +0000] [994] [DEBUG] GET /analysis/PM-QuantumCats/
+[2016-08-18 15:33:37 +0000] [994] [DEBUG] GET /analysis/PM-AliceAndSchrodinger/
+[2016-08-18 15:33:39 +0000] [994] [DEBUG] GET /analysis/PM-SimpleVersus/
+[2016-08-18 19:36:52 +0000] [993] [DEBUG] GET /
+[2016-08-18 19:36:53 +0000] [994] [DEBUG] GET /
+[2016-08-18 19:36:53 +0000] [993] [DEBUG] GET /
+[2016-08-18 19:36:53 +0000] [994] [DEBUG] GET /ncsi.txt
+[2016-08-18 19:36:53 +0000] [994] [DEBUG] GET /ncsi.txt
+[2016-08-18 19:36:53 +0000] [993] [DEBUG] GET /ncsi.txt
+[2016-08-18 19:36:54 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-08-18 19:36:54 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-08-18 19:36:54 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-08-18 19:40:03 +0000] [994] [DEBUG] GET /
+[2016-08-18 19:40:03 +0000] [993] [DEBUG] HEAD /redirect.php
+[2016-08-18 19:40:03 +0000] [993] [DEBUG] Ignoring EPIPE
+[2016-08-18 20:10:48 +0000] [993] [DEBUG] GET /
+[2016-08-19 04:02:40 +0000] [994] [DEBUG] GET /
+[2016-08-19 05:03:46 +0000] [993] [DEBUG] GET /
+[2016-08-19 05:29:34 +0000] [994] [DEBUG] GET /robots.txt
+[2016-08-19 05:29:37 +0000] [993] [DEBUG] GET /analysis/PM-SkyPirates/
+[2016-08-19 05:31:38 +0000] [994] [DEBUG] GET /bio/
+[2016-08-19 05:33:44 +0000] [994] [DEBUG] GET /games/
+[2016-08-19 05:35:50 +0000] [994] [DEBUG] GET /games/SkyPirates/
+[2016-08-19 05:37:56 +0000] [994] [DEBUG] GET /games/SisyphusEscape/
+[2016-08-19 10:05:57 +0000] [993] [DEBUG] GET /
+[2016-08-19 14:29:46 +0000] [993] [DEBUG] GET /
+[2016-08-19 16:26:25 +0000] [994] [DEBUG] GET /
+[2016-08-19 17:53:12 +0000] [993] [DEBUG] GET /
+[2016-08-19 17:53:12 +0000] [994] [DEBUG] GET /
+[2016-08-19 17:53:12 +0000] [994] [DEBUG] GET /
+[2016-08-19 21:10:22 +0000] [994] [DEBUG] GET /games/
+[2016-08-19 21:10:22 +0000] [993] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-08-19 21:10:23 +0000] [993] [DEBUG] GET /apple-touch-icon.png
+[2016-08-19 21:10:23 +0000] [994] [DEBUG] GET /games/
+[2016-08-19 21:10:23 +0000] [994] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-08-19 21:10:23 +0000] [993] [DEBUG] GET /apple-touch-icon.png
+[2016-08-19 21:13:51 +0000] [993] [DEBUG] GET /
+[2016-08-20 01:51:25 +0000] [994] [DEBUG] GET /robots.txt
+[2016-08-20 01:51:28 +0000] [993] [DEBUG] GET /resume/
+[2016-08-20 03:28:57 +0000] [993] [DEBUG] GET /analysis/
+[2016-08-20 07:56:08 +0000] [994] [DEBUG] GET /analysis/series/PostMortem/
+[2016-08-20 10:12:20 +0000] [994] [DEBUG] GET /zabbix
+[2016-08-20 10:36:50 +0000] [994] [DEBUG] GET /phpMyAdmin
+[2016-08-20 14:32:35 +0000] [993] [DEBUG] GET /
+[2016-08-20 17:07:44 +0000] [994] [DEBUG] GET /phpMyAdmin
+[2016-08-20 17:24:11 +0000] [993] [DEBUG] GET /
+[2016-08-20 21:53:28 +0000] [994] [DEBUG] GET /
+[2016-08-20 22:19:46 +0000] [993] [DEBUG] GET /
+[2016-08-21 02:10:12 +0000] [994] [DEBUG] GET /
+[2016-08-21 07:45:43 +0000] [993] [DEBUG] GET /manager/html
+[2016-08-21 08:03:14 +0000] [994] [DEBUG] GET /
+[2016-08-21 13:38:44 +0000] [994] [DEBUG] GET /hndUnblock.cgi
+[2016-08-21 13:38:44 +0000] [993] [DEBUG] GET /tmUnblock.cgi
+[2016-08-21 13:38:44 +0000] [994] [DEBUG] GET /cgi/common.cgi
+[2016-08-21 13:38:45 +0000] [994] [DEBUG] GET /stssys.htm
+[2016-08-21 13:38:45 +0000] [993] [DEBUG] GET /
+[2016-08-21 13:38:46 +0000] [994] [DEBUG] POST /command.php
+[2016-08-21 17:32:53 +0000] [993] [DEBUG] HEAD /
+[2016-08-21 17:32:53 +0000] [994] [DEBUG] HEAD /
+[2016-08-21 17:32:53 +0000] [993] [DEBUG] Ignoring EPIPE
+[2016-08-21 17:32:53 +0000] [994] [DEBUG] HEAD /
+[2016-08-21 17:32:53 +0000] [994] [DEBUG] Ignoring EPIPE
+[2016-08-21 17:32:53 +0000] [993] [DEBUG] GET /
+[2016-08-21 17:32:53 +0000] [994] [DEBUG] GET /
+[2016-08-21 17:32:53 +0000] [994] [DEBUG] GET /
+[2016-08-21 18:18:29 +0000] [994] [DEBUG] HEAD /
+[2016-08-21 18:18:29 +0000] [994] [DEBUG] Ignoring EPIPE
+[2016-08-21 18:18:29 +0000] [993] [DEBUG] GET /clientaccesspolicy.xml
+[2016-08-21 19:12:56 +0000] [994] [DEBUG] GET /
+[2016-08-21 19:12:57 +0000] [993] [DEBUG] GET /robots.txt
+[2016-08-21 19:12:57 +0000] [994] [DEBUG] GET /sitemap.xml
+[2016-08-21 21:41:53 +0000] [993] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2016-08-22 01:23:05 +0000] [993] [DEBUG] GET /
+[2016-08-22 09:33:42 +0000] [993] [DEBUG] GET /myadmin/scripts/setup.php
+[2016-08-22 14:54:16 +0000] [994] [DEBUG] GET /
+[2016-08-22 15:00:50 +0000] [993] [DEBUG] GET /admin/config.php
+[2016-08-22 15:04:08 +0000] [993] [DEBUG] GET /phpMyAdmin
+[2016-08-22 18:56:46 +0000] [993] [DEBUG] GET /cgi-bin/test-cgi
+[2016-08-22 20:13:49 +0000] [993] [DEBUG] GET /script
+[2016-08-22 20:13:50 +0000] [994] [DEBUG] GET /script
+[2016-08-22 21:28:16 +0000] [994] [DEBUG] GET /pma/scripts/setup.php
+[2016-08-22 22:40:36 +0000] [993] [DEBUG] GET /
+[2016-08-23 02:09:09 +0000] [994] [DEBUG] GET /phpMyAdmin
+[2016-08-23 02:09:10 +0000] [993] [DEBUG] GET /phpMyAdmin
+[2016-08-23 09:23:18 +0000] [994] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2016-08-23 10:13:30 +0000] [993] [DEBUG] GET /
+[2016-08-23 12:50:32 +0000] [993] [DEBUG] GET /admin/config.php
+[2016-08-23 12:59:18 +0000] [994] [DEBUG] GET /
+[2016-08-23 13:50:39 +0000] [994] [DEBUG] GET /admin/config.php
+[2016-08-23 21:28:55 +0000] [994] [DEBUG] GET /mysql/scripts/setup.php
+[2016-08-23 22:44:10 +0000] [993] [DEBUG] GET /
+[2016-08-23 22:44:24 +0000] [994] [DEBUG] GET /bio/
+[2016-08-23 22:45:28 +0000] [993] [DEBUG] GET /resume/
+[2016-08-23 22:46:14 +0000] [994] [DEBUG] GET /analysis/
+[2016-08-23 23:15:21 +0000] [993] [DEBUG] GET /
+[2016-08-24 04:08:31 +0000] [994] [DEBUG] GET /admin/
+[2016-08-24 07:53:07 +0000] [993] [DEBUG] GET /muieblackcat
+[2016-08-24 07:53:07 +0000] [993] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2016-08-24 07:53:08 +0000] [994] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2016-08-24 07:53:08 +0000] [993] [DEBUG] GET /mysqladmin/scripts/setup.php
+[2016-08-24 07:53:08 +0000] [994] [DEBUG] GET /myadmin/scripts/setup.php
+[2016-08-24 07:53:08 +0000] [994] [DEBUG] GET /pma/scripts/setup.php
+[2016-08-24 07:53:09 +0000] [993] [DEBUG] GET /mysql/scripts/setup.php
+[2016-08-24 17:45:42 +0000] [994] [DEBUG] GET /check_proxy
+[2016-08-24 20:35:27 +0000] [993] [DEBUG] GET /nagiosxi/login.php
+[2016-08-24 21:05:20 +0000] [994] [DEBUG] GET /
+[2016-08-24 21:05:25 +0000] [993] [DEBUG] GET /
+[2016-08-25 01:23:31 +0000] [993] [DEBUG] GET /
+[2016-08-25 07:13:04 +0000] [994] [DEBUG] GET /
+[2016-08-25 09:44:53 +0000] [993] [DEBUG] HEAD /
+[2016-08-25 09:44:54 +0000] [993] [DEBUG] Ignoring EPIPE
+[2016-08-25 09:44:54 +0000] [994] [DEBUG] HEAD /
+[2016-08-25 09:44:54 +0000] [994] [DEBUG] Ignoring EPIPE
+[2016-08-25 09:44:54 +0000] [993] [DEBUG] GET /
+[2016-08-25 09:44:54 +0000] [994] [DEBUG] GET /
+[2016-08-25 10:57:19 +0000] [994] [DEBUG] GET /
+[2016-08-25 15:35:07 +0000] [993] [DEBUG] GET /hndUnblock.cgi
+[2016-08-25 15:35:08 +0000] [994] [DEBUG] GET /tmUnblock.cgi
+[2016-08-25 15:35:08 +0000] [993] [DEBUG] GET /cgi/common.cgi
+[2016-08-25 15:35:08 +0000] [993] [DEBUG] GET /stssys.htm
+[2016-08-25 15:35:09 +0000] [994] [DEBUG] GET /
+[2016-08-25 15:35:09 +0000] [994] [DEBUG] POST /command.php
+[2016-08-25 19:20:22 +0000] [994] [DEBUG] GET /
+[2016-08-25 19:20:23 +0000] [993] [DEBUG] GET /robots.txt
+[2016-08-25 19:20:24 +0000] [993] [DEBUG] GET /sitemap.xml
+[2016-08-25 19:41:34 +0000] [993] [DEBUG] HEAD /
+[2016-08-25 19:41:34 +0000] [993] [DEBUG] Ignoring EPIPE
+[2016-08-25 19:41:34 +0000] [994] [DEBUG] GET /
+[2016-08-25 21:09:04 +0000] [994] [DEBUG] GET /muieblackcat
+[2016-08-25 21:09:04 +0000] [993] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2016-08-25 21:09:04 +0000] [994] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2016-08-25 21:09:04 +0000] [993] [DEBUG] GET /mysqladmin/scripts/setup.php
+[2016-08-25 21:09:05 +0000] [994] [DEBUG] GET /myadmin/scripts/setup.php
+[2016-08-25 21:09:05 +0000] [993] [DEBUG] GET /pma/scripts/setup.php
+[2016-08-25 21:09:05 +0000] [994] [DEBUG] GET /mysql/scripts/setup.php
+[2016-08-26 00:16:25 +0000] [993] [DEBUG] GET /
+[2016-08-26 00:25:57 +0000] [994] [DEBUG] GET /admin/config.php
+[2016-08-26 03:01:43 +0000] [994] [DEBUG] POST /cgi-bin/php/%63%67%69%6E/%70%68%70
+[2016-08-26 03:01:43 +0000] [993] [DEBUG] POST /%63%67%69%2d%62%69%6e/%70%68%70
+[2016-08-26 03:01:43 +0000] [994] [DEBUG] POST /cgi-bin/php5/%63%67%69%6E/%70%68%70
+[2016-08-26 03:01:43 +0000] [994] [DEBUG] POST /cgi-bin/php-cgi/%63%67%69%6E/%70%68%70
+[2016-08-26 03:01:43 +0000] [993] [DEBUG] POST /cgi-bin/php.cgi/%63%67%69%6E/%70%68%70
+[2016-08-26 03:01:43 +0000] [993] [DEBUG] Ignoring EPIPE
+[2016-08-26 03:23:42 +0000] [993] [DEBUG] GET /xmlrpc.php
+[2016-08-26 05:31:33 +0000] [993] [DEBUG] GET /etc/lib/pChart2/examples/index.php
+[2016-08-26 09:10:45 +0000] [994] [DEBUG] GET /
+[2016-08-26 12:15:36 +0000] [993] [DEBUG] GET /
+[2016-08-26 12:15:36 +0000] [994] [DEBUG] GET /
+[2016-08-26 12:15:36 +0000] [993] [DEBUG] GET /
+[2016-08-26 12:15:36 +0000] [993] [DEBUG] GET /HNAP1/
+[2016-08-26 12:15:37 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-08-26 12:15:37 +0000] [994] [DEBUG] GET /HNAP1/
+[2016-08-26 14:24:19 +0000] [994] [DEBUG] HEAD /images/
+[2016-08-26 14:24:19 +0000] [994] [DEBUG] Ignoring EPIPE
+[2016-08-26 15:04:33 +0000] [994] [DEBUG] GET /muieblackcat
+[2016-08-26 15:04:33 +0000] [993] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2016-08-26 15:04:34 +0000] [994] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2016-08-26 15:04:34 +0000] [993] [DEBUG] GET /pma/scripts/setup.php
+[2016-08-26 15:04:34 +0000] [994] [DEBUG] GET /myadmin/scripts/setup.php
+[2016-08-26 15:04:34 +0000] [993] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2016-08-26 16:20:12 +0000] [994] [DEBUG] GET /games/
+[2016-08-26 16:20:12 +0000] [993] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-08-26 16:20:14 +0000] [993] [DEBUG] GET /apple-touch-icon.png
+[2016-08-26 16:20:14 +0000] [994] [DEBUG] GET /games/
+[2016-08-26 16:20:15 +0000] [993] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-08-26 16:20:15 +0000] [994] [DEBUG] GET /apple-touch-icon.png
+[2016-08-26 18:06:30 +0000] [993] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2016-08-26 19:16:44 +0000] [993] [DEBUG] GET /
+[2016-08-27 02:39:58 +0000] [994] [DEBUG] GET /
+[2016-08-27 02:41:15 +0000] [994] [DEBUG] HEAD /
+[2016-08-27 02:41:15 +0000] [994] [DEBUG] Ignoring EPIPE
+[2016-08-27 02:41:15 +0000] [993] [DEBUG] GET /
+[2016-08-27 08:04:50 +0000] [993] [DEBUG] GET /admin
+[2016-08-27 09:06:51 +0000] [993] [DEBUG] HEAD /phpmyadmin/index.php
+[2016-08-27 09:06:51 +0000] [993] [DEBUG] Ignoring EPIPE
+[2016-08-27 10:20:10 +0000] [994] [DEBUG] GET /
+[2016-08-27 17:54:41 +0000] [994] [DEBUG] GET /
+[2016-08-28 05:56:02 +0000] [994] [DEBUG] GET /
+[2016-08-28 10:40:15 +0000] [994] [DEBUG] GET /
+[2016-08-28 18:16:17 +0000] [993] [DEBUG] GET /
+[2016-08-28 18:16:18 +0000] [994] [DEBUG] GET /
+[2016-08-28 18:16:18 +0000] [993] [DEBUG] GET /
+[2016-08-28 21:37:58 +0000] [994] [DEBUG] GET /
+[2016-08-28 22:35:00 +0000] [994] [DEBUG] GET /
+[2016-08-28 23:17:58 +0000] [993] [DEBUG] GET /hndUnblock.cgi
+[2016-08-28 23:17:58 +0000] [994] [DEBUG] GET /tmUnblock.cgi
+[2016-08-28 23:17:59 +0000] [994] [DEBUG] GET /cgi/common.cgi
+[2016-08-28 23:17:59 +0000] [993] [DEBUG] GET /stssys.htm
+[2016-08-28 23:17:59 +0000] [994] [DEBUG] GET /
+[2016-08-28 23:18:00 +0000] [994] [DEBUG] POST /command.php
+[2016-08-29 02:00:34 +0000] [993] [DEBUG] GET /
+[2016-08-29 05:27:55 +0000] [994] [DEBUG] GET /
+[2016-08-29 08:37:12 +0000] [993] [DEBUG] GET /
+[2016-08-29 09:14:59 +0000] [993] [DEBUG] GET /CFIDE/administrator/
+[2016-08-29 09:53:33 +0000] [993] [DEBUG] GET /
+[2016-08-29 13:26:49 +0000] [993] [DEBUG] GET /
+[2016-08-29 22:20:59 +0000] [993] [DEBUG] GET /
+[2016-08-29 23:49:56 +0000] [994] [DEBUG] GET /
+[2016-08-30 04:17:41 +0000] [993] [DEBUG] GET /phpMyAdmin
+[2016-08-30 06:05:20 +0000] [993] [DEBUG] GET /robots.txt
+[2016-08-30 06:05:20 +0000] [994] [DEBUG] GET /
+[2016-08-30 08:39:27 +0000] [993] [DEBUG] GET /manager/html
+[2016-08-30 09:58:32 +0000] [993] [DEBUG] GET /
+[2016-08-30 11:41:33 +0000] [994] [DEBUG] GET /
+[2016-08-30 12:22:09 +0000] [994] [DEBUG] GET /
+[2016-08-30 21:37:29 +0000] [993] [DEBUG] GET /games/
+[2016-08-30 21:37:29 +0000] [993] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-08-30 21:37:29 +0000] [993] [DEBUG] GET /apple-touch-icon.png
+[2016-08-30 21:37:30 +0000] [994] [DEBUG] GET /games/
+[2016-08-30 21:37:30 +0000] [994] [DEBUG] GET /apple-touch-icon-precomposed.png
+[2016-08-30 21:37:30 +0000] [994] [DEBUG] GET /apple-touch-icon.png
+[2016-08-31 06:44:53 +0000] [993] [DEBUG] GET /
+[2016-08-31 08:22:10 +0000] [993] [DEBUG] GET /
+[2016-08-31 12:41:04 +0000] [994] [DEBUG] GET /CFIDE/administrator/
+[2016-08-31 13:50:50 +0000] [993] [DEBUG] GET /
+[2016-08-31 15:15:01 +0000] [994] [DEBUG] GET /
+[2016-08-31 15:15:02 +0000] [993] [DEBUG] GET /robots.txt
+[2016-08-31 15:15:02 +0000] [994] [DEBUG] GET /sitemap.xml
+[2016-08-31 15:37:00 +0000] [994] [DEBUG] GET /
+[2016-08-31 16:34:16 +0000] [993] [DEBUG] GET /
+[2016-08-31 17:59:51 +0000] [994] [DEBUG] HEAD /check_proxy
+[2016-08-31 17:59:51 +0000] [994] [DEBUG] Ignoring EPIPE
+[2016-08-31 18:02:05 +0000] [994] [DEBUG] GET /
+[2016-08-31 20:53:58 +0000] [993] [DEBUG] GET /
+[2016-08-31 22:22:33 +0000] [994] [DEBUG] GET /muieblackcat
+[2016-08-31 22:22:33 +0000] [993] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2016-08-31 22:22:33 +0000] [993] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2016-08-31 22:22:33 +0000] [993] [DEBUG] GET /pma/scripts/setup.php
+[2016-08-31 22:22:34 +0000] [993] [DEBUG] GET /myadmin/scripts/setup.php
+[2016-08-31 22:22:34 +0000] [993] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2016-09-01 08:17:51 +0000] [993] [DEBUG] GET /hndUnblock.cgi
+[2016-09-01 08:17:51 +0000] [994] [DEBUG] GET /tmUnblock.cgi
+[2016-09-01 08:17:52 +0000] [993] [DEBUG] GET /cgi/common.cgi
+[2016-09-01 08:17:52 +0000] [994] [DEBUG] GET /stssys.htm
+[2016-09-01 08:17:52 +0000] [993] [DEBUG] GET /
+[2016-09-01 08:17:53 +0000] [994] [DEBUG] POST /command.php
+[2016-09-01 11:06:52 +0000] [994] [DEBUG] GET /robots.txt
+[2016-09-01 11:43:19 +0000] [994] [DEBUG] HEAD /
+[2016-09-01 11:43:19 +0000] [994] [DEBUG] Ignoring EPIPE
+[2016-09-01 16:37:17 +0000] [994] [DEBUG] GET /OnlineUpdate/questions.php
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2016-09-01 17:17:10 +0000] [640] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x76569c30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x76569a30>
+  pre_fork: <function pre_fork at 0x76569b30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x76569970>
+  pre_exec: <function pre_exec at 0x76569f70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x76569d30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x764fa370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x764fa070>
+  post_request: <function post_request at 0x764fa0f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x76569df0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x764fa1b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x765698b0>
+  worker_abort: <function worker_abort at 0x76569eb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x764fa2b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-09-01 17:17:10 +0000] [640] [INFO] Starting gunicorn 19.4.5
+[2016-09-01 17:17:10 +0000] [640] [DEBUG] Arbiter booted
+[2016-09-01 17:17:10 +0000] [640] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (640)
+[2016-09-01 17:17:10 +0000] [640] [INFO] Using worker: sync
+[2016-09-01 17:17:10 +0000] [852] [INFO] Booting worker with pid: 852
+[2016-09-01 17:17:10 +0000] [856] [INFO] Booting worker with pid: 856
+[2016-09-01 17:17:10 +0000] [640] [DEBUG] 2 workers
+[2017-08-19 22:01:26 +0000] [856] [DEBUG] GET /
+[2017-08-19 22:01:27 +0000] [852] [DEBUG] GET /favicon.ico
+[2017-08-19 22:01:31 +0000] [856] [DEBUG] GET /
+[2017-08-19 22:01:33 +0000] [852] [DEBUG] GET /favicon.ico
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2017-08-19 21:17:10 +0000] [703] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7655cc30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7655ca30>
+  pre_fork: <function pre_fork at 0x7655cb30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7655c970>
+  pre_exec: <function pre_exec at 0x7655cf70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7655cd30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x764ed370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x764ed070>
+  post_request: <function post_request at 0x764ed0f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7655cdf0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x764ed1b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7655c8b0>
+  worker_abort: <function worker_abort at 0x7655ceb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x764ed2b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2017-08-19 21:17:10 +0000] [703] [INFO] Starting gunicorn 19.4.5
+[2017-08-19 21:17:10 +0000] [703] [DEBUG] Arbiter booted
+[2017-08-19 21:17:10 +0000] [703] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (703)
+[2017-08-19 21:17:10 +0000] [703] [INFO] Using worker: sync
+[2017-08-19 21:17:10 +0000] [794] [INFO] Booting worker with pid: 794
+[2017-08-19 21:17:10 +0000] [800] [INFO] Booting worker with pid: 800
+[2017-08-19 21:17:11 +0000] [703] [DEBUG] 2 workers
+[2017-08-19 22:09:15 +0000] [703] [CRITICAL] WORKER TIMEOUT (pid:800)
+[2017-08-19 22:09:15 +0000] [703] [CRITICAL] WORKER TIMEOUT (pid:794)
+[2017-08-19 22:09:15 +0000] [800] [INFO] Worker exiting (pid: 800)
+[2017-08-19 22:09:16 +0000] [794] [INFO] Worker exiting (pid: 794)
+[2017-08-19 22:09:16 +0000] [954] [INFO] Booting worker with pid: 954
+[2017-08-19 22:09:16 +0000] [703] [DEBUG] 1 workers
+[2017-08-19 22:09:16 +0000] [955] [INFO] Booting worker with pid: 955
+[2017-08-19 22:09:16 +0000] [703] [DEBUG] 2 workers
+[2017-08-20 05:07:17 +0000] [955] [DEBUG] GET /
+[2017-08-20 05:08:25 +0000] [954] [DEBUG] GET /
+[2017-08-20 09:35:11 +0000] [955] [DEBUG] GET /currentsetting.htm
+[2017-08-20 18:33:08 +0000] [954] [DEBUG] GET /w00tw00t.at.blackhats.romanian.anti-sec:)
+[2017-08-20 18:33:08 +0000] [955] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-08-20 18:33:09 +0000] [954] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-08-20 18:33:09 +0000] [955] [DEBUG] GET /phpMyAdmin/setup.php
+[2017-08-20 18:33:09 +0000] [954] [DEBUG] GET /phpmyadmin/setup.php
+[2017-08-20 18:33:09 +0000] [954] [DEBUG] GET /pma/scripts/setup.php
+[2017-08-20 18:33:09 +0000] [954] [DEBUG] GET /pma/setup.php
+[2017-08-20 18:33:09 +0000] [954] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-08-20 18:33:09 +0000] [955] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-08-20 18:33:09 +0000] [954] [DEBUG] GET /myadmin/setup.php
+[2017-08-20 18:33:10 +0000] [955] [DEBUG] GET /MyAdmin/setup.php
+[2017-08-20 19:21:50 +0000] [954] [DEBUG] GET /
+[2017-08-21 04:00:28 +0000] [954] [DEBUG] GET /
+[2017-08-21 06:34:13 +0000] [955] [DEBUG] GET /
+[2017-08-21 11:43:39 +0000] [954] [DEBUG] POST /
+[2017-08-21 11:45:40 +0000] [955] [DEBUG] POST /
+[2017-08-21 11:47:40 +0000] [955] [DEBUG] POST /
+[2017-08-21 16:49:39 +0000] [954] [DEBUG] GET /
+[2017-08-21 20:33:27 +0000] [955] [DEBUG] GET /
+[2017-08-21 21:25:29 +0000] [954] [DEBUG] GET /
+[2017-08-22 00:33:28 +0000] [955] [DEBUG] PROPFIND /
+[2017-08-22 00:46:13 +0000] [955] [DEBUG] GET /
+[2017-08-22 02:16:02 +0000] [954] [DEBUG] GET /
+[2017-08-22 08:30:04 +0000] [955] [DEBUG] GET /
+[2017-08-22 08:30:18 +0000] [954] [DEBUG] HEAD /manager/html
+[2017-08-22 08:30:18 +0000] [954] [DEBUG] Ignoring EPIPE
+[2017-08-22 10:27:09 +0000] [954] [DEBUG] GET /
+[2017-08-22 22:42:38 +0000] [955] [DEBUG] GET /
+[2017-08-22 23:56:06 +0000] [954] [DEBUG] GET /hndUnblock.cgi
+[2017-08-22 23:56:06 +0000] [955] [DEBUG] GET /tmUnblock.cgi
+[2017-08-22 23:56:07 +0000] [954] [DEBUG] GET /moo
+[2017-08-22 23:56:07 +0000] [955] [DEBUG] GET /
+[2017-08-23 00:28:54 +0000] [954] [DEBUG] GET /
+[2017-08-23 00:37:22 +0000] [954] [DEBUG] GET /
+[2017-08-23 09:36:24 +0000] [954] [DEBUG] GET /
+[2017-08-23 13:25:51 +0000] [954] [DEBUG] GET /
+[2017-08-23 18:38:37 +0000] [954] [DEBUG] HEAD /check_proxy
+[2017-08-23 18:38:37 +0000] [954] [DEBUG] Ignoring EPIPE
+[2017-08-23 20:53:13 +0000] [954] [DEBUG] GET /manager/html
+[2017-08-23 22:44:51 +0000] [954] [DEBUG] GET /
+[2017-08-23 23:36:47 +0000] [954] [DEBUG] GET /
+[2017-08-23 23:54:59 +0000] [955] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-08-24 00:00:34 +0000] [955] [DEBUG] GET /manager/html
+[2017-08-24 02:50:19 +0000] [955] [DEBUG] GET /
+[2017-08-24 12:41:26 +0000] [955] [DEBUG] GET /
+[2017-08-24 13:33:55 +0000] [954] [DEBUG] GET /
+[2017-08-24 13:43:14 +0000] [954] [DEBUG] GET /zervit32
+[2017-08-24 13:43:15 +0000] [955] [DEBUG] POST /your/killing/me/smalls.jpg
+[2017-08-24 13:43:15 +0000] [954] [DEBUG] GET /Chromex64.exe
+[2017-08-24 13:43:15 +0000] [955] [DEBUG] POST /your/killing/me/smalls.jpg
+[2017-08-24 13:43:15 +0000] [954] [DEBUG] GET /httpconf.aspx
+[2017-08-24 13:43:15 +0000] [955] [DEBUG] POST /your/killing/me/smalls.jpg
+[2017-08-24 13:43:16 +0000] [954] [DEBUG] GET /welcome.aspx
+[2017-08-24 13:43:16 +0000] [955] [DEBUG] POST /your/killing/me/smalls.jpg
+[2017-08-24 13:43:17 +0000] [954] [DEBUG] GET /Normal.dotm
+[2017-08-24 13:43:17 +0000] [955] [DEBUG] POST /your/killing/me/smalls.jpg
+[2017-08-24 13:43:17 +0000] [954] [DEBUG] GET /ame_icon.pn
+[2017-08-24 13:43:17 +0000] [955] [DEBUG] POST /your/killing/me/smalls.jpg
+[2017-08-24 13:43:18 +0000] [955] [DEBUG] GET /ame_icon.png
+[2017-08-24 13:43:18 +0000] [954] [DEBUG] POST /your/killing/me/smalls.jpg
+[2017-08-24 13:43:18 +0000] [954] [DEBUG] GET /Template.dom
+[2017-08-24 13:43:19 +0000] [955] [DEBUG] POST /your/killing/me/smalls.jpg
+[2017-08-24 17:39:24 +0000] [955] [DEBUG] GET /
+[2017-08-24 19:25:01 +0000] [954] [DEBUG] GET /manager/html
+[2017-08-25 01:25:27 +0000] [954] [DEBUG] GET /
+[2017-08-25 11:05:22 +0000] [955] [DEBUG] GET /
+[2017-08-25 14:49:12 +0000] [955] [DEBUG] GET /
+[2017-08-26 01:25:29 +0000] [954] [DEBUG] GET /
+[2017-08-26 03:44:27 +0000] [955] [DEBUG] GET /cgi/common.cgi
+[2017-08-26 03:44:27 +0000] [954] [DEBUG] GET /stssys.htm
+[2017-08-26 03:44:28 +0000] [955] [DEBUG] GET /
+[2017-08-26 03:44:28 +0000] [954] [DEBUG] POST /command.php
+[2017-08-26 06:31:07 +0000] [954] [DEBUG] GET /
+[2017-08-26 07:17:47 +0000] [954] [DEBUG] GET /
+[2017-08-26 08:51:26 +0000] [954] [DEBUG] GET /
+[2017-08-26 12:53:09 +0000] [955] [DEBUG] GET /
+[2017-08-26 17:52:14 +0000] [954] [DEBUG] GET /
+[2017-08-27 03:10:02 +0000] [954] [DEBUG] GET /
+[2017-08-27 03:23:38 +0000] [954] [DEBUG] GET /
+[2017-08-27 06:20:34 +0000] [955] [DEBUG] GET /
+[2017-08-27 06:20:34 +0000] [954] [DEBUG] GET /robots.txt
+[2017-08-27 06:20:34 +0000] [955] [DEBUG] GET /sitemap.xml
+[2017-08-27 10:24:36 +0000] [955] [DEBUG] GET /
+[2017-08-27 12:24:08 +0000] [955] [DEBUG] GET /
+[2017-08-27 14:28:05 +0000] [955] [DEBUG] POST /cgi-bin/wlogin.cgi
+[2017-08-27 15:34:11 +0000] [955] [DEBUG] GET /Template.dotm
+[2017-08-27 15:34:11 +0000] [954] [DEBUG] POST /your/killing/me/smalls.jpg
+[2017-08-27 15:50:24 +0000] [954] [DEBUG] GET /
+[2017-08-27 16:02:49 +0000] [955] [DEBUG] GET /axis-cgi/jpg/image.cgi
+[2017-08-27 17:34:57 +0000] [954] [DEBUG] GET /
+[2017-08-27 19:28:22 +0000] [954] [DEBUG] GET /
+[2017-08-27 19:40:50 +0000] [955] [DEBUG] GET /
+[2017-08-27 19:50:22 +0000] [955] [DEBUG] GET /
+[2017-08-27 20:33:15 +0000] [954] [DEBUG] POST /
+[2017-08-27 22:46:14 +0000] [954] [DEBUG] GET /manager/html
+[2017-08-27 23:39:31 +0000] [955] [DEBUG] GET /
+[2017-08-28 00:07:43 +0000] [955] [DEBUG] GET /
+[2017-08-28 00:21:27 +0000] [954] [DEBUG] GET /
+[2017-08-28 04:53:09 +0000] [955] [DEBUG] GET /
+[2017-08-28 14:23:45 +0000] [954] [DEBUG] GET /
+[2017-08-28 14:41:06 +0000] [954] [DEBUG] GET /
+[2017-08-28 16:27:17 +0000] [954] [DEBUG] GET /
+[2017-08-28 22:05:53 +0000] [955] [DEBUG] GET /
+[2017-08-28 23:33:12 +0000] [955] [DEBUG] GET /
+[2017-08-29 00:14:28 +0000] [954] [DEBUG] GET /
+[2017-08-29 04:06:29 +0000] [954] [DEBUG] GET /
+[2017-08-29 06:34:27 +0000] [954] [DEBUG] GET /wallet.dat
+[2017-08-29 09:46:45 +0000] [954] [DEBUG] GET /
+[2017-08-29 11:14:12 +0000] [954] [DEBUG] GET /phpmyadmin
+[2017-08-29 19:48:01 +0000] [954] [DEBUG] GET /
+[2017-08-29 19:48:08 +0000] [955] [DEBUG] GET /
+[2017-08-29 22:37:05 +0000] [954] [DEBUG] GET /
+[2017-08-29 22:45:05 +0000] [954] [DEBUG] GET /hndUnblock.cgi
+[2017-08-29 22:45:05 +0000] [955] [DEBUG] GET /tmUnblock.cgi
+[2017-08-29 22:45:06 +0000] [954] [DEBUG] GET /moo
+[2017-08-29 22:45:06 +0000] [954] [DEBUG] GET /
+[2017-08-29 22:48:00 +0000] [954] [DEBUG] GET /
+[2017-08-30 00:27:20 +0000] [954] [DEBUG] GET /
+[2017-08-30 04:40:12 +0000] [954] [DEBUG] GET /
+[2017-08-30 05:39:57 +0000] [954] [DEBUG] GET /
+[2017-08-30 06:31:37 +0000] [955] [DEBUG] GET /
+[2017-08-30 06:33:47 +0000] [954] [DEBUG] GET /
+[2017-08-30 17:43:06 +0000] [955] [DEBUG] GET /muieblackcat
+[2017-08-30 17:43:07 +0000] [954] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-08-30 17:43:07 +0000] [955] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-08-30 17:43:07 +0000] [954] [DEBUG] GET /pma/scripts/setup.php
+[2017-08-30 17:43:08 +0000] [954] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-08-30 17:43:08 +0000] [955] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-08-30 18:26:20 +0000] [955] [DEBUG] HEAD /check_proxy
+[2017-08-30 18:26:20 +0000] [955] [DEBUG] Ignoring EPIPE
+[2017-08-30 19:45:14 +0000] [955] [DEBUG] GET /
+[2017-08-30 19:45:15 +0000] [954] [DEBUG] GET /robots.txt
+[2017-08-30 19:45:15 +0000] [954] [DEBUG] GET /sitemap.xml
+[2017-08-30 19:45:17 +0000] [955] [DEBUG] GET /favicon.ico
+[2017-08-30 19:59:10 +0000] [955] [DEBUG] GET /
+[2017-08-31 11:04:39 +0000] [954] [DEBUG] GET /
+[2017-08-31 12:43:18 +0000] [955] [DEBUG] GET /
+[2017-08-31 12:43:19 +0000] [954] [DEBUG] GET /
+[2017-08-31 12:43:19 +0000] [954] [DEBUG] GET /
+[2017-08-31 12:43:19 +0000] [954] [DEBUG] GET /exec/show/tech-support/cr
+[2017-08-31 12:43:20 +0000] [955] [DEBUG] GET /exec/show/tech-support/cr
+[2017-08-31 12:43:20 +0000] [955] [DEBUG] GET /exec/show/tech-support/cr
+[2017-08-31 12:56:00 +0000] [955] [DEBUG] GET /
+[2017-08-31 14:35:02 +0000] [954] [DEBUG] GET /wp-json/
+[2017-08-31 14:39:14 +0000] [955] [DEBUG] GET /
+[2017-08-31 16:22:05 +0000] [954] [DEBUG] GET /w00tw00t.at.blackhats.romanian.anti-sec:)
+[2017-08-31 16:22:05 +0000] [955] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-08-31 16:22:06 +0000] [954] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-08-31 16:22:07 +0000] [955] [DEBUG] GET /pma/scripts/setup.php
+[2017-08-31 16:22:07 +0000] [954] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-08-31 16:22:08 +0000] [955] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-08-31 21:06:56 +0000] [955] [DEBUG] GET /
+[2017-08-31 22:47:07 +0000] [954] [DEBUG] GET /
+[2017-08-31 23:11:07 +0000] [954] [DEBUG] GET /
+[2017-09-01 00:45:00 +0000] [954] [DEBUG] GET /
+[2017-09-01 02:15:57 +0000] [954] [DEBUG] GET /
+[2017-09-01 02:16:50 +0000] [954] [DEBUG] GET /
+[2017-09-01 08:13:24 +0000] [955] [DEBUG] GET /
+[2017-09-01 09:18:22 +0000] [954] [DEBUG] GET /
+[2017-09-01 10:11:16 +0000] [954] [DEBUG] GET /
+[2017-09-01 10:51:30 +0000] [955] [DEBUG] GET /
+[2017-09-01 12:58:17 +0000] [954] [DEBUG] GET /
+[2017-09-01 14:30:50 +0000] [954] [DEBUG] GET /
+[2017-09-01 17:48:11 +0000] [955] [DEBUG] GET /
+[2017-09-01 19:03:28 +0000] [955] [DEBUG] GET /cgi/common.cgi
+[2017-09-01 19:03:29 +0000] [954] [DEBUG] GET /stssys.htm
+[2017-09-01 19:03:29 +0000] [955] [DEBUG] GET /
+[2017-09-01 19:03:30 +0000] [955] [DEBUG] POST /command.php
+[2017-09-01 23:02:35 +0000] [955] [DEBUG] GET /manager/html
+[2017-09-02 05:12:50 +0000] [955] [DEBUG] GET /
+[2017-09-02 05:41:09 +0000] [954] [DEBUG] GET /manager/html
+[2017-09-02 05:46:45 +0000] [955] [DEBUG] GET /
+[2017-09-02 07:35:21 +0000] [955] [DEBUG] GET /
+[2017-09-02 08:33:17 +0000] [955] [DEBUG] GET /w00tw00t.at.blackhats.romanian.anti-sec:)
+[2017-09-02 08:33:17 +0000] [954] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-02 08:33:18 +0000] [955] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-02 08:33:19 +0000] [954] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-02 08:33:19 +0000] [955] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-09-02 08:33:21 +0000] [954] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-09-02 10:16:30 +0000] [954] [DEBUG] GET /
+[2017-09-02 20:02:48 +0000] [955] [DEBUG] GET /
+[2017-09-03 18:19:31 +0000] [954] [DEBUG] GET /
+[2017-09-03 18:59:48 +0000] [954] [DEBUG] GET /wp-json/
+[2017-09-03 19:01:39 +0000] [954] [DEBUG] GET /
+[2017-09-03 19:01:39 +0000] [955] [DEBUG] GET /
+[2017-09-03 19:01:40 +0000] [954] [DEBUG] GET /
+[2017-09-03 19:01:40 +0000] [955] [DEBUG] GET /HNAP1/
+[2017-09-03 19:01:40 +0000] [955] [DEBUG] GET /HNAP1/
+[2017-09-03 19:01:40 +0000] [954] [DEBUG] GET /HNAP1/
+[2017-09-03 23:17:46 +0000] [954] [DEBUG] GET /
+[2017-09-04 00:50:23 +0000] [954] [DEBUG] GET /
+[2017-09-04 02:21:34 +0000] [955] [DEBUG] GET /manager/html
+[2017-09-04 04:22:10 +0000] [954] [DEBUG] GET /
+[2017-09-04 10:28:22 +0000] [955] [DEBUG] GET /
+[2017-09-04 14:11:06 +0000] [954] [DEBUG] GET /
+[2017-09-04 15:02:19 +0000] [955] [DEBUG] POST /login.action
+[2017-09-04 15:02:19 +0000] [955] [DEBUG] Ignoring EPIPE
+[2017-09-04 16:54:08 +0000] [954] [DEBUG] GET /
+[2017-09-04 16:57:54 +0000] [954] [DEBUG] GET /
+[2017-09-04 22:44:55 +0000] [954] [DEBUG] GET /muieblackcat
+[2017-09-04 22:44:55 +0000] [955] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-04 22:44:55 +0000] [954] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-04 22:44:56 +0000] [955] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-04 22:44:56 +0000] [954] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-09-04 22:44:56 +0000] [954] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-09-04 22:51:52 +0000] [954] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-04 22:51:53 +0000] [955] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-04 22:51:53 +0000] [954] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-04 22:51:54 +0000] [955] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-09-04 23:21:36 +0000] [955] [DEBUG] GET /w00tw00t.at.blackhats.romanian.anti-sec:)
+[2017-09-04 23:21:36 +0000] [954] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-04 23:21:36 +0000] [955] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-04 23:21:36 +0000] [954] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-04 23:21:36 +0000] [955] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-09-04 23:21:37 +0000] [955] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-09-04 23:59:10 +0000] [955] [DEBUG] GET /
+[2017-09-05 01:35:25 +0000] [954] [DEBUG] GET /
+[2017-09-05 03:29:34 +0000] [954] [DEBUG] GET /
+[2017-09-05 04:12:46 +0000] [954] [DEBUG] GET /
+[2017-09-05 06:44:38 +0000] [955] [DEBUG] GET /hndUnblock.cgi
+[2017-09-05 06:44:38 +0000] [954] [DEBUG] GET /tmUnblock.cgi
+[2017-09-05 06:44:38 +0000] [954] [DEBUG] GET /moo
+[2017-09-05 06:44:39 +0000] [955] [DEBUG] GET /
+[2017-09-05 08:13:28 +0000] [955] [DEBUG] GET /
+[2017-09-05 20:50:28 +0000] [955] [DEBUG] GET /
+[2017-09-05 21:11:24 +0000] [954] [DEBUG] GET /
+[2017-09-05 22:10:29 +0000] [955] [DEBUG] GET /
+[2017-09-05 23:07:43 +0000] [954] [DEBUG] GET /
+[2017-09-05 23:16:02 +0000] [954] [DEBUG] GET /minera/index.php/app/index
+[2017-09-06 04:03:01 +0000] [954] [DEBUG] GET /
+[2017-09-06 04:42:08 +0000] [955] [DEBUG] GET /
+[2017-09-06 09:13:31 +0000] [955] [DEBUG] GET /
+[2017-09-06 11:18:42 +0000] [954] [DEBUG] GET /
+[2017-09-06 11:38:32 +0000] [954] [DEBUG] GET /
+[2017-09-06 15:22:23 +0000] [955] [DEBUG] GET /
+[2017-09-06 17:56:07 +0000] [955] [DEBUG] GET /
+[2017-09-06 18:44:00 +0000] [954] [DEBUG] HEAD /check_proxy
+[2017-09-06 18:44:00 +0000] [954] [DEBUG] Ignoring EPIPE
+[2017-09-06 18:58:39 +0000] [955] [DEBUG] GET /manager/html
+[2017-09-06 22:23:58 +0000] [955] [DEBUG] GET /
+[2017-09-07 02:15:00 +0000] [954] [DEBUG] GET /
+[2017-09-07 02:33:11 +0000] [954] [DEBUG] GET /
+[2017-09-07 02:47:29 +0000] [955] [DEBUG] GET /
+[2017-09-07 02:58:09 +0000] [955] [DEBUG] GET /
+[2017-09-07 03:10:12 +0000] [955] [DEBUG] GET /
+[2017-09-07 03:10:12 +0000] [955] [DEBUG] GET /
+[2017-09-07 03:10:13 +0000] [955] [DEBUG] GET /
+[2017-09-07 03:10:13 +0000] [955] [DEBUG] GET /HNAP1/
+[2017-09-07 03:10:13 +0000] [955] [DEBUG] GET /HNAP1/
+[2017-09-07 03:10:13 +0000] [954] [DEBUG] GET /HNAP1/
+[2017-09-07 03:13:02 +0000] [954] [DEBUG] GET /rom-0
+[2017-09-07 08:20:23 +0000] [955] [DEBUG] GET /
+[2017-09-07 10:13:25 +0000] [955] [DEBUG] GET /
+[2017-09-07 13:40:17 +0000] [955] [DEBUG] GET /
+[2017-09-07 16:32:15 +0000] [954] [DEBUG] GET /
+[2017-09-07 17:43:39 +0000] [955] [DEBUG] GET /
+[2017-09-07 17:47:37 +0000] [954] [DEBUG] GET /
+[2017-09-07 18:01:01 +0000] [955] [DEBUG] GET /
+[2017-09-07 19:51:38 +0000] [954] [DEBUG] GET /w00tw00t.at.blackhats.romanian.anti-sec:)
+[2017-09-07 19:51:39 +0000] [955] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-07 19:51:39 +0000] [955] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-07 19:51:40 +0000] [954] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-07 19:51:41 +0000] [954] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-09-07 19:51:41 +0000] [955] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-09-07 21:45:00 +0000] [954] [DEBUG] GET /
+[2017-09-07 22:58:31 +0000] [954] [DEBUG] GET /
+[2017-09-07 23:17:43 +0000] [954] [DEBUG] GET /
+[2017-09-08 00:16:53 +0000] [954] [DEBUG] GET /
+[2017-09-08 00:22:50 +0000] [954] [DEBUG] GET /w00tw00t.at.blackhats.romanian.anti-sec:)
+[2017-09-08 00:22:50 +0000] [955] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-08 00:22:51 +0000] [954] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-08 00:22:51 +0000] [955] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-08 00:22:51 +0000] [954] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-09-08 00:22:52 +0000] [954] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-09-08 00:25:01 +0000] [954] [DEBUG] GET /script
+[2017-09-08 03:29:11 +0000] [954] [DEBUG] GET /
+[2017-09-08 04:05:14 +0000] [954] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-08 04:53:48 +0000] [954] [DEBUG] GET /
+[2017-09-08 07:12:29 +0000] [955] [DEBUG] GET /manager/html
+[2017-09-08 07:23:18 +0000] [955] [DEBUG] GET /cgi/common.cgi
+[2017-09-08 07:23:18 +0000] [954] [DEBUG] GET /stssys.htm
+[2017-09-08 07:23:19 +0000] [954] [DEBUG] GET /
+[2017-09-08 07:23:19 +0000] [954] [DEBUG] POST /command.php
+[2017-09-08 10:49:39 +0000] [954] [DEBUG] GET /muieblackcat
+[2017-09-08 10:49:40 +0000] [954] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-08 10:49:40 +0000] [955] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-08 10:49:41 +0000] [954] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-08 10:49:41 +0000] [954] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-09-08 10:49:42 +0000] [955] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-09-08 10:49:49 +0000] [954] [DEBUG] GET /muieblackcat
+[2017-09-08 10:49:50 +0000] [955] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-08 10:49:51 +0000] [954] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-08 10:49:51 +0000] [955] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-08 10:49:52 +0000] [955] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-09-08 10:49:52 +0000] [954] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-09-08 10:51:00 +0000] [954] [DEBUG] GET /muieblackcat
+[2017-09-08 10:51:00 +0000] [955] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-08 10:51:01 +0000] [954] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-08 10:51:02 +0000] [955] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-08 10:51:02 +0000] [954] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-09-08 10:51:03 +0000] [954] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-09-08 10:51:24 +0000] [955] [DEBUG] GET /muieblackcat
+[2017-09-08 10:51:24 +0000] [954] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-08 10:51:25 +0000] [955] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-08 10:51:25 +0000] [955] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-08 10:51:26 +0000] [954] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-09-08 10:51:27 +0000] [954] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-09-08 10:52:08 +0000] [955] [DEBUG] GET /muieblackcat
+[2017-09-08 10:52:08 +0000] [954] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-08 10:52:09 +0000] [954] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-08 10:52:10 +0000] [955] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-08 10:52:10 +0000] [955] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-09-08 10:52:11 +0000] [954] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-09-08 10:53:21 +0000] [954] [DEBUG] GET /muieblackcat
+[2017-09-08 10:53:21 +0000] [955] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-08 10:53:22 +0000] [954] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-08 10:53:23 +0000] [955] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-08 10:53:23 +0000] [954] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-09-08 10:53:24 +0000] [955] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-09-08 11:13:27 +0000] [955] [DEBUG] GET /
+[2017-09-08 13:00:59 +0000] [955] [DEBUG] GET /
+[2017-09-08 13:53:36 +0000] [954] [DEBUG] GET /
+[2017-09-08 15:21:13 +0000] [954] [DEBUG] GET /
+[2017-09-08 16:17:45 +0000] [955] [DEBUG] GET /
+[2017-09-08 18:24:17 +0000] [954] [DEBUG] GET /muieblackcat
+[2017-09-08 18:24:18 +0000] [955] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-08 18:24:18 +0000] [955] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-08 18:24:19 +0000] [954] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-08 18:24:19 +0000] [955] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-09-08 18:24:20 +0000] [954] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-09-08 23:36:56 +0000] [954] [DEBUG] GET /
+[2017-09-08 23:39:26 +0000] [955] [DEBUG] GET /muieblackcat
+[2017-09-08 23:39:26 +0000] [954] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-08 23:39:27 +0000] [954] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-08 23:39:28 +0000] [955] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-08 23:39:28 +0000] [954] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-09-08 23:39:29 +0000] [955] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-09-09 07:17:51 +0000] [955] [DEBUG] GET /
+[2017-09-09 08:47:05 +0000] [954] [DEBUG] GET /
+[2017-09-09 18:43:36 +0000] [955] [DEBUG] POST /
+[2017-09-10 01:56:36 +0000] [955] [DEBUG] GET /w00tw00t.at.blackhats.romanian.anti-sec:)
+[2017-09-10 01:56:36 +0000] [954] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-10 01:56:37 +0000] [954] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-10 03:43:11 +0000] [954] [DEBUG] GET /muieblackcat
+[2017-09-10 03:43:12 +0000] [955] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-10 03:43:12 +0000] [954] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-10 03:43:12 +0000] [955] [DEBUG] GET /mysqladmin/scripts/setup.php
+[2017-09-10 05:29:05 +0000] [954] [DEBUG] GET /
+[2017-09-10 06:00:57 +0000] [954] [DEBUG] GET /manager/html
+[2017-09-10 06:49:38 +0000] [954] [DEBUG] GET /w00tw00t.at.blackhats.romanian.anti-sec:)
+[2017-09-10 06:49:38 +0000] [955] [DEBUG] GET /phpMyAdmin-2.10.0/scripts/setup.php
+[2017-09-10 06:49:38 +0000] [954] [DEBUG] GET /my/scripts/setup.php
+[2017-09-10 06:49:38 +0000] [955] [DEBUG] GET /mysql/scripts/setup.php
+[2017-09-10 06:49:38 +0000] [954] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-10 06:49:38 +0000] [955] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-10 06:49:38 +0000] [954] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-10 06:49:39 +0000] [954] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-09-10 06:49:39 +0000] [955] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-09-10 06:49:39 +0000] [954] [DEBUG] GET /scripts/setup.php
+[2017-09-10 08:52:21 +0000] [954] [DEBUG] GET /
+[2017-09-10 13:12:25 +0000] [954] [DEBUG] GET /muieblackcat
+[2017-09-10 13:12:26 +0000] [955] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-10 13:12:26 +0000] [954] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-10 13:12:26 +0000] [954] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-10 13:12:26 +0000] [955] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-09-10 13:12:27 +0000] [955] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-09-10 15:11:46 +0000] [955] [DEBUG] GET /
+[2017-09-10 16:36:32 +0000] [954] [DEBUG] POST /
+[2017-09-10 17:02:42 +0000] [954] [DEBUG] GET /
+[2017-09-10 17:27:34 +0000] [955] [DEBUG] GET /muieblackcat
+[2017-09-10 17:27:34 +0000] [954] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-10 17:27:35 +0000] [955] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-10 17:27:35 +0000] [954] [DEBUG] GET /PMA/scripts/setup.php
+[2017-09-10 17:27:35 +0000] [955] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-10 17:27:36 +0000] [955] [DEBUG] GET /admin/scripts/setup.php
+[2017-09-10 17:27:36 +0000] [954] [DEBUG] GET /dbadmin/scripts/setup.php
+[2017-09-10 17:27:36 +0000] [955] [DEBUG] GET /mysqlmanager/scripts/setup.php
+[2017-09-10 17:27:37 +0000] [955] [DEBUG] GET /p/m/a/scripts/setup.php
+[2017-09-10 17:27:37 +0000] [954] [DEBUG] GET /PMA2005/scripts/setup.php
+[2017-09-10 17:27:37 +0000] [955] [DEBUG] GET /pma2005/scripts/setup.php
+[2017-09-10 17:27:38 +0000] [954] [DEBUG] GET /phpmanager/scripts/setup.php
+[2017-09-10 17:27:38 +0000] [955] [DEBUG] GET /php-myadmin/scripts/setup.php
+[2017-09-10 17:27:38 +0000] [954] [DEBUG] GET /phpmy-admin/scripts/setup.php
+[2017-09-10 17:27:39 +0000] [954] [DEBUG] GET /webadmin/scripts/setup.php
+[2017-09-10 17:27:39 +0000] [955] [DEBUG] GET /webdb/scripts/setup.php
+[2017-09-10 17:27:39 +0000] [954] [DEBUG] GET /mysqladmin/scripts/setup.php
+[2017-09-10 17:27:40 +0000] [955] [DEBUG] GET /mysql-admin/scripts/setup.php
+[2017-09-10 18:29:00 +0000] [955] [DEBUG] GET /
+[2017-09-10 19:56:42 +0000] [955] [DEBUG] GET /
+[2017-09-10 19:59:05 +0000] [954] [DEBUG] HEAD /
+[2017-09-10 19:59:05 +0000] [955] [DEBUG] GET /
+[2017-09-10 19:59:05 +0000] [954] [DEBUG] Ignoring EPIPE
+[2017-09-10 19:59:05 +0000] [955] [DEBUG] GET /
+[2017-09-10 19:59:05 +0000] [954] [DEBUG] GET /
+[2017-09-10 20:12:52 +0000] [955] [DEBUG] GET /
+[2017-09-10 22:19:04 +0000] [954] [DEBUG] GET /
+[2017-09-10 22:44:57 +0000] [954] [DEBUG] GET /
+[2017-09-11 00:17:56 +0000] [955] [DEBUG] POST /wp-admin/admin-ajax.php
+[2017-09-11 00:58:06 +0000] [955] [DEBUG] GET /rom-0
+[2017-09-11 17:31:33 +0000] [954] [DEBUG] GET /
+[2017-09-11 18:18:15 +0000] [955] [DEBUG] POST /wp-admin/admin-ajax.php
+[2017-09-11 21:21:27 +0000] [955] [DEBUG] GET /
+[2017-09-11 23:44:03 +0000] [954] [DEBUG] GET /muieblackcat
+[2017-09-11 23:44:04 +0000] [955] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-11 23:44:04 +0000] [955] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-11 23:44:05 +0000] [954] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-11 23:44:06 +0000] [954] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-09-11 23:44:06 +0000] [955] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-09-12 00:43:59 +0000] [954] [DEBUG] GET /
+[2017-09-12 02:51:44 +0000] [954] [DEBUG] GET /
+[2017-09-12 04:17:06 +0000] [954] [DEBUG] POST /%63%67%69%2D%62%69%6E/%70%68%70
+[2017-09-12 05:01:38 +0000] [955] [DEBUG] GET /hndUnblock.cgi
+[2017-09-12 05:01:39 +0000] [954] [DEBUG] GET /tmUnblock.cgi
+[2017-09-12 05:01:39 +0000] [954] [DEBUG] GET /moo
+[2017-09-12 05:01:40 +0000] [954] [DEBUG] GET /
+[2017-09-12 06:44:03 +0000] [954] [DEBUG] GET /w00tw00t.at.blackhats.romanian.anti-sec:)
+[2017-09-12 06:44:04 +0000] [955] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-12 07:25:36 +0000] [954] [DEBUG] GET /
+[2017-09-12 09:00:07 +0000] [955] [DEBUG] GET /
+[2017-09-12 09:03:04 +0000] [954] [DEBUG] GET /
+[2017-09-12 09:51:49 +0000] [955] [DEBUG] GET /
+[2017-09-12 13:49:50 +0000] [955] [DEBUG] GET /
+[2017-09-12 15:31:34 +0000] [955] [DEBUG] GET /w00tw00t.at.blackhats.romanian.anti-sec:)
+[2017-09-12 15:31:35 +0000] [954] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-12 15:31:35 +0000] [954] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-12 16:17:11 +0000] [954] [DEBUG] GET /
+[2017-09-12 19:57:44 +0000] [954] [DEBUG] GET /
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2017-09-13 00:17:11 +0000] [701] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7655ec30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7655ea30>
+  pre_fork: <function pre_fork at 0x7655eb30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7655e970>
+  pre_exec: <function pre_exec at 0x7655ef70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7655ed30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x764ef370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x764ef070>
+  post_request: <function post_request at 0x764ef0f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7655edf0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x764ef1b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7655e8b0>
+  worker_abort: <function worker_abort at 0x7655eeb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x764ef2b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2017-09-13 00:17:11 +0000] [701] [INFO] Starting gunicorn 19.4.5
+[2017-09-13 00:17:11 +0000] [701] [DEBUG] Arbiter booted
+[2017-09-13 00:17:11 +0000] [701] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (701)
+[2017-09-13 00:17:11 +0000] [701] [INFO] Using worker: sync
+[2017-09-13 00:17:11 +0000] [901] [INFO] Booting worker with pid: 901
+[2017-09-13 00:17:11 +0000] [903] [INFO] Booting worker with pid: 903
+[2017-09-13 00:17:11 +0000] [701] [DEBUG] 2 workers
+[2017-09-24 10:41:51 +0000] [701] [CRITICAL] WORKER TIMEOUT (pid:901)
+[2017-09-24 10:41:51 +0000] [701] [CRITICAL] WORKER TIMEOUT (pid:903)
+[2017-09-24 10:41:51 +0000] [901] [INFO] Worker exiting (pid: 901)
+[2017-09-24 10:41:51 +0000] [903] [INFO] Worker exiting (pid: 903)
+[2017-09-24 10:41:51 +0000] [956] [INFO] Booting worker with pid: 956
+[2017-09-24 10:41:52 +0000] [957] [INFO] Booting worker with pid: 957
+[2017-09-24 12:04:20 +0000] [957] [DEBUG] GET /
+[2017-09-24 13:41:29 +0000] [957] [DEBUG] GET /
+[2017-09-24 21:32:52 +0000] [956] [DEBUG] GET /
+[2017-09-24 21:41:04 +0000] [956] [DEBUG] GET /
+[2017-09-25 02:12:51 +0000] [956] [DEBUG] GET /hndUnblock.cgi
+[2017-09-25 02:12:51 +0000] [956] [DEBUG] GET /tmUnblock.cgi
+[2017-09-25 02:12:51 +0000] [956] [DEBUG] GET /moo
+[2017-09-25 02:12:52 +0000] [956] [DEBUG] GET /
+[2017-09-25 03:42:54 +0000] [957] [DEBUG] GET /
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2017-09-25 05:17:10 +0000] [698] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x765a1c30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x765a1a30>
+  pre_fork: <function pre_fork at 0x765a1b30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x765a1970>
+  pre_exec: <function pre_exec at 0x765a1f70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x765a1d30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x76532370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x76532070>
+  post_request: <function post_request at 0x765320f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x765a1df0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x765321b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x765a18b0>
+  worker_abort: <function worker_abort at 0x765a1eb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x765322b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2017-09-25 05:17:10 +0000] [698] [INFO] Starting gunicorn 19.4.5
+[2017-09-25 05:17:10 +0000] [698] [DEBUG] Arbiter booted
+[2017-09-25 05:17:10 +0000] [698] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (698)
+[2017-09-25 05:17:10 +0000] [698] [INFO] Using worker: sync
+[2017-09-25 05:17:10 +0000] [816] [INFO] Booting worker with pid: 816
+[2017-09-25 05:17:10 +0000] [817] [INFO] Booting worker with pid: 817
+[2017-09-25 05:17:10 +0000] [698] [DEBUG] 2 workers
+[2017-09-25 05:29:32 +0000] [698] [CRITICAL] WORKER TIMEOUT (pid:816)
+[2017-09-25 05:29:32 +0000] [698] [CRITICAL] WORKER TIMEOUT (pid:817)
+[2017-09-25 05:29:32 +0000] [816] [INFO] Worker exiting (pid: 816)
+[2017-09-25 05:29:32 +0000] [817] [INFO] Worker exiting (pid: 817)
+[2017-09-25 05:29:32 +0000] [698] [DEBUG] 1 workers
+[2017-09-25 05:29:32 +0000] [953] [INFO] Booting worker with pid: 953
+[2017-09-25 05:29:32 +0000] [954] [INFO] Booting worker with pid: 954
+[2017-09-25 05:29:32 +0000] [698] [DEBUG] 2 workers
+[2017-09-25 09:16:11 +0000] [953] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-25 18:02:34 +0000] [953] [DEBUG] GET /
+[2017-09-25 20:01:07 +0000] [954] [DEBUG] GET /
+[2017-09-25 20:17:23 +0000] [953] [DEBUG] GET /
+[2017-09-25 21:06:11 +0000] [954] [DEBUG] GET /
+[2017-09-25 22:41:56 +0000] [953] [DEBUG] GET /
+[2017-09-26 00:35:43 +0000] [954] [DEBUG] GET /
+[2017-09-26 07:46:19 +0000] [954] [DEBUG] GET /
+[2017-09-26 08:35:41 +0000] [953] [DEBUG] GET /
+[2017-09-26 09:01:43 +0000] [954] [DEBUG] GET /
+[2017-09-26 14:39:27 +0000] [954] [DEBUG] GET /
+[2017-09-26 19:19:18 +0000] [954] [DEBUG] GET /manager/html
+[2017-09-26 20:31:44 +0000] [953] [DEBUG] GET /
+[2017-09-26 20:31:44 +0000] [954] [DEBUG] GET /
+[2017-09-26 20:31:44 +0000] [954] [DEBUG] GET /
+[2017-09-26 21:02:17 +0000] [954] [DEBUG] GET /
+[2017-09-26 23:48:44 +0000] [953] [DEBUG] GET /
+[2017-09-27 00:19:24 +0000] [953] [DEBUG] GET /
+[2017-09-27 00:19:24 +0000] [954] [DEBUG] GET /
+[2017-09-27 00:19:24 +0000] [954] [DEBUG] GET /
+[2017-09-27 01:03:36 +0000] [954] [DEBUG] GET /
+[2017-09-27 02:18:21 +0000] [953] [DEBUG] GET /
+[2017-09-27 03:29:35 +0000] [954] [DEBUG] GET /
+[2017-09-27 04:46:28 +0000] [953] [DEBUG] GET /
+[2017-09-27 04:46:29 +0000] [954] [DEBUG] GET /
+[2017-09-27 05:22:26 +0000] [954] [DEBUG] GET /
+[2017-09-27 05:33:26 +0000] [953] [DEBUG] GET /
+[2017-09-27 13:05:34 +0000] [954] [DEBUG] GET /
+[2017-09-27 14:09:56 +0000] [954] [DEBUG] GET /
+[2017-09-27 14:31:05 +0000] [953] [DEBUG] GET /
+[2017-09-27 16:48:56 +0000] [954] [DEBUG] GET /
+[2017-09-27 17:04:20 +0000] [953] [DEBUG] GET /cgi/common.cgi
+[2017-09-27 17:04:21 +0000] [954] [DEBUG] GET /stssys.htm
+[2017-09-27 17:04:21 +0000] [953] [DEBUG] GET /
+[2017-09-27 17:04:22 +0000] [954] [DEBUG] POST /command.php
+[2017-09-27 18:34:50 +0000] [954] [DEBUG] GET /
+[2017-09-27 18:51:21 +0000] [953] [DEBUG] HEAD /check_proxy
+[2017-09-27 18:51:21 +0000] [953] [DEBUG] Ignoring EPIPE
+[2017-09-28 00:41:14 +0000] [954] [DEBUG] GET /
+[2017-09-28 12:34:49 +0000] [953] [DEBUG] GET /
+[2017-09-28 22:45:18 +0000] [953] [DEBUG] GET /
+[2017-09-29 00:59:30 +0000] [954] [DEBUG] GET /
+[2017-09-29 01:35:24 +0000] [953] [DEBUG] GET /muieblackcat
+[2017-09-29 01:35:24 +0000] [954] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-09-29 01:35:25 +0000] [953] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-09-29 01:35:25 +0000] [954] [DEBUG] GET /pma/scripts/setup.php
+[2017-09-29 01:35:26 +0000] [953] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-09-29 01:35:26 +0000] [954] [DEBUG] GET /MyAdmin/scripts/setup.php
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2017-09-29 01:17:10 +0000] [698] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x76621c30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x76621a30>
+  pre_fork: <function pre_fork at 0x76621b30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x76621970>
+  pre_exec: <function pre_exec at 0x76621f70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x76621d30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x765b2370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x765b2070>
+  post_request: <function post_request at 0x765b20f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x76621df0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x765b21b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x766218b0>
+  worker_abort: <function worker_abort at 0x76621eb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x765b22b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2017-09-29 01:17:10 +0000] [698] [INFO] Starting gunicorn 19.4.5
+[2017-09-29 01:17:10 +0000] [698] [DEBUG] Arbiter booted
+[2017-09-29 01:17:10 +0000] [698] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (698)
+[2017-09-29 01:17:10 +0000] [698] [INFO] Using worker: sync
+[2017-09-29 01:17:10 +0000] [816] [INFO] Booting worker with pid: 816
+[2017-09-29 01:17:10 +0000] [817] [INFO] Booting worker with pid: 817
+[2017-09-29 01:17:10 +0000] [698] [DEBUG] 2 workers
+[2017-09-30 21:51:29 +0000] [698] [CRITICAL] WORKER TIMEOUT (pid:816)
+[2017-09-30 21:51:29 +0000] [698] [CRITICAL] WORKER TIMEOUT (pid:817)
+[2017-09-30 21:51:29 +0000] [816] [INFO] Worker exiting (pid: 816)
+[2017-09-30 21:51:29 +0000] [817] [INFO] Worker exiting (pid: 817)
+[2017-09-30 21:51:29 +0000] [954] [INFO] Booting worker with pid: 954
+[2017-09-30 21:51:29 +0000] [698] [DEBUG] 1 workers
+[2017-09-30 21:51:29 +0000] [955] [INFO] Booting worker with pid: 955
+[2017-09-30 21:51:29 +0000] [698] [DEBUG] 2 workers
+[2017-10-01 01:23:46 +0000] [955] [DEBUG] GET /
+[2017-10-01 02:19:16 +0000] [955] [DEBUG] GET /
+[2017-10-01 02:22:52 +0000] [954] [DEBUG] GET /
+[2017-10-01 02:32:25 +0000] [954] [DEBUG] GET /currentsetting.htm
+[2017-10-01 03:06:24 +0000] [955] [DEBUG] GET /
+[2017-10-01 03:18:17 +0000] [954] [DEBUG] GET /
+[2017-10-01 03:58:49 +0000] [955] [DEBUG] GET /
+[2017-10-01 07:14:08 +0000] [955] [DEBUG] GET /hndUnblock.cgi
+[2017-10-01 07:14:15 +0000] [954] [DEBUG] GET /tmUnblock.cgi
+[2017-10-01 07:14:21 +0000] [955] [DEBUG] GET /moo
+[2017-10-01 07:14:28 +0000] [955] [DEBUG] GET /
+[2017-10-01 07:14:34 +0000] [954] [DEBUG] POST /getcfg.php
+[2017-10-01 08:47:03 +0000] [954] [DEBUG] GET /
+[2017-10-01 08:47:04 +0000] [955] [DEBUG] GET /
+[2017-10-01 08:47:09 +0000] [954] [DEBUG] GET /
+[2017-10-01 08:47:10 +0000] [955] [DEBUG] GET /
+[2017-10-01 08:47:18 +0000] [954] [DEBUG] GET /
+[2017-10-01 08:47:49 +0000] [954] [DEBUG] GET /
+[2017-10-01 10:56:26 +0000] [955] [DEBUG] GET /
+[2017-10-01 10:56:26 +0000] [954] [DEBUG] GET /
+[2017-10-01 10:56:26 +0000] [955] [DEBUG] GET /
+[2017-10-01 16:06:48 +0000] [955] [DEBUG] GET /
+[2017-10-01 21:15:02 +0000] [955] [DEBUG] GET /
+[2017-10-01 21:15:02 +0000] [955] [DEBUG] GET /
+[2017-10-01 21:15:02 +0000] [955] [DEBUG] GET /
+[2017-10-01 23:09:32 +0000] [954] [DEBUG] GET /
+[2017-10-01 23:21:37 +0000] [955] [DEBUG] GET /manager/html
+[2017-10-02 08:36:29 +0000] [954] [DEBUG] GET /
+[2017-10-02 10:46:14 +0000] [954] [DEBUG] GET /
+[2017-10-02 12:29:27 +0000] [954] [DEBUG] GET /
+[2017-10-02 17:37:37 +0000] [954] [DEBUG] GET /
+[2017-10-02 17:54:35 +0000] [955] [DEBUG] GET /
+[2017-10-02 23:03:12 +0000] [955] [DEBUG] GET /
+[2017-10-03 02:39:20 +0000] [955] [DEBUG] POST /%63%67%69%2D%62%69%6E/%70%68%70
+[2017-10-03 07:21:05 +0000] [955] [DEBUG] GET /
+[2017-10-03 09:31:02 +0000] [955] [DEBUG] GET /manager/html
+[2017-10-03 18:45:43 +0000] [955] [DEBUG] GET /
+[2017-10-03 20:29:07 +0000] [955] [DEBUG] GET /
+[2017-10-03 23:00:40 +0000] [955] [DEBUG] GET /
+[2017-10-04 01:35:50 +0000] [955] [DEBUG] GET /
+[2017-10-04 05:57:05 +0000] [954] [DEBUG] POST /%63%67%69%2D%62%69%6E/%70%68%70
+[2017-10-04 06:59:54 +0000] [955] [DEBUG] GET /
+[2017-10-04 11:43:03 +0000] [954] [DEBUG] GET /
+[2017-10-04 13:28:57 +0000] [954] [DEBUG] GET /
+[2017-10-04 14:20:48 +0000] [955] [DEBUG] GET /
+[2017-10-04 14:45:04 +0000] [954] [DEBUG] GET /
+[2017-10-04 15:33:37 +0000] [955] [DEBUG] GET /
+[2017-10-04 19:18:04 +0000] [955] [DEBUG] GET /
+[2017-10-04 21:19:26 +0000] [954] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-10-04 23:17:09 +0000] [954] [DEBUG] GET /
+[2017-10-04 23:17:16 +0000] [955] [DEBUG] GET /
+[2017-10-04 23:41:40 +0000] [955] [DEBUG] GET /
+[2017-10-05 00:25:11 +0000] [954] [DEBUG] GET /
+[2017-10-05 03:25:22 +0000] [955] [DEBUG] GET /
+[2017-10-05 05:02:43 +0000] [954] [DEBUG] GET /
+[2017-10-05 09:04:32 +0000] [955] [DEBUG] GET /
+[2017-10-05 13:06:02 +0000] [954] [DEBUG] GET /
+[2017-10-05 15:22:35 +0000] [955] [DEBUG] GET /
+[2017-10-05 16:02:39 +0000] [955] [DEBUG] GET /
+[2017-10-05 17:23:27 +0000] [955] [DEBUG] POST /hedwig.cgi
+[2017-10-05 17:54:37 +0000] [954] [DEBUG] GET /hndUnblock.cgi
+[2017-10-05 17:54:40 +0000] [955] [DEBUG] GET /tmUnblock.cgi
+[2017-10-05 17:54:43 +0000] [955] [DEBUG] GET /moo
+[2017-10-05 17:54:46 +0000] [954] [DEBUG] GET /
+[2017-10-05 17:54:49 +0000] [955] [DEBUG] POST /getcfg.php
+[2017-10-05 19:57:12 +0000] [955] [DEBUG] GET /w00tw00t.at.blackhats.romanian.anti-sec:)
+[2017-10-05 19:57:12 +0000] [954] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-10-05 19:57:12 +0000] [955] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-10-05 19:57:12 +0000] [954] [DEBUG] GET /pma/scripts/setup.php
+[2017-10-05 19:57:13 +0000] [955] [DEBUG] GET /myadmin/scripts/setup.php
+[2017-10-05 19:57:13 +0000] [955] [DEBUG] GET /MyAdmin/scripts/setup.php
+[2017-10-06 01:45:56 +0000] [954] [DEBUG] POST /%63%67%69%2D%62%69%6E/%70%68%70
+[2017-10-06 06:37:05 +0000] [954] [DEBUG] GET /
+[2017-10-06 09:08:57 +0000] [954] [DEBUG] GET /
+[2017-10-06 09:47:18 +0000] [954] [DEBUG] GET /
+[2017-10-06 17:30:40 +0000] [954] [DEBUG] GET /
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+ssh: Could not resolve hostname github.com: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2017-10-06 23:17:10 +0000] [700] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7662ec30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7662ea30>
+  pre_fork: <function pre_fork at 0x7662eb30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7662e970>
+  pre_exec: <function pre_exec at 0x7662ef70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7662ed30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x765bf370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x765bf070>
+  post_request: <function post_request at 0x765bf0f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7662edf0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x765bf1b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7662e8b0>
+  worker_abort: <function worker_abort at 0x7662eeb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x765bf2b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2017-10-06 23:17:10 +0000] [700] [INFO] Starting gunicorn 19.4.5
+[2017-10-06 23:17:10 +0000] [700] [DEBUG] Arbiter booted
+[2017-10-06 23:17:10 +0000] [700] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (700)
+[2017-10-06 23:17:10 +0000] [700] [INFO] Using worker: sync
+[2017-10-06 23:17:10 +0000] [854] [INFO] Booting worker with pid: 854
+[2017-10-06 23:17:10 +0000] [865] [INFO] Booting worker with pid: 865
+[2017-10-06 23:17:10 +0000] [700] [DEBUG] 2 workers
+[2017-10-06 23:41:08 +0000] [700] [CRITICAL] WORKER TIMEOUT (pid:865)
+[2017-10-06 23:41:08 +0000] [700] [CRITICAL] WORKER TIMEOUT (pid:854)
+[2017-10-06 23:41:08 +0000] [865] [INFO] Worker exiting (pid: 865)
+[2017-10-06 23:41:08 +0000] [854] [INFO] Worker exiting (pid: 854)
+[2017-10-06 23:41:08 +0000] [958] [INFO] Booting worker with pid: 958
+[2017-10-06 23:41:08 +0000] [959] [INFO] Booting worker with pid: 959
+[2017-10-07 06:46:12 +0000] [959] [DEBUG] GET /
+[2017-10-07 08:12:27 +0000] [958] [DEBUG] GET /
+[2017-10-07 08:33:51 +0000] [959] [DEBUG] GET /
+[2017-10-07 09:00:54 +0000] [958] [DEBUG] GET /
+[2017-10-07 12:45:12 +0000] [958] [DEBUG] GET /
+[2017-10-07 22:36:21 +0000] [959] [DEBUG] GET /
+[2017-10-08 06:44:44 +0000] [958] [DEBUG] GET /
+[2017-10-08 08:16:01 +0000] [958] [DEBUG] GET /
+[2017-10-08 08:41:20 +0000] [959] [DEBUG] GET /member/
+[2017-10-08 10:03:23 +0000] [959] [DEBUG] GET /
+[2017-10-08 11:48:28 +0000] [959] [DEBUG] GET /manager/html
+[2017-10-08 12:34:21 +0000] [959] [DEBUG] GET /
+[2017-10-08 15:46:31 +0000] [958] [DEBUG] GET /
+[2017-10-08 17:08:45 +0000] [958] [DEBUG] GET /
+[2017-10-08 17:54:31 +0000] [959] [DEBUG] GET /
+[2017-10-08 19:07:17 +0000] [958] [DEBUG] GET /
+[2017-10-08 19:07:17 +0000] [959] [DEBUG] GET /robots.txt
+[2017-10-08 19:07:18 +0000] [958] [DEBUG] GET /sitemap.xml
+[2017-10-08 19:07:18 +0000] [959] [DEBUG] GET /favicon.ico
+[2017-10-08 23:07:03 +0000] [959] [DEBUG] GET /
+[2017-10-09 00:30:14 +0000] [959] [DEBUG] GET /services/list.currency
+[2017-10-09 01:12:40 +0000] [958] [DEBUG] GET /
+[2017-10-09 01:48:25 +0000] [959] [DEBUG] GET /cgi/common.cgi
+[2017-10-09 01:48:28 +0000] [958] [DEBUG] GET /stssys.htm
+[2017-10-09 01:48:31 +0000] [959] [DEBUG] GET /
+[2017-10-09 01:48:34 +0000] [959] [DEBUG] POST /command.php
+[2017-10-09 04:39:35 +0000] [959] [DEBUG] POST /hedwig.cgi
+[2017-10-09 11:15:20 +0000] [958] [DEBUG] GET /index.php
+[2017-10-09 11:36:40 +0000] [959] [DEBUG] GET /index_login.htm
+[2017-10-09 14:33:30 +0000] [959] [DEBUG] GET /
+[2017-10-09 17:27:18 +0000] [958] [DEBUG] GET /
+[2017-10-09 18:16:39 +0000] [958] [DEBUG] GET /manager/html
+[2017-10-09 20:34:13 +0000] [958] [DEBUG] GET /
+[2017-10-10 01:14:18 +0000] [959] [DEBUG] GET /
+[2017-10-10 02:03:49 +0000] [959] [DEBUG] GET /
+[2017-10-10 04:42:30 +0000] [958] [DEBUG] GET /
+[2017-10-10 07:01:43 +0000] [958] [DEBUG] GET /
+[2017-10-10 16:08:52 +0000] [958] [DEBUG] GET /muieblackcat
+[2017-10-10 16:08:52 +0000] [959] [DEBUG] GET /phpmyadmin/scripts/setup.php
+[2017-10-10 16:08:52 +0000] [958] [DEBUG] GET /phpMyAdmin/scripts/setup.php
+[2017-10-10 16:08:52 +0000] [959] [DEBUG] GET /mysqladmin/scripts/setup.php
+[2017-10-10 16:37:25 +0000] [959] [DEBUG] GET /
+[2017-10-10 17:28:55 +0000] [959] [DEBUG] GET /
+[2017-10-10 18:48:23 +0000] [958] [DEBUG] GET /index.php
+[2017-10-10 19:48:09 +0000] [959] [DEBUG] GET /index.php
+[2017-10-11 00:32:15 +0000] [959] [DEBUG] GET /
+[2017-10-11 01:51:09 +0000] [959] [DEBUG] GET /currentsetting.htm
+[2017-10-11 03:01:36 +0000] [959] [DEBUG] GET /
+[2017-10-11 04:15:56 +0000] [958] [DEBUG] HEAD /
+[2017-10-11 04:15:56 +0000] [958] [DEBUG] Ignoring EPIPE
+[2017-10-11 05:58:01 +0000] [958] [DEBUG] GET /
+[2017-10-11 07:35:54 +0000] [959] [DEBUG] GET /
+[2017-10-11 07:35:54 +0000] [958] [DEBUG] GET /
+[2017-10-11 08:26:30 +0000] [959] [DEBUG] GET /
+[2017-10-11 10:01:26 +0000] [959] [DEBUG] POST /%63%67%69%2D%62%69%6E/%70%68%70
