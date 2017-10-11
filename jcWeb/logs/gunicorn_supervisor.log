@@ -29256,3 +29256,301 @@ and the repository exists.
 [2017-10-11 20:39:31 +0000] [1164] [DEBUG] GET /
 [2017-10-11 20:39:34 +0000] [1159] [DEBUG] GET /
 [2017-10-11 20:39:37 +0000] [1159] [DEBUG] GET /
+[2017-10-11 20:41:20 +0000] [1127] [INFO] Handling signal: term
+[2017-10-11 20:41:20 +0000] [1164] [INFO] Worker exiting (pid: 1164)
+[2017-10-11 20:41:20 +0000] [1159] [INFO] Worker exiting (pid: 1159)
+[2017-10-11 20:41:20 +0000] [1127] [INFO] Shutting down: Master
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2017-10-11 20:41:23 +0000] [1410] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x76633c30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x76633a30>
+  pre_fork: <function pre_fork at 0x76633b30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x76633970>
+  pre_exec: <function pre_exec at 0x76633f70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x76633d30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x765c4370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x765c4070>
+  post_request: <function post_request at 0x765c40f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x76633df0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x765c41b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x766338b0>
+  worker_abort: <function worker_abort at 0x76633eb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x765c42b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2017-10-11 20:41:23 +0000] [1410] [INFO] Starting gunicorn 19.4.5
+[2017-10-11 20:41:23 +0000] [1410] [DEBUG] Arbiter booted
+[2017-10-11 20:41:23 +0000] [1410] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (1410)
+[2017-10-11 20:41:23 +0000] [1410] [INFO] Using worker: sync
+[2017-10-11 20:41:23 +0000] [1440] [INFO] Booting worker with pid: 1440
+[2017-10-11 20:41:23 +0000] [1449] [INFO] Booting worker with pid: 1449
+[2017-10-11 20:41:23 +0000] [1410] [DEBUG] 2 workers
+[2017-10-11 21:04:49 +0000] [1440] [DEBUG] GET /
+[2017-10-11 21:09:40 +0000] [1449] [DEBUG] GET /
+[2017-10-11 21:09:42 +0000] [1449] [DEBUG] GET /favicon.ico
+[2017-10-11 21:09:55 +0000] [1440] [DEBUG] GET /
+[2017-10-11 21:09:56 +0000] [1449] [DEBUG] GET /favicon.ico
+[2017-10-11 21:25:06 +0000] [1410] [INFO] Handling signal: term
+[2017-10-11 21:25:06 +0000] [1449] [INFO] Worker exiting (pid: 1449)
+[2017-10-11 21:25:06 +0000] [1440] [INFO] Worker exiting (pid: 1440)
+[2017-10-11 21:25:06 +0000] [1410] [INFO] Shutting down: Master
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2017-10-11 21:30:39 +0000] [32646] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x765a7c30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x765a7a30>
+  pre_fork: <function pre_fork at 0x765a7b30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x765a7970>
+  pre_exec: <function pre_exec at 0x765a7f70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x765a7d30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x76538370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x76538070>
+  post_request: <function post_request at 0x765380f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x765a7df0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x765381b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x765a78b0>
+  worker_abort: <function worker_abort at 0x765a7eb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x765382b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2017-10-11 21:30:39 +0000] [32646] [INFO] Starting gunicorn 19.4.5
+[2017-10-11 21:30:39 +0000] [32646] [DEBUG] Arbiter booted
+[2017-10-11 21:30:39 +0000] [32646] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (32646)
+[2017-10-11 21:30:39 +0000] [32646] [INFO] Using worker: sync
+[2017-10-11 21:30:39 +0000] [540] [INFO] Booting worker with pid: 540
+[2017-10-11 21:30:39 +0000] [557] [INFO] Booting worker with pid: 557
+[2017-10-11 21:30:39 +0000] [32646] [DEBUG] 2 workers
+[2017-10-11 21:34:32 +0000] [557] [DEBUG] GET /
+[2017-10-11 21:38:13 +0000] [540] [DEBUG] GET /
+[2017-10-11 21:38:14 +0000] [540] [DEBUG] GET /
+[2017-10-11 21:38:16 +0000] [557] [DEBUG] GET /
+[2017-10-11 21:38:30 +0000] [540] [DEBUG] GET /
+[2017-10-11 21:38:32 +0000] [557] [DEBUG] GET /
+[2017-10-11 21:38:49 +0000] [540] [DEBUG] GET /games/
+[2017-10-11 21:38:51 +0000] [557] [DEBUG] GET /games/
+[2017-10-11 21:38:54 +0000] [557] [DEBUG] GET /games/
+[2017-10-11 21:38:57 +0000] [557] [DEBUG] GET /games/
+[2017-10-11 21:39:05 +0000] [540] [DEBUG] GET /
+[2017-10-11 21:39:07 +0000] [557] [DEBUG] GET /
+[2017-10-11 21:39:11 +0000] [557] [DEBUG] GET /
+[2017-10-11 21:41:56 +0000] [540] [DEBUG] GET /
+[2017-10-11 21:54:29 +0000] [32646] [INFO] Handling signal: term
+[2017-10-11 21:54:29 +0000] [540] [INFO] Worker exiting (pid: 540)
+[2017-10-11 21:54:29 +0000] [557] [INFO] Worker exiting (pid: 557)
+[2017-10-11 21:54:29 +0000] [32646] [INFO] Shutting down: Master
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.UTF-8)
+Starting jcWeb as 'whoami'
+Pulling updates from git
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[2017-10-11 21:54:44 +0000] [766] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x76586c30>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x76586a30>
+  pre_fork: <function pre_fork at 0x76586b30>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 0
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 2
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x76586970>
+  pre_exec: <function pre_exec at 0x76586f70>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x76586d30>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x76517370>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x76517070>
+  post_request: <function post_request at 0x765170f0>
+  user: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x76586df0>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x765171b0>
+  chdir: /Website/jcWeb
+  paste: None
+  default_proc_name: jcWeb.wsgi:application
+  errorlog: -
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x765868b0>
+  worker_abort: <function worker_abort at 0x76586eb0>
+  bind: ['unix:/Website/jcWeb/run/gunicorn.sock']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x765172b0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2017-10-11 21:54:44 +0000] [766] [INFO] Starting gunicorn 19.4.5
+[2017-10-11 21:54:44 +0000] [766] [DEBUG] Arbiter booted
+[2017-10-11 21:54:44 +0000] [766] [INFO] Listening at: unix:/Website/jcWeb/run/gunicorn.sock (766)
+[2017-10-11 21:54:44 +0000] [766] [INFO] Using worker: sync
+[2017-10-11 21:54:44 +0000] [915] [INFO] Booting worker with pid: 915
+[2017-10-11 21:54:44 +0000] [766] [DEBUG] 2 workers
+[2017-10-11 21:54:44 +0000] [916] [INFO] Booting worker with pid: 916
