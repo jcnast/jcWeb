@@ -2,3 +2,4 @@
 jcWeb/db.sqlite3
 logs/*
 settings.py
+venv/
