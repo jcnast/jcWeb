@@ -5,10 +5,10 @@ from django.shortcuts import render
 # from django.contrib.auth.models import User
 # from django.contrib.auth import authenticate, login, logout
 from django.template import RequestContext
-import simplejson
+import json as simplejson
 from requests import get
 import os, re
-from django.utils.datastructures import SortedDict
+from collections import OrderedDict
 
 from subprocess import call
 
@@ -57,7 +57,7 @@ def getgame(request, gameFile):
 		downloadFile = game.url
 	else:
 		downloadFile = False
-	print downloadFile
+	print(downloadFile)
 
 	downloadName = game.title
 	# pass along the game object
@@ -69,7 +69,7 @@ def analysis(request):
 	# all game analysis series
 	series = Series.objects.all().order_by('-date')
 	# dictionary with series as key and list of analysis as value
-	seriesDict = SortedDict()
+	seriesDict = OrderedDict()
 	for s in series:
 		seriesDict[s] = Analysis.objects.filter(series__id = s.id).order_by('-date')[:2]
 	# analysis that are not a part of a series

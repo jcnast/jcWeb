@@ -33,7 +33,7 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(max_length=100, null=True, blank=True)),
                 ('comment', models.TextField()),
                 ('date', models.DateField(auto_now_add=True)),
-                ('analysis', models.ForeignKey(to='jcWeb.Analysis')),
+                ('analysis', models.ForeignKey(to='jcWeb.Analysis', on_delete = models.CASCADE)),
             ],
             options={
             },
@@ -73,13 +73,13 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='analysis',
             name='game',
-            field=models.ForeignKey(blank=True, to='jcWeb.Game', null=True),
+            field=models.ForeignKey(blank=True, to='jcWeb.Game', null=True, on_delete = models.SET_NULL),
             preserve_default=True,
         ),
         migrations.AddField(
             model_name='analysis',
             name='series',
-            field=models.ForeignKey(blank=True, to='jcWeb.Series', null=True),
+            field=models.ForeignKey(blank=True, to='jcWeb.Series', null=True, on_delete = models.SET_NULL),
             preserve_default=True,
         ),
     ]

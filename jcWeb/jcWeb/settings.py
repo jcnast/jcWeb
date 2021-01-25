@@ -1,9 +1,3 @@
-# uncompyle6 version 3.7.4
-# Python bytecode 2.7 (62211)
-# Decompiled from: Python 3.7.3 (default, Jul 25 2020, 13:03:44) 
-# [GCC 8.3.0]
-# Embedded file name: /Website/jcWeb/jcWeb/settings.py
-# Compiled at: 2016-05-18 23:35:45
 """
 Django settings for jcWeb project.
 
@@ -16,21 +10,34 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = '$ww85mnmtk^k@=!ww@@+%qn1iql^pv)c)d)x%#r6&60z0z#v=3'
-DEBUG = False
-TEMPLATE_DEBUG = False
-TEMPLATE_DIRS = (
- os.path.join(BASE_DIR, 'templates'),)
+DEBUG = True
+TEMPLATES = [
+	{
+		'BACKEND': 'django.template.backends.django.DjangoTemplates',
+		'DIRS': [
+			os.path.join(BASE_DIR, 'templates'),
+			os.path.join(BASE_DIR, '../templates'),
+		],
+		'APP_DIRS': True,
+		'OPTIONS': {
+			'context_processors': [
+				'django.contrib.auth.context_processors.auth',
+				'django.template.context_processors.request',
+				'django.contrib.messages.context_processors.messages',
+			]
+		}
+	},
+]
 ALLOWED_HOSTS = [
- 'www.jaggernast.ca', 'localhost']
+ 'www.jaggernast.ca', 'localhost', '192.168.1.37']
 INSTALLED_APPS = ('django.contrib.admin', 'django.contrib.auth', 'django.contrib.contenttypes',
                   'django.contrib.sessions', 'django.contrib.messages', 'django.contrib.staticfiles',
                   'jcWeb')
-MIDDLEWARE_CLASSES = ('django.contrib.sessions.middleware.SessionMiddleware', 'django.middleware.common.CommonMiddleware',
+MIDDLEWARE = ('django.contrib.sessions.middleware.SessionMiddleware', 'django.middleware.common.CommonMiddleware',
                       'django.middleware.csrf.CsrfViewMiddleware', 'django.contrib.auth.middleware.AuthenticationMiddleware',
-                      'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
-                      'django.contrib.messages.middleware.MessageMiddleware', 'django.middleware.clickjacking.XFrameOptionsMiddleware')
+                      'django.contrib.messages.middleware.MessageMiddleware', 'django.middleware.clickjacking.XFrameOptionsMiddleware', 'django.contrib.auth.middleware.AuthenticationMiddleware', 'django.contrib.messages.middleware.MessageMiddleware', 'django.contrib.sessions.middleware.SessionMiddleware')
 ROOT_URLCONF = 'jcWeb.urls'
-WSGI_APPLICATION = 'jcWeb.wsgi.application'
+#WSGI_APPLICATION = 'jcWeb.wsgi.application'
 DATABASES = {'default': {'ENGINE': 'django.db.backends.sqlite3', 
                'NAME': os.path.join(BASE_DIR, 'db.sqlite3')}}
 LANGUAGE_CODE = 'en-us'
@@ -47,4 +54,3 @@ MEDIA_URL = '/media/'
 MEDIAFILES_DIRS = (
  os.path.join(BASE_DIR, 'media'),
  'var/www/media')
-# okay decompiling settings.pyc

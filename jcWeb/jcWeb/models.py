@@ -8,9 +8,9 @@ class Game(models.Model):
 	public = models.BooleanField(default = False)
 	date = models.DateField(auto_now_add = True, auto_now = False)
 	htmlFile = models.CharField(max_length = 200)
-	headerPhoto = models.FileField(upload_to = settings.MEDIA_ROOT + '/games/headerPhotos', null = True, blank = True)
-	iconPhoto = models.FileField(upload_to = settings.MEDIA_ROOT + '/games/iconPhotos', null = True, blank = True)
-	downloadFile = models.FileField(upload_to = settings.MEDIA_ROOT + '/games/downloadFiles', null = True, blank = True)
+	headerPhoto = models.FileField(upload_to = 'games/headerPhotos', null = True, blank = True)
+	iconPhoto = models.FileField(upload_to = 'games/iconPhotos', null = True, blank = True)
+	downloadFile = models.FileField(upload_to = 'games/downloadFiles', null = True, blank = True)
 
 	def __str__(self):
 		return '%s' % (self.title)
@@ -26,7 +26,7 @@ class Game(models.Model):
 class Series(models.Model):
 	url = models.CharField(max_length = 100)
 	title = models.CharField(max_length = 100)
-	date = models.DateField(auto_now_add = True, auto_now = True)
+	date = models.DateField(auto_now_add = True)
 	description = models.TextField()
 
 	def __str__(self):
@@ -34,14 +34,14 @@ class Series(models.Model):
 
 class Analysis(models.Model):
 	title = models.CharField(max_length = 100)
-	series = models.ForeignKey('Series', null = True, blank = True)
-	game = models.ForeignKey('Game', null = True, blank = True)
+	series = models.ForeignKey('Series', null = True, blank = True, on_delete = models.SET_NULL)
+	game = models.ForeignKey('Game', null = True, blank = True, on_delete = models.SET_NULL)
 	url = models.URLField(max_length = 200, null = True, blank = True)
 	public = models.BooleanField(default = False)
 	date = models.DateField(auto_now_add = True, auto_now = False)
 	description = models.TextField()
 	htmlFile = models.CharField(max_length = 200)
-	headerPhoto = models.FileField(upload_to = settings.MEDIA_ROOT + '/analysis/headerPhotos/', null = True, blank = True)
+	headerPhoto = models.FileField(upload_to = 'analysis/headerPhotos/', null = True, blank = True)
 
 	def __str__(self):
 		if(self.series):
@@ -52,7 +52,7 @@ class Analysis(models.Model):
 class Comment(models.Model):
 	name = models.CharField(max_length = 100, null = True, blank = True)
 	comment = models.TextField()
-	analysis = models.ForeignKey('Analysis')
+	analysis = models.ForeignKey('Analysis', on_delete = models.CASCADE)
 	date = models.DateField(auto_now_add = True)
 
 	def __str__(self):
